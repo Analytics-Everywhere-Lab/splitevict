@@ -261,7 +261,7 @@ SplitEvict is faster, as the break-even model describes. Section 6.1 of the pape
 |---|---|
 | `lfu_decay` | decayed LFU, the main baseline |
 | `global_token_gbt` | the learned ranker used synchronously ("synchronous ranker") |
-| `caer_gbt` | the learned ranker plus a second-stage reranker (Figure 2) |
+| `caer_gbt` | the learned ranker plus a second model that rescores every candidate (Figure 2) |
 | `splitphase` | SplitEvict |
 | `hobbit`, `moe_infinity`, `lru` | the eviction rules of HOBBIT, MoE-Infinity and Mixtral-offloading |
 | `--p2-bundle` / `--p1-bundle` | the rankers trained on request-stale features (layers 1+) and token-stale features (layer 0) |
