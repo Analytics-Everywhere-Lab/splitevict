@@ -1,0 +1,231 @@
+{
+ "arm": "lag_req_d16_touch",
+ "refresh": 16,
+ "touch": true,
+ "mix_layer0": false,
+ "lag_bundle": null,
+ "refreshes": 5120,
+ "touch_rows": 614400,
+ "source": "lag_req",
+ "window": "none",
+ "w": 2,
+ "capacity": 24,
+ "bundle": "data/rankers/olmoe_setdev_dev_trees800.pkl",
+ "deploy": "calB",
+ "sequences": 40,
+ "transfers": 150910,
+ "decisions": 63302,
+ "disagree_decisions": 0,
+ "disagree_fraction": 0.0,
+ "offset_histogram": {},
+ "fraction_within_cutoff_w2": null,
+ "window_covers_disagreement": 0.0,
+ "window_fixed_disagreement": 0.0,
+ "timing_ms_per_decision": {
+  "lag_features_ns": 0.1680874865565069,
+  "lag_score_ns": 0.0009383552020473286
+ },
+ "wall_seconds": 76.32369854103308,
+ "per_sequence": [
+  {
+   "source_sequence_id": 308,
+   "position": 0,
+   "transfers": 3430
+  },
+  {
+   "source_sequence_id": 6,
+   "position": 1,
+   "transfers": 4975
+  },
+  {
+   "source_sequence_id": 214,
+   "position": 2,
+   "transfers": 4704
+  },
+  {
+   "source_sequence_id": 217,
+   "position": 3,
+   "transfers": 3597
+  },
+  {
+   "source_sequence_id": 115,
+   "position": 4,
+   "transfers": 2326
+  },
+  {
+   "source_sequence_id": 104,
+   "position": 5,
+   "transfers": 2626
+  },
+  {
+   "source_sequence_id": 16,
+   "position": 6,
+   "transfers": 194
+  },
+  {
+   "source_sequence_id": 211,
+   "position": 7,
+   "transfers": 4443
+  },
+  {
+   "source_sequence_id": 304,
+   "position": 8,
+   "transfers": 4000
+  },
+  {
+   "source_sequence_id": 306,
+   "position": 9,
+   "transfers": 4060
+  },
+  {
+   "source_sequence_id": 116,
+   "position": 10,
+   "transfers": 3209
+  },
+  {
+   "source_sequence_id": 207,
+   "position": 11,
+   "transfers": 3676
+  },
+  {
+   "source_sequence_id": 8,
+   "position": 12,
+   "transfers": 5253
+  },
+  {
+   "source_sequence_id": 219,
+   "position": 13,
+   "transfers": 4763
+  },
+  {
+   "source_sequence_id": 305,
+   "position": 14,
+   "transfers": 4421
+  },
+  {
+   "source_sequence_id": 307,
+   "position": 15,
+   "transfers": 4310
+  },
+  {
+   "source_sequence_id": 112,
+   "position": 16,
+   "transfers": 2931
+  },
+  {
+   "source_sequence_id": 10,
+   "position": 17,
+   "transfers": 4133
+  },
+  {
+   "source_sequence_id": 316,
+   "position": 18,
+   "transfers": 4924
+  },
+  {
+   "source_sequence_id": 119,
+   "position": 19,
+   "transfers": 3564
+  },
+  {
+   "source_sequence_id": 103,
+   "position": 20,
+   "transfers": 2379
+  },
+  {
+   "source_sequence_id": 209,
+   "position": 21,
+   "transfers": 2933
+  },
+  {
+   "source_sequence_id": 311,
+   "position": 22,
+   "transfers": 5112
+  },
+  {
+   "source_sequence_id": 315,
+   "position": 23,
+   "transfers": 4422
+  },
+  {
+   "source_sequence_id": 215,
+   "position": 24,
+   "transfers": 4602
+  },
+  {
+   "source_sequence_id": 105,
+   "position": 25,
+   "transfers": 1781
+  },
+  {
+   "source_sequence_id": 302,
+   "position": 26,
+   "transfers": 4756
+  },
+  {
+   "source_sequence_id": 216,
+   "position": 27,
+   "transfers": 4466
+  },
+  {
+   "source_sequence_id": 303,
+   "position": 28,
+   "transfers": 4458
+  },
+  {
+   "source_sequence_id": 1,
+   "position": 29,
+   "transfers": 4571
+  },
+  {
+   "source_sequence_id": 206,
+   "position": 30,
+   "transfers": 4435
+  },
+  {
+   "source_sequence_id": 109,
+   "position": 31,
+   "transfers": 2537
+  },
+  {
+   "source_sequence_id": 201,
+   "position": 32,
+   "transfers": 3110
+  },
+  {
+   "source_sequence_id": 210,
+   "position": 33,
+   "transfers": 4623
+  },
+  {
+   "source_sequence_id": 0,
+   "position": 34,
+   "transfers": 3938
+  },
+  {
+   "source_sequence_id": 11,
+   "position": 35,
+   "transfers": 4695
+  },
+  {
+   "source_sequence_id": 213,
+   "position": 36,
+   "transfers": 4667
+  },
+  {
+   "source_sequence_id": 114,
+   "position": 37,
+   "transfers": 2766
+  },
+  {
+   "source_sequence_id": 202,
+   "position": 38,
+   "transfers": 2733
+  },
+  {
+   "source_sequence_id": 107,
+   "position": 39,
+   "transfers": 2387
+  }
+ ]
+}

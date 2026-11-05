@@ -1,0 +1,251 @@
+{
+ "arm": "lag_req+fresh",
+ "source": "lag_req",
+ "window": "fresh",
+ "w": 2,
+ "capacity": 24,
+ "bundle": "data/rankers/olmoe_setdev_dev_trees800.pkl",
+ "deploy": "calB",
+ "sequences": 40,
+ "transfers": 139864,
+ "decisions": 61642,
+ "disagree_decisions": 31943,
+ "disagree_fraction": 0.5182018753447325,
+ "offset_histogram": {
+  "-16": 72,
+  "-15": 93,
+  "-14": 170,
+  "-13": 202,
+  "-12": 260,
+  "-11": 375,
+  "-10": 449,
+  "-9": 566,
+  "-8": 823,
+  "-7": 1054,
+  "-6": 1428,
+  "-5": 2185,
+  "-4": 3181,
+  "-3": 4876,
+  "-2": 8287,
+  "-1": 15572,
+  "0": 24496,
+  "1": 9440,
+  "2": 3686,
+  "3": 1353,
+  "4": 459,
+  "5": 124,
+  "6": 33,
+  "7": 2
+ },
+ "fraction_within_cutoff_w2": 0.7298638648245902,
+ "window_covers_disagreement": 0.3749804338978806,
+ "window_fixed_disagreement": 0.3749804338978806,
+ "timing_ms_per_decision": {
+  "lag_features_ns": 0.18645840240420494,
+  "lag_score_ns": 0.8691606870153467,
+  "window_ns": 0.20050037867038709
+ },
+ "wall_seconds": 158.6226945000235,
+ "per_sequence": [
+  {
+   "source_sequence_id": 308,
+   "position": 0,
+   "transfers": 3064
+  },
+  {
+   "source_sequence_id": 6,
+   "position": 1,
+   "transfers": 4605
+  },
+  {
+   "source_sequence_id": 214,
+   "position": 2,
+   "transfers": 4412
+  },
+  {
+   "source_sequence_id": 217,
+   "position": 3,
+   "transfers": 3321
+  },
+  {
+   "source_sequence_id": 115,
+   "position": 4,
+   "transfers": 2150
+  },
+  {
+   "source_sequence_id": 104,
+   "position": 5,
+   "transfers": 2422
+  },
+  {
+   "source_sequence_id": 16,
+   "position": 6,
+   "transfers": 140
+  },
+  {
+   "source_sequence_id": 211,
+   "position": 7,
+   "transfers": 4296
+  },
+  {
+   "source_sequence_id": 304,
+   "position": 8,
+   "transfers": 3742
+  },
+  {
+   "source_sequence_id": 306,
+   "position": 9,
+   "transfers": 3685
+  },
+  {
+   "source_sequence_id": 116,
+   "position": 10,
+   "transfers": 2980
+  },
+  {
+   "source_sequence_id": 207,
+   "position": 11,
+   "transfers": 3492
+  },
+  {
+   "source_sequence_id": 8,
+   "position": 12,
+   "transfers": 4839
+  },
+  {
+   "source_sequence_id": 219,
+   "position": 13,
+   "transfers": 4390
+  },
+  {
+   "source_sequence_id": 305,
+   "position": 14,
+   "transfers": 4089
+  },
+  {
+   "source_sequence_id": 307,
+   "position": 15,
+   "transfers": 4025
+  },
+  {
+   "source_sequence_id": 112,
+   "position": 16,
+   "transfers": 2642
+  },
+  {
+   "source_sequence_id": 10,
+   "position": 17,
+   "transfers": 3714
+  },
+  {
+   "source_sequence_id": 316,
+   "position": 18,
+   "transfers": 4667
+  },
+  {
+   "source_sequence_id": 119,
+   "position": 19,
+   "transfers": 3178
+  },
+  {
+   "source_sequence_id": 103,
+   "position": 20,
+   "transfers": 2244
+  },
+  {
+   "source_sequence_id": 209,
+   "position": 21,
+   "transfers": 2817
+  },
+  {
+   "source_sequence_id": 311,
+   "position": 22,
+   "transfers": 4679
+  },
+  {
+   "source_sequence_id": 315,
+   "position": 23,
+   "transfers": 3930
+  },
+  {
+   "source_sequence_id": 215,
+   "position": 24,
+   "transfers": 4339
+  },
+  {
+   "source_sequence_id": 105,
+   "position": 25,
+   "transfers": 1663
+  },
+  {
+   "source_sequence_id": 302,
+   "position": 26,
+   "transfers": 4450
+  },
+  {
+   "source_sequence_id": 216,
+   "position": 27,
+   "transfers": 4110
+  },
+  {
+   "source_sequence_id": 303,
+   "position": 28,
+   "transfers": 4100
+  },
+  {
+   "source_sequence_id": 1,
+   "position": 29,
+   "transfers": 4347
+  },
+  {
+   "source_sequence_id": 206,
+   "position": 30,
+   "transfers": 4054
+  },
+  {
+   "source_sequence_id": 109,
+   "position": 31,
+   "transfers": 2372
+  },
+  {
+   "source_sequence_id": 201,
+   "position": 32,
+   "transfers": 2830
+  },
+  {
+   "source_sequence_id": 210,
+   "position": 33,
+   "transfers": 4290
+  },
+  {
+   "source_sequence_id": 0,
+   "position": 34,
+   "transfers": 3767
+  },
+  {
+   "source_sequence_id": 11,
+   "position": 35,
+   "transfers": 4454
+  },
+  {
+   "source_sequence_id": 213,
+   "position": 36,
+   "transfers": 4410
+  },
+  {
+   "source_sequence_id": 114,
+   "position": 37,
+   "transfers": 2465
+  },
+  {
+   "source_sequence_id": 202,
+   "position": 38,
+   "transfers": 2507
+  },
+  {
+   "source_sequence_id": 107,
+   "position": 39,
+   "transfers": 2183
+  }
+ ]
+}

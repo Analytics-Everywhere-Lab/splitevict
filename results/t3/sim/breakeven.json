@@ -1,0 +1,86 @@
+{
+ "olmoe_B32": {
+  "t_copy_ms": 0.6684454888889648,
+  "t_issue_ms": 0.06764139180023687,
+  "lfu_wall_ms": 47.40496643737793,
+  "sync": {
+   "extra_critical_path_ms": 15.340992877026368,
+   "transfers_saved_per_token": 3.494897460937498,
+   "breakeven_copy_ms": 4.321898801722689,
+   "predicted_gain": -0.26934824906043164,
+   "measured_gain": -0.285043122602064,
+   "unexplained_ms_per_token": 0.7440149534799724
+  },
+  "split": {
+   "extra_critical_path_ms": 0.4414901599609373,
+   "transfers_saved_per_token": 3.223901367187498,
+   "breakeven_copy_ms": 0.06930143295686458,
+   "predicted_gain": 0.040746391912614977,
+   "measured_gain": 0.0332548191223273,
+   "unexplained_ms_per_token": 0.35513775668676106
+  }
+ },
+ "qwen3_30b_a3b_B64": {
+  "t_copy_ms": 0.43363894471140324,
+  "t_issue_ms": 0.09228530391773133,
+  "lfu_wall_ms": 124.10537721337892,
+  "sync": {
+   "extra_critical_path_ms": 45.20303369931641,
+   "transfers_saved_per_token": 5.388281249999999,
+   "breakeven_copy_ms": 8.296852456720956,
+   "predicted_gain": -0.3413970198782022,
+   "measured_gain": -0.3851178398684573,
+   "unexplained_ms_per_token": 5.425988856968849
+  },
+  "split": {
+   "extra_critical_path_ms": 0.8845737083984382,
+   "transfers_saved_per_token": 5.655957031250001,
+   "breakeven_copy_ms": 0.06411151867321789,
+   "predicted_gain": 0.01684077910618588,
+   "measured_gain": 0.007599273154814772,
+   "unexplained_ms_per_token": 1.1469205821145976
+  }
+ },
+ "qwen3_30b_a3b_B48": {
+  "t_copy_ms": 0.48772371892242733,
+  "t_issue_ms": 0.07535220747091496,
+  "lfu_wall_ms": 128.34735912177734,
+  "sync": {
+   "extra_critical_path_ms": 49.875863950292974,
+   "transfers_saved_per_token": 9.185937500000001,
+   "breakeven_copy_ms": 5.354236655973123,
+   "predicted_gain": -0.34830076745306454,
+   "measured_gain": -0.3751510874669574,
+   "unexplained_ms_per_token": 3.4461676653577538
+  },
+  "split": {
+   "extra_critical_path_ms": 1.189114314550781,
+   "transfers_saved_per_token": 9.18310546875,
+   "breakeven_copy_ms": 0.05413713778351155,
+   "predicted_gain": 0.031022619644674888,
+   "measured_gain": 0.006561089056155228,
+   "unexplained_ms_per_token": 3.139572851113074
+  }
+ },
+ "mixtral_8x7b_B4": {
+  "t_copy_ms": 46.25695515037101,
+  "t_issue_ms": 0.14448705729098038,
+  "lfu_wall_ms": 1181.9438234465551,
+  "sync": {
+   "extra_critical_path_ms": 21.673995884744095,
+   "transfers_saved_per_token": 1.3195866141732289,
+   "breakeven_copy_ms": 16.280350578943814,
+   "predicted_gain": 0.03346751795315593,
+   "measured_gain": 0.0320109782686779,
+   "unexplained_ms_per_token": 1.7215480836736012
+  },
+  "split": {
+   "extra_critical_path_ms": 1.0939760541338583,
+   "transfers_saved_per_token": 1.4088582677165356,
+   "breakeven_copy_ms": 0.6320112457689608,
+   "predicted_gain": 0.054384208588411226,
+   "measured_gain": 0.05376461186869765,
+   "unexplained_ms_per_token": 0.7323285158932046
+  }
+ }
+}

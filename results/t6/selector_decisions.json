@@ -1,0 +1,45 @@
+{
+ "calibration": "data/runs/t5/mixtral/B4.json",
+ "calibration_sha256": "da1804c952cd0b749148d538598fffdef38b1dbe5ead7d8f5fc355f17bd473d7",
+ "margin": 0.01,
+ "t_copy": 6.395198086202536,
+ "t_issue": 0.07069975442010934,
+ "arms": {
+  "lfu_decay": {
+   "wall": 178.10885697692763,
+   "demand": 23.38966673239992,
+   "prefetch": 0.0,
+   "policy": 1.9311545346085586,
+   "residual": 0.0
+  },
+  "splitphase": {
+   "wall": 171.91526471899033,
+   "demand": 22.259712088345495,
+   "prefetch": 0.0,
+   "policy": 2.7036291076710706,
+   "residual": 0.3401044619932305
+  }
+ },
+ "decisions": {
+  "1": {
+   "copy_ms": 6.395198086202536,
+   "predicted_gain": 0.03477419575344094,
+   "policy": "splitphase"
+  },
+  "2": {
+   "copy_ms": 12.790396172405073,
+   "predicted_gain": 0.04098985071862817,
+   "policy": "splitphase"
+  },
+  "4": {
+   "copy_ms": 25.580792344810146,
+   "predicted_gain": 0.044494244174720775,
+   "policy": "splitphase"
+  },
+  "7": {
+   "copy_ms": 44.76638660341776,
+   "predicted_gain": 0.04608908044225891,
+   "policy": "splitphase"
+  }
+ }
+}

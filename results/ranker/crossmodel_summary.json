@@ -1,0 +1,393 @@
+{
+ "schema_version": "caer_crossmodel_summary_v1",
+ "comparison": "caer_gbt (set-deviation multivariate stage 2, residual re-rank) vs global_token_gbt on the same evaluation split",
+ "bootstrap": {
+  "replicates": 1000,
+  "seed": 20260823,
+  "unit": "source decode sequence, stratified by domain",
+  "conditional_on": "the ten frozen workload paths"
+ },
+ "olmoe_reference": {
+  "source": "results/caer_setdev_evaluation.json",
+  "B32_relative_transfer_reduction": 0.01372,
+  "B32_ci": [
+   0.01153,
+   0.01618
+  ],
+  "B24_relative_transfer_reduction": 0.00159
+ },
+ "models": {
+  "qwen3_30b_a3b": {
+   "model": "Qwen/Qwen3-30B-A3B",
+   "trace": {
+    "model": "Qwen/Qwen3-30B-A3B",
+    "trace_root": "data/traces/qwen3_30b_a3b",
+    "trace_hash": "d4cd5334364a6f6674a1fa1c87875c0f552def7aa36b98dae501389894f17daf",
+    "architecture": {
+     "num_moe_layers": 48,
+     "num_experts": 128,
+     "top_k": 8
+    },
+    "events": 2457600,
+    "prepared_root": "data/prepared/qwen3_30b_a3b",
+    "frozen_evaluation_config_hash": "ee48c213bcedffe76d091cee638a979e5c87ac9f93bd8d7a55d627ec0eb94419",
+    "seed_weights_sha256": "87ea6f51f2fb6622bb81484f3caa39cbd1342ecbb22e7b7c01fef0924b78a59f",
+    "transition_model_sha256": "d7e27d0f25b4f4bae779bc8c194d13202d48da7eedba47eba62742ae2c12fb3e",
+    "generalisations": {
+     "request_scope_rate_scale": "static share x top_k (8); OLMoE code uses 8.0",
+     "collection_min_group": "min(4, spare + 1) candidates; OLMoE code uses 4"
+    }
+   },
+   "split": {
+    "fit": "calibration_mixed",
+    "fit_sequences": 80,
+    "deploy": [
+     "stationary_general",
+     "stationary_coding",
+     "stationary_math",
+     "stationary_reasoning",
+     "general_to_coding",
+     "coding_to_general",
+     "general_to_math",
+     "math_to_reasoning",
+     "repeated_domain_cycle",
+     "mixed_interleaved"
+    ],
+    "deploy_sequences": 1380,
+    "evaluation_split_touched": true
+   },
+   "primary_capacity": 64,
+   "training": {
+    "global_fit_rows": {
+     "48": 3005594,
+     "64": 2654624
+    },
+    "boundary_rows": {
+     "48": 2999973,
+     "64": 2999958
+    },
+    "global_fit_seconds": 291.84595941600855,
+    "boundary_fit_seconds": 179.61478025000542
+   },
+   "evaluation_seconds": 15809.890974082984,
+   "capacities": {
+    "48": {
+     "primary": false,
+     "best_simple_baseline_transfers": 7456145,
+     "best_simple_policy": null,
+     "oracle_transfers": 3763808,
+     "global_token_gbt_transfers": 6197992,
+     "caer_logistic_transfers": 6327934,
+     "caer_gbt_transfers": 6314276,
+     "caer_gbt_relative_transfer_reduction": -0.01876156019562465,
+     "caer_gbt_transfer_reduction_ci": [
+      -0.022562331679726728,
+      -0.014334598138102412
+     ],
+     "ci_excludes_zero": true,
+     "caer_logistic_relative_transfer_reduction": -0.020965177108973356,
+     "caer_logistic_transfer_reduction_ci": [
+      -0.02449820912971503,
+      -0.016859217631344358
+     ],
+     "global_oracle_gap_closed": 0.34074706615349576,
+     "caer_gbt_oracle_gap_closed": 0.30925373279849594,
+     "oracle_gap_points_added": -0.03149333335499982,
+     "global_boundary_accuracy": 0.9298481328070819,
+     "caer_gbt_boundary_accuracy": 0.9396130714797453,
+     "workloads_improved": 1,
+     "workload_count": 10,
+     "paired_units_improved": 313,
+     "paired_units_worsened": 1067,
+     "paired_units": 1380,
+     "stage2_candidates_per_event": 18.479411514945653,
+     "stage2_invocation_fraction_of_evictions": 1.0,
+     "development_fold_relative_transfer_reduction": -0.03366787525706051
+    },
+    "64": {
+     "primary": true,
+     "best_simple_baseline_transfers": 3852300,
+     "best_simple_policy": null,
+     "oracle_transfers": 1798509,
+     "global_token_gbt_transfers": 3220688,
+     "caer_logistic_transfers": 3202239,
+     "caer_gbt_transfers": 3295936,
+     "caer_gbt_relative_transfer_reduction": -0.02336395204999677,
+     "caer_gbt_transfer_reduction_ci": [
+      -0.027206779351295417,
+      -0.0193794799890835
+     ],
+     "ci_excludes_zero": true,
+     "caer_logistic_relative_transfer_reduction": 0.005728279175132767,
+     "caer_logistic_transfer_reduction_ci": [
+      0.002460810548335855,
+      0.009160866578043665
+     ],
+     "global_oracle_gap_closed": 0.30753470046367914,
+     "caer_gbt_oracle_gap_closed": 0.2708961135772822,
+     "oracle_gap_points_added": -0.03663858688639693,
+     "global_boundary_accuracy": 0.953219896711531,
+     "caer_gbt_boundary_accuracy": 0.9622383445656136,
+     "workloads_improved": 1,
+     "workload_count": 10,
+     "paired_units_improved": 444,
+     "paired_units_worsened": 931,
+     "paired_units": 1380,
+     "stage2_candidates_per_event": 15.332680404589372,
+     "stage2_invocation_fraction_of_evictions": 1.0,
+     "development_fold_relative_transfer_reduction": -0.058308765033459685
+    }
+   },
+   "bootstrap": {
+    "caer_logistic": {
+     "48": {
+      "capacity": 48,
+      "left_cost": 6197992,
+      "right_cost": 6327934,
+      "improvement": -0.020965177108973356,
+      "ci_low": -0.02449820912971503,
+      "ci_high": -0.016859217631344358,
+      "sequences_improved": 295,
+      "sequences_worsened": 1083,
+      "paired_units": 1380,
+      "bootstrap_replicates": 1000
+     },
+     "64": {
+      "capacity": 64,
+      "left_cost": 3220688,
+      "right_cost": 3202239,
+      "improvement": 0.005728279175132767,
+      "ci_low": 0.002460810548335855,
+      "ci_high": 0.009160866578043665,
+      "sequences_improved": 727,
+      "sequences_worsened": 646,
+      "paired_units": 1380,
+      "bootstrap_replicates": 1000
+     }
+    },
+    "caer_gbt": {
+     "48": {
+      "capacity": 48,
+      "left_cost": 6197992,
+      "right_cost": 6314276,
+      "improvement": -0.01876156019562465,
+      "ci_low": -0.022562331679726728,
+      "ci_high": -0.014334598138102412,
+      "sequences_improved": 313,
+      "sequences_worsened": 1067,
+      "paired_units": 1380,
+      "bootstrap_replicates": 1000
+     },
+     "64": {
+      "capacity": 64,
+      "left_cost": 3220688,
+      "right_cost": 3295936,
+      "improvement": -0.02336395204999677,
+      "ci_low": -0.027206779351295417,
+      "ci_high": -0.0193794799890835,
+      "sequences_improved": 444,
+      "sequences_worsened": 931,
+      "paired_units": 1380,
+      "bootstrap_replicates": 1000
+     }
+    }
+   },
+   "result_files": {
+    "evaluation": {
+     "path": "results/crossmodel/qwen3_30b_a3b/caer_evaluation.json",
+     "sha256": "8b8974cb5e85ae1968d521ebac50d888901ae15881a9b7a70f6fa415988399ef"
+    },
+    "development": {
+     "path": "results/crossmodel/qwen3_30b_a3b/caer_development.json",
+     "sha256": "e4e10f87d6c409cbf1dc5479ccff7bb4a985a0539be42a873be37e2e6e7b2d40"
+    }
+   }
+  },
+  "mixtral_8x7b": {
+   "model": "mistralai/Mixtral-8x7B-v0.1",
+   "trace": {
+    "model": "mistralai/Mixtral-8x7B-v0.1",
+    "trace_root": "data/traces/mixtral_8x7b",
+    "trace_hash": "b57beee5196d5a88f36ba8b05d5ef284602b23f94f958b0e8a32b580f574a9cd",
+    "architecture": {
+     "num_moe_layers": 32,
+     "num_experts": 8,
+     "top_k": 2
+    },
+    "events": 1600224,
+    "prepared_root": "data/prepared/mixtral_8x7b",
+    "frozen_evaluation_config_hash": "0eeff6403d79077952d58604006335d9465fc651e06ab4854983ec6d7189c721",
+    "seed_weights_sha256": "a4659500f99639228c6260acb052654cee193527fe3765b094054479585ad39a",
+    "transition_model_sha256": "336cb63c91711fb279ef56f58520085a533a5e8a7450c94015464ab02c57dc65",
+    "generalisations": {
+     "request_scope_rate_scale": "static share x top_k (2); OLMoE code uses 8.0",
+     "collection_min_group": "min(4, spare + 1) candidates; OLMoE code uses 4"
+    }
+   },
+   "split": {
+    "fit": "calibration_mixed",
+    "fit_sequences": 80,
+    "deploy": [
+     "stationary_general",
+     "stationary_coding",
+     "stationary_math",
+     "stationary_reasoning",
+     "general_to_coding",
+     "coding_to_general",
+     "general_to_math",
+     "math_to_reasoning",
+     "repeated_domain_cycle",
+     "mixed_interleaved"
+    ],
+    "deploy_sequences": 1380,
+    "evaluation_split_touched": true
+   },
+   "primary_capacity": 4,
+   "training": {
+    "global_fit_rows": {
+     "3": 177383,
+     "4": 198696
+    },
+    "boundary_rows": {
+     "3": 496179,
+     "4": 534726
+    },
+    "global_fit_seconds": 72.39161620801315,
+    "boundary_fit_seconds": 35.88043858401943
+   },
+   "evaluation_seconds": 2202.5364252500003,
+   "capacities": {
+    "3": {
+     "primary": false,
+     "best_simple_baseline_transfers": 5536548,
+     "best_simple_policy": null,
+     "oracle_transfers": 4459213,
+     "global_token_gbt_transfers": 5302408,
+     "caer_logistic_transfers": 5310726,
+     "caer_gbt_transfers": 5309583,
+     "caer_gbt_relative_transfer_reduction": -0.0013531587912510694,
+     "caer_gbt_transfer_reduction_ci": [
+      -0.0016770702276255407,
+      -0.0010150215404383946
+     ],
+     "ci_excludes_zero": true,
+     "caer_logistic_relative_transfer_reduction": -0.0015687212300524592,
+     "caer_logistic_transfer_reduction_ci": [
+      -0.0018067105362928684,
+      -0.0013206144100108867
+     ],
+     "global_oracle_gap_closed": 0.21733258457211546,
+     "caer_gbt_oracle_gap_closed": 0.21067263200397277,
+     "oracle_gap_points_added": -0.006659952568142696,
+     "global_boundary_accuracy": 0.6305968849566937,
+     "caer_gbt_boundary_accuracy": 0.6332581616841374,
+     "workloads_improved": 0,
+     "workload_count": 10,
+     "paired_units_improved": 431,
+     "paired_units_worsened": 903,
+     "paired_units": 1380,
+     "stage2_candidates_per_event": 1.7139756994644861,
+     "stage2_invocation_fraction_of_evictions": 1.0,
+     "development_fold_relative_transfer_reduction": 0.001450747134774409
+    },
+    "4": {
+     "primary": true,
+     "best_simple_baseline_transfers": 4155952,
+     "best_simple_policy": null,
+     "oracle_transfers": 2880322,
+     "global_token_gbt_transfers": 3881642,
+     "caer_logistic_transfers": 3890755,
+     "caer_gbt_transfers": 3882394,
+     "caer_gbt_relative_transfer_reduction": -0.00019373244621734824,
+     "caer_gbt_transfer_reduction_ci": [
+      -0.0006136790066385169,
+      0.0002361778243239197
+     ],
+     "ci_excludes_zero": false,
+     "caer_logistic_relative_transfer_reduction": -0.0023477177957163487,
+     "caer_logistic_transfer_reduction_ci": [
+      -0.0028085454680806883,
+      -0.0018949266763441596
+     ],
+     "global_oracle_gap_closed": 0.2150388435518136,
+     "caer_gbt_oracle_gap_closed": 0.2144493309188401,
+     "oracle_gap_points_added": -0.0005895126329734934,
+     "global_boundary_accuracy": 0.6352609399743433,
+     "caer_gbt_boundary_accuracy": 0.6363846386983266,
+     "workloads_improved": 3,
+     "workload_count": 10,
+     "paired_units_improved": 641,
+     "paired_units_worsened": 678,
+     "paired_units": 1380,
+     "stage2_candidates_per_event": 1.896191402861472,
+     "stage2_invocation_fraction_of_evictions": 1.0,
+     "development_fold_relative_transfer_reduction": 0.0013745091038914674
+    }
+   },
+   "bootstrap": {
+    "caer_logistic": {
+     "3": {
+      "capacity": 3,
+      "left_cost": 5302408,
+      "right_cost": 5310726,
+      "improvement": -0.0015687212300524592,
+      "ci_low": -0.0018067105362928684,
+      "ci_high": -0.0013206144100108867,
+      "sequences_improved": 365,
+      "sequences_worsened": 964,
+      "paired_units": 1380,
+      "bootstrap_replicates": 1000
+     },
+     "4": {
+      "capacity": 4,
+      "left_cost": 3881642,
+      "right_cost": 3890755,
+      "improvement": -0.0023477177957163487,
+      "ci_low": -0.0028085454680806883,
+      "ci_high": -0.0018949266763441596,
+      "sequences_improved": 395,
+      "sequences_worsened": 936,
+      "paired_units": 1380,
+      "bootstrap_replicates": 1000
+     }
+    },
+    "caer_gbt": {
+     "3": {
+      "capacity": 3,
+      "left_cost": 5302408,
+      "right_cost": 5309583,
+      "improvement": -0.0013531587912510694,
+      "ci_low": -0.0016770702276255407,
+      "ci_high": -0.0010150215404383946,
+      "sequences_improved": 431,
+      "sequences_worsened": 903,
+      "paired_units": 1380,
+      "bootstrap_replicates": 1000
+     },
+     "4": {
+      "capacity": 4,
+      "left_cost": 3881642,
+      "right_cost": 3882394,
+      "improvement": -0.00019373244621734824,
+      "ci_low": -0.0006136790066385169,
+      "ci_high": 0.0002361778243239197,
+      "sequences_improved": 641,
+      "sequences_worsened": 678,
+      "paired_units": 1380,
+      "bootstrap_replicates": 1000
+     }
+    }
+   },
+   "result_files": {
+    "evaluation": {
+     "path": "results/crossmodel/mixtral_8x7b/caer_evaluation.json",
+     "sha256": "e14b601d70f8eb41e680402f2a4af8e965852115b1e985b50e907e923903bf3a"
+    },
+    "development": {
+     "path": "results/crossmodel/mixtral_8x7b/caer_development.json",
+     "sha256": "877c2c2385f136a82a90a07ec3cd1863609a05f96d16447b3f980c329ef397cb"
+    }
+   }
+  }
+ }
+}

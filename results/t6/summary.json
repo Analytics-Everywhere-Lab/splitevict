@@ -1,0 +1,835 @@
+{
+ "runs": {
+  "mixtral_B4_K1": {
+   "model": "mixtral",
+   "capacity": 4,
+   "copy_repeat": 1,
+   "passes": 1,
+   "host": "h100-node",
+   "fidelity": {
+    "copy_repeat_as_sealed": true,
+    "passes_as_sealed": true,
+    "arms_as_sealed": true,
+    "hobbit_w_as_sealed": true,
+    "lfu_decay": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "hobbit": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "splitphase": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "global_token_gbt": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    }
+   },
+   "comparisons": {
+    "splitphase vs lfu_decay": {
+     "a_priori": 0.04946448563276162,
+     "model_run_costs": 0.05169647917861927,
+     "estimate": {
+      "gain": 0.050597463087660825,
+      "ci": [
+       0.03595163968113491,
+       0.06730148109526415
+      ],
+      "faster": 17,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "hobbit vs lfu_decay": {
+     "a_priori": -0.0015353247728318478,
+     "model_run_costs": 0.005306134338093209,
+     "estimate": {
+      "gain": 0.008594925602968397,
+      "ci": [
+       -0.004797011957750068,
+       0.020207224572059652
+      ],
+      "faster": 15,
+      "units": 20
+     },
+     "above_zero": false,
+     "below_zero": false
+    },
+    "splitphase vs hobbit": {
+     "a_priori": 0.05144195013991766,
+     "model_run_costs": 0.04677172891542561,
+     "estimate": {
+      "gain": 0.04236667591220288,
+      "ci": [
+       0.027980403800018285,
+       0.057425820681062806
+      ],
+      "faster": 17,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "global_token_gbt vs lfu_decay": {
+     "a_priori": -0.025633076881126784,
+     "model_run_costs": -0.025648824017631744,
+     "estimate": {
+      "gain": -0.031256254004573256,
+      "ci": [
+       -0.04754178837716225,
+       -0.014987738213097236
+      ],
+      "faster": 5,
+      "units": 20
+     },
+     "above_zero": false,
+     "below_zero": true
+    },
+    "splitphase vs global_token_gbt": {
+     "a_priori": 0.07282143717652097,
+     "model_run_costs": 0.07503639649123418,
+     "estimate": {
+      "gain": 0.07937282006715576,
+      "ci": [
+       0.06572867330412782,
+       0.09586346004714329
+      ],
+      "faster": 20,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    }
+   },
+   "arms": {
+    "lfu_decay": {
+     "wall": 190.23388819152274,
+     "demand": 24.478414442700156,
+     "t_copy": 6.398360462408596,
+     "t_issue": 0.08247789184075933,
+     "policy": 2.373998650706436
+    },
+    "hobbit": {
+     "wall": 188.59884207535322,
+     "demand": 24.2574568288854,
+     "t_copy": 6.396842003277538,
+     "t_issue": 0.07937021864483562,
+     "policy": 2.7960715729984305
+    },
+    "splitphase": {
+     "wall": 180.60853605572999,
+     "demand": 22.81475667189953,
+     "t_copy": 6.3995202548208745,
+     "t_issue": 0.08198436069634625,
+     "policy": 3.3220277154631086
+    },
+    "global_token_gbt": {
+     "wall": 196.1798869211146,
+     "demand": 22.879905808477236,
+     "t_copy": 6.40027939989872,
+     "t_issue": 0.08953499566022849,
+     "policy": 17.620124377158554
+    }
+   },
+   "simulated_per_token": {
+    "lfu_decay": {
+     "demand": 24.478414442700156,
+     "prefetch": 0.0
+    },
+    "hobbit": {
+     "demand": 24.2574568288854,
+     "prefetch": 0.0
+    },
+    "splitphase": {
+     "demand": 22.81475667189953,
+     "prefetch": 0.0
+    },
+    "global_token_gbt": {
+     "demand": 22.879905808477236,
+     "prefetch": 0.0
+    }
+   }
+  },
+  "mixtral_B4_K2": {
+   "model": "mixtral",
+   "capacity": 4,
+   "copy_repeat": 2,
+   "passes": 1,
+   "host": "h100-node",
+   "fidelity": {
+    "copy_repeat_as_sealed": true,
+    "passes_as_sealed": true,
+    "arms_as_sealed": true,
+    "hobbit_w_as_sealed": true,
+    "lfu_decay": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "hobbit": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "splitphase": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "global_token_gbt": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    }
+   },
+   "comparisons": {
+    "splitphase vs lfu_decay": {
+     "a_priori": 0.05899762128782275,
+     "model_run_costs": 0.06015064468186192,
+     "estimate": {
+      "gain": 0.058683922036656656,
+      "ci": [
+       0.051944467563904646,
+       0.06618149464723001
+      ],
+      "faster": 20,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "hobbit vs lfu_decay": {
+     "a_priori": 0.003322706671683798,
+     "model_run_costs": 0.0069856010113831385,
+     "estimate": {
+      "gain": 0.006856114043218701,
+      "ci": [
+       0.0029151692442281373,
+       0.010943710194284988
+      ],
+      "faster": 14,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "splitphase vs hobbit": {
+     "a_priori": 0.05605926331863032,
+     "model_run_costs": 0.053528303946814626,
+     "estimate": {
+      "gain": 0.05218559840753362,
+      "ci": [
+       0.045460516512737935,
+       0.05971791399311703
+      ],
+      "faster": 20,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "global_token_gbt vs lfu_decay": {
+     "a_priori": 0.01594963040768777,
+     "model_run_costs": 0.022781351499413616,
+     "estimate": {
+      "gain": 0.01858327207633418,
+      "ci": [
+       0.010466920364987775,
+       0.02745344508632003
+      ],
+      "faster": 15,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "splitphase vs global_token_gbt": {
+     "a_priori": 0.043863111006075324,
+     "model_run_costs": 0.038101995218446774,
+     "estimate": {
+      "gain": 0.04085996174648603,
+      "ci": [
+       0.03770025921205395,
+       0.04410283651624149
+      ],
+      "faster": 20,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    }
+   },
+   "arms": {
+    "lfu_decay": {
+     "wall": 341.6401454089482,
+     "demand": 24.478414442700156,
+     "t_copy": 12.766939161373166,
+     "t_issue": 0.07481759789004505,
+     "policy": 1.7902737201726844
+    },
+    "hobbit": {
+     "wall": 339.29782161028254,
+     "demand": 24.2574568288854,
+     "t_copy": 12.765609504088447,
+     "t_issue": 0.07505966211493657,
+     "policy": 2.2410757496075355
+    },
+    "splitphase": {
+     "wall": 321.59136175117743,
+     "demand": 22.81475667189953,
+     "t_copy": 12.76900787024753,
+     "t_issue": 0.07611274943232642,
+     "policy": 2.6074853041601256
+    },
+    "global_token_gbt": {
+     "wall": 335.29135363461535,
+     "demand": 22.879905808477236,
+     "t_copy": 12.769744485020617,
+     "t_issue": 0.0853652323407321,
+     "policy": 14.545580948979591
+    }
+   },
+   "simulated_per_token": {
+    "lfu_decay": {
+     "demand": 24.478414442700156,
+     "prefetch": 0.0
+    },
+    "hobbit": {
+     "demand": 24.2574568288854,
+     "prefetch": 0.0
+    },
+    "splitphase": {
+     "demand": 22.81475667189953,
+     "prefetch": 0.0
+    },
+    "global_token_gbt": {
+     "demand": 22.879905808477236,
+     "prefetch": 0.0
+    }
+   }
+  },
+  "mixtral_B4_K4": {
+   "model": "mixtral",
+   "capacity": 4,
+   "copy_repeat": 4,
+   "passes": 1,
+   "host": "h100-node",
+   "fidelity": {
+    "copy_repeat_as_sealed": true,
+    "passes_as_sealed": true,
+    "arms_as_sealed": true,
+    "hobbit_w_as_sealed": true,
+    "lfu_decay": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "hobbit": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "splitphase": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "global_token_gbt": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    }
+   },
+   "comparisons": {
+    "splitphase vs lfu_decay": {
+     "a_priori": 0.0633789024670241,
+     "model_run_costs": 0.06341344828824973,
+     "estimate": {
+      "gain": 0.06232317260802629,
+      "ci": [
+       0.055218184851829034,
+       0.07025820872526921
+      ],
+      "faster": 20,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "hobbit vs lfu_decay": {
+     "a_priori": 0.006071320894211778,
+     "model_run_costs": 0.007828594564626342,
+     "estimate": {
+      "gain": 0.007518008386992182,
+      "ci": [
+       0.003596117365015576,
+       0.011469579077392404
+      ],
+      "faster": 14,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "splitphase vs hobbit": {
+     "a_priori": 0.0577416840376867,
+     "model_run_costs": 0.056005175522018946,
+     "estimate": {
+      "gain": 0.05522031098213008,
+      "ci": [
+       0.04839245416422834,
+       0.06315083006871165
+      ],
+      "faster": 20,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "global_token_gbt vs lfu_decay": {
+     "a_priori": 0.0397176093714759,
+     "model_run_costs": 0.03904994541406758,
+     "estimate": {
+      "gain": 0.03633244946891697,
+      "ci": [
+       0.027522694412789664,
+       0.045562438607572316
+      ],
+      "faster": 18,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "splitphase vs global_token_gbt": {
+     "a_priori": 0.024553377440703798,
+     "model_run_costs": 0.025302457082628415,
+     "estimate": {
+      "gain": 0.026970632273324628,
+      "ci": [
+       0.023490026749682785,
+       0.03015788862391217
+      ],
+      "faster": 20,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    }
+   },
+   "arms": {
+    "lfu_decay": {
+     "wall": 657.130736994113,
+     "demand": 24.478414442700156,
+     "t_copy": 25.51186923559005,
+     "t_issue": 0.11605852793766333,
+     "policy": 2.1982354862637363
+    },
+    "hobbit": {
+     "wall": 652.1904226020408,
+     "demand": 24.2574568288854,
+     "t_copy": 25.511449510280315,
+     "t_issue": 0.11608917473466217,
+     "policy": 2.716468151098901
+    },
+    "splitphase": {
+     "wall": 616.1762646463893,
+     "demand": 22.81475667189953,
+     "t_copy": 25.512225033534268,
+     "t_issue": 0.1170890118179316,
+     "policy": 3.1645637998430143
+    },
+    "global_token_gbt": {
+     "wall": 633.2555676978022,
+     "demand": 22.879905808477236,
+     "t_copy": 25.51605613836355,
+     "t_issue": 0.12872991960273078,
+     "policy": 17.51725394858713
+    }
+   },
+   "simulated_per_token": {
+    "lfu_decay": {
+     "demand": 24.478414442700156,
+     "prefetch": 0.0
+    },
+    "hobbit": {
+     "demand": 24.2574568288854,
+     "prefetch": 0.0
+    },
+    "splitphase": {
+     "demand": 22.81475667189953,
+     "prefetch": 0.0
+    },
+    "global_token_gbt": {
+     "demand": 22.879905808477236,
+     "prefetch": 0.0
+    }
+   }
+  },
+  "mixtral_B4_K7": {
+   "model": "mixtral",
+   "capacity": 4,
+   "copy_repeat": 7,
+   "passes": 1,
+   "host": "h100-node",
+   "fidelity": {
+    "copy_repeat_as_sealed": true,
+    "passes_as_sealed": true,
+    "arms_as_sealed": true,
+    "hobbit_w_as_sealed": true,
+    "lfu_decay": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "hobbit": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "splitphase": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    },
+    "global_token_gbt": {
+     "routing_all_events": true,
+     "token_agreement": [
+      1.0
+     ],
+     "simulator_equal_every_pass": true
+    }
+   },
+   "comparisons": {
+    "splitphase vs lfu_decay": {
+     "a_priori": 0.06568818970710172,
+     "model_run_costs": 0.06545021616409022,
+     "estimate": {
+      "gain": 0.06521711389342072,
+      "ci": [
+       0.058022685646386234,
+       0.07312698634452412
+      ],
+      "faster": 20,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "hobbit vs lfu_decay": {
+     "a_priori": 0.007353584718032343,
+     "model_run_costs": 0.008365085399440218,
+     "estimate": {
+      "gain": 0.00848166947816392,
+      "ci": [
+       0.004422728360562076,
+       0.012649455545644048
+      ],
+      "faster": 14,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "splitphase vs hobbit": {
+     "a_priori": 0.05883361224231517,
+     "model_run_costs": 0.05757246656866995,
+     "estimate": {
+      "gain": 0.05722077209142159,
+      "ci": [
+       0.05010187260893187,
+       0.06526609986118054
+      ],
+      "faster": 20,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "global_token_gbt vs lfu_decay": {
+     "a_priori": 0.0507425114464715,
+     "model_run_costs": 0.05062254976470335,
+     "estimate": {
+      "gain": 0.04999843931335243,
+      "ci": [
+       0.041927279182071515,
+       0.05899046050522729
+      ],
+      "faster": 19,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    },
+    "splitphase vs global_token_gbt": {
+     "a_priori": 0.015732267060516926,
+     "model_run_costs": 0.015612510280496731,
+     "estimate": {
+      "gain": 0.016019631135204083,
+      "ci": [
+       0.012635063325453944,
+       0.01918877859865859
+      ],
+      "faster": 19,
+      "units": 20
+     },
+     "above_zero": true,
+     "below_zero": false
+    }
+   },
+   "arms": {
+    "lfu_decay": {
+     "wall": 1124.8084119262166,
+     "demand": 24.478414442700156,
+     "t_copy": 44.632456447113675,
+     "t_issue": 0.1540289916307258,
+     "policy": 2.173027977237049
+    },
+    "hobbit": {
+     "wall": 1115.2681587499999,
+     "demand": 24.2574568288854,
+     "t_copy": 44.63182929436716,
+     "t_issue": 0.1523806372961429,
+     "policy": 2.6595731118524335
+    },
+    "splitphase": {
+     "wall": 1051.4516536173471,
+     "demand": 22.81475667189953,
+     "t_copy": 44.62784751546134,
+     "t_issue": 0.15142986871258515,
+     "policy": 3.057462932496075
+    },
+    "global_token_gbt": {
+     "wall": 1068.5697468033752,
+     "demand": 22.879905808477236,
+     "t_copy": 44.63316176407063,
+     "t_issue": 0.15213496071906413,
+     "policy": 16.822991754317112
+    }
+   },
+   "simulated_per_token": {
+    "lfu_decay": {
+     "demand": 24.478414442700156,
+     "prefetch": 0.0
+    },
+    "hobbit": {
+     "demand": 24.2574568288854,
+     "prefetch": 0.0
+    },
+    "splitphase": {
+     "demand": 22.81475667189953,
+     "prefetch": 0.0
+    },
+    "global_token_gbt": {
+     "demand": 22.879905808477236,
+     "prefetch": 0.0
+    }
+   }
+  }
+ },
+ "hypotheses": {
+  "P1": {
+   "copy_repeat": 2,
+   "comparison": "splitphase vs lfu_decay",
+   "criterion": "above",
+   "measured": 0.058683922036656656,
+   "ci": [
+    0.051944467563904646,
+    0.06618149464723001
+   ],
+   "a_priori": 0.05899762128782275,
+   "met": true
+  },
+  "S1": {
+   "copy_repeat": 4,
+   "comparison": "splitphase vs lfu_decay",
+   "criterion": "above",
+   "measured": 0.06232317260802629,
+   "ci": [
+    0.055218184851829034,
+    0.07025820872526921
+   ],
+   "a_priori": 0.0633789024670241,
+   "met": true
+  },
+  "S2": {
+   "copy_repeat": 7,
+   "comparison": "splitphase vs lfu_decay",
+   "criterion": "above",
+   "measured": 0.06521711389342072,
+   "ci": [
+    0.058022685646386234,
+    0.07312698634452412
+   ],
+   "a_priori": 0.06568818970710172,
+   "met": true
+  },
+  "S3": {
+   "copy_repeat": 1,
+   "comparison": "splitphase vs lfu_decay",
+   "criterion": "above",
+   "measured": 0.050597463087660825,
+   "ci": [
+    0.03595163968113491,
+    0.06730148109526415
+   ],
+   "a_priori": 0.04946448563276162,
+   "met": true
+  },
+  "S4a": {
+   "copy_repeat": 1,
+   "comparison": "global_token_gbt vs lfu_decay",
+   "criterion": "below",
+   "measured": -0.031256254004573256,
+   "ci": [
+    -0.04754178837716225,
+    -0.014987738213097236
+   ],
+   "a_priori": -0.025633076881126784,
+   "met": true
+  },
+  "S4b": {
+   "copy_repeat": 7,
+   "comparison": "global_token_gbt vs lfu_decay",
+   "criterion": "above",
+   "measured": 0.04999843931335243,
+   "ci": [
+    0.041927279182071515,
+    0.05899046050522729
+   ],
+   "a_priori": 0.0507425114464715,
+   "met": true
+  },
+  "S5-K1": {
+   "copy_repeat": 1,
+   "comparison": "splitphase vs global_token_gbt",
+   "criterion": "above",
+   "measured": 0.07937282006715576,
+   "ci": [
+    0.06572867330412782,
+    0.09586346004714329
+   ],
+   "a_priori": 0.07282143717652097,
+   "met": true
+  },
+  "S5-K2": {
+   "copy_repeat": 2,
+   "comparison": "splitphase vs global_token_gbt",
+   "criterion": "above",
+   "measured": 0.04085996174648603,
+   "ci": [
+    0.03770025921205395,
+    0.04410283651624149
+   ],
+   "a_priori": 0.043863111006075324,
+   "met": true
+  },
+  "S5-K4": {
+   "copy_repeat": 4,
+   "comparison": "splitphase vs global_token_gbt",
+   "criterion": "above",
+   "measured": 0.026970632273324628,
+   "ci": [
+    0.023490026749682785,
+    0.03015788862391217
+   ],
+   "a_priori": 0.024553377440703798,
+   "met": true
+  },
+  "S6-K1": {
+   "copy_repeat": 1,
+   "comparison": "splitphase vs hobbit",
+   "criterion": "above",
+   "measured": 0.04236667591220288,
+   "ci": [
+    0.027980403800018285,
+    0.057425820681062806
+   ],
+   "a_priori": 0.05144195013991766,
+   "met": true
+  },
+  "S6-K2": {
+   "copy_repeat": 2,
+   "comparison": "splitphase vs hobbit",
+   "criterion": "above",
+   "measured": 0.05218559840753362,
+   "ci": [
+    0.045460516512737935,
+    0.05971791399311703
+   ],
+   "a_priori": 0.05605926331863032,
+   "met": true
+  },
+  "S6-K4": {
+   "copy_repeat": 4,
+   "comparison": "splitphase vs hobbit",
+   "criterion": "above",
+   "measured": 0.05522031098213008,
+   "ci": [
+    0.04839245416422834,
+    0.06315083006871165
+   ],
+   "a_priori": 0.0577416840376867,
+   "met": true
+  },
+  "S6-K7": {
+   "copy_repeat": 7,
+   "comparison": "splitphase vs hobbit",
+   "criterion": "above",
+   "measured": 0.05722077209142159,
+   "ci": [
+    0.05010187260893187,
+    0.06526609986118054
+   ],
+   "a_priori": 0.05883361224231517,
+   "met": true
+  }
+ },
+ "a_priori": {
+  "comparisons": 20,
+  "decisive": 16,
+  "A1_sign_agreement_decisive": true,
+  "sign_misses": [],
+  "median_abs_error": 0.0024693139440887264,
+  "A2_median_abs_error_at_most_1pt": true,
+  "inside_interval": 20
+ }
+}

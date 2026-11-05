@@ -1,0 +1,203 @@
+{
+ "source": "T5 runs on T7's calibration prompts (first 40 calibration ids of T5's traces)",
+ "margin": 0.01,
+ "settings": {
+  "olmoe_B32": {
+   "calibration_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129
+   ],
+   "k1_calibration": {
+    "t_copy": 0.24401262280279157,
+    "t_issue": 0.0388329876799055,
+    "arms": {
+     "lfu_decay": {
+      "wall": 19.732241661073825,
+      "demand": 20.879392025266483,
+      "prefetch": 0.0,
+      "policy": 0.8333564407816818,
+      "residual": 0.0
+     },
+     "splitphase": {
+      "wall": 19.899092070864587,
+      "demand": 17.221279115673116,
+      "prefetch": 0.0,
+      "policy": 1.2155937727990525,
+      "residual": 0.8192942569019619
+     }
+    }
+   },
+   "per_host": {
+    "1": {
+     "copy_ms": 0.24401262280279157,
+     "predicted_gain": -0.008455725034014282,
+     "policy": "lfu_decay",
+     "source": "data/runs/t5/olmoe/B32.json, 40 of the 40 sequences"
+    },
+    "2": {
+     "copy_ms": 0.47720423405105766,
+     "predicted_gain": 0.0310163597353482,
+     "policy": "splitphase",
+     "source": "data/runs/t5/olmoe/B32_K2.json, 40 of the 40 sequences"
+    },
+    "4": {
+     "copy_ms": 0.9417980842488476,
+     "predicted_gain": 0.07873415289198799,
+     "policy": "splitphase",
+     "source": "data/runs/t5/olmoe/B32_K4.json, 40 of the 40 sequences"
+    }
+   },
+   "extrapolated": {
+    "1": {
+     "copy_ms": 0.24401262280279157,
+     "predicted_gain": -0.008455725034014282,
+     "policy": "lfu_decay"
+    },
+    "2": {
+     "copy_ms": 0.48802524560558314,
+     "predicted_gain": 0.033849544686159666,
+     "policy": "splitphase"
+    },
+    "4": {
+     "copy_ms": 0.9760504912111663,
+     "predicted_gain": 0.07843145122104213,
+     "policy": "splitphase"
+    }
+   }
+  },
+  "qwen3_B64": {
+   "calibration_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+   ],
+   "k1_calibration": {
+    "t_copy": 0.1902559693074887,
+    "t_issue": 0.05022669616812489,
+    "arms": {
+     "lfu_decay": {
+      "wall": 57.838435775585936,
+      "demand": 26.795703125,
+      "prefetch": 0.0,
+      "policy": 2.4344956183593753,
+      "residual": 0.0
+     },
+     "splitphase": {
+      "wall": 58.53556981289063,
+      "demand": 21.1318359375,
+      "prefetch": 0.0,
+      "policy": 3.1812438498046878,
+      "residual": 1.3124476840092472
+     }
+    }
+   },
+   "per_host": {
+    "1": {
+     "copy_ms": 0.1902559693074887,
+     "predicted_gain": -0.012053127439503795,
+     "policy": "lfu_decay",
+     "source": "data/runs/t5/qwen3/B64.json, 40 of the 40 sequences"
+    },
+    "2": null,
+    "4": {
+     "copy_ms": 0.7169834519479723,
+     "predicted_gain": 0.027708339722173764,
+     "policy": "splitphase",
+     "source": "data/runs/t5/qwen3/B64_K4.json, 20 of the 40 sequences"
+    }
+   },
+   "extrapolated": {
+    "1": {
+     "copy_ms": 0.1902559693074887,
+     "predicted_gain": -0.012053127439503795,
+     "policy": "lfu_decay"
+    },
+    "2": {
+     "copy_ms": 0.3805119386149774,
+     "predicted_gain": 0.010343865246787579,
+     "policy": "splitphase"
+    },
+    "4": {
+     "copy_ms": 0.7610238772299548,
+     "predicted_gain": 0.043916617289669134,
+     "policy": "splitphase"
+    }
+   }
+  }
+ }
+}

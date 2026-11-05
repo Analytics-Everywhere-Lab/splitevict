@@ -1,0 +1,154 @@
+{
+ "capacities": {
+  "32": {
+   "lfu_decay": {
+    "ms_per_token_wall": 44.24931790644531,
+    "ms_per_token_policy": 0.9815658819335937,
+    "ms_per_token_copy": 13.205571046558907,
+    "ms_per_copy": 0.6440300024135374,
+    "transfers_per_token": 20.50458984375,
+    "routing_match_fraction": 1.0,
+    "token_agreement_fraction": 1.0,
+    "tokens": 10240
+   },
+   "splitphase": {
+    "ms_per_token_wall": 43.68728149941406,
+    "ms_per_token_policy": 1.4128975335937501,
+    "ms_per_token_copy": 11.179638111550593,
+    "ms_per_copy": 0.6447623766552978,
+    "transfers_per_token": 17.33916015625,
+    "routing_match_fraction": 1.0,
+    "token_agreement_fraction": 1.0,
+    "tokens": 10240
+   },
+   "splitphase_wait_ms_per_token": 0.22580138515625,
+   "worker_busy_ms_per_token": [
+    11.312899277832031
+   ],
+   "bandwidth_probes": {
+    "lfu_decay": {
+     "ms_per_expert": 0.6025897598266602,
+     "expert_bytes": 12582912,
+     "gb_per_s": 20.881390356881568
+    },
+    "splitphase": {
+     "ms_per_expert": 0.6024950408935547,
+     "expert_bytes": 12582912,
+     "gb_per_s": 20.884673144094933
+    }
+   },
+   "wall_time_reduction": {
+    "capacity": 32,
+    "left_cost": 453113,
+    "right_cost": 447357,
+    "improvement": 0.012701583518632736,
+    "ci_low": -0.030342149810220976,
+    "ci_high": 0.04996439137160266,
+    "sequences_improved": 54,
+    "sequences_worsened": 26,
+    "paired_units": 80,
+    "bootstrap_replicates": 1000
+   },
+   "transfer_reduction": {
+    "capacity": 32,
+    "left_cost": 209967,
+    "right_cost": 177553,
+    "improvement": 0.15437664013868846,
+    "ci_low": 0.14489443641315916,
+    "ci_high": 0.16279141316147314,
+    "sequences_improved": 78,
+    "sequences_worsened": 2,
+    "paired_units": 80,
+    "bootstrap_replicates": 1000
+   },
+   "copy_time_ratio_splitphase_over_lfu": 1.0011371741052681,
+   "transfers_equal_simulator": {
+    "lfu_decay": true,
+    "splitphase": true
+   },
+   "position_effect_ms_per_token": {
+    "lfu_first": 44.022357073828125,
+    "lfu_second": 44.4762787390625,
+    "split_first": 43.50843584765625,
+    "split_second": 43.86612715117188
+   },
+   "criterion_met": false,
+   "copy_regime_matched": true
+  },
+  "24": {
+   "lfu_decay": {
+    "ms_per_token_wall": 54.549724229492185,
+    "ms_per_token_policy": 1.0966144427734377,
+    "ms_per_token_copy": 21.89308455286082,
+    "ms_per_copy": 0.6847000828330949,
+    "transfers_per_token": 31.97470703125,
+    "routing_match_fraction": 1.0,
+    "token_agreement_fraction": 1.0,
+    "tokens": 10240
+   },
+   "splitphase": {
+    "ms_per_token_wall": 52.45774830449219,
+    "ms_per_token_policy": 1.6268401165039061,
+    "ms_per_token_copy": 19.103184671263442,
+    "ms_per_copy": 0.686501739038269,
+    "transfers_per_token": 27.82685546875,
+    "routing_match_fraction": 1.0,
+    "token_agreement_fraction": 1.0,
+    "tokens": 10240
+   },
+   "splitphase_wait_ms_per_token": 0.31042210693359373,
+   "worker_busy_ms_per_token": [
+    10.085779942285155
+   ],
+   "bandwidth_probes": {
+    "lfu_decay": {
+     "ms_per_expert": 0.6412982177734375,
+     "expert_bytes": 12582912,
+     "gb_per_s": 19.620999483964543
+    },
+    "splitphase": {
+     "ms_per_expert": 0.6389337539672851,
+     "expert_bytes": 12582912,
+     "gb_per_s": 19.69360973946021
+    }
+   },
+   "wall_time_reduction": {
+    "capacity": 24,
+    "left_cost": 558589,
+    "right_cost": 537167,
+    "improvement": 0.03834989002325673,
+    "ci_low": 0.0034957878182396516,
+    "ci_high": 0.07150135835176469,
+    "sequences_improved": 58,
+    "sequences_worsened": 22,
+    "paired_units": 80,
+    "bootstrap_replicates": 1000
+   },
+   "transfer_reduction": {
+    "capacity": 24,
+    "left_cost": 327421,
+    "right_cost": 284947,
+    "improvement": 0.12972289498840942,
+    "ci_low": 0.12312372213107069,
+    "ci_high": 0.1360738843342082,
+    "sequences_improved": 80,
+    "sequences_worsened": 0,
+    "paired_units": 80,
+    "bootstrap_replicates": 1000
+   },
+   "copy_time_ratio_splitphase_over_lfu": 1.0026313071231412,
+   "transfers_equal_simulator": {
+    "lfu_decay": true,
+    "splitphase": true
+   },
+   "position_effect_ms_per_token": {
+    "lfu_first": 53.83601885624999,
+    "lfu_second": 55.26342960273438,
+    "split_first": 51.78029992539062,
+    "split_second": 53.13519668359375
+   },
+   "criterion_met": true,
+   "copy_regime_matched": true
+  }
+ }
+}

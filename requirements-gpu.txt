@@ -1,0 +1,8 @@
+# hardware tests; replays of the original OLMoE trace (Table 1, T1, T2, T4) need transformers==5.15.1
+-r requirements.txt
+torch==2.9.0
+transformers==5.16.1
+accelerate
+datasets
+huggingface_hub
+safetensors

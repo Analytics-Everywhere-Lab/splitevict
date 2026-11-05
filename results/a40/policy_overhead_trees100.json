@@ -1,0 +1,377 @@
+{
+ "schema_version": "hardware_replay_v1",
+ "label": "overhead vs boosting rounds, calA-fitted 100-round bundle, 20 sequences",
+ "host": {
+  "hostname": "dev-machine",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "processor": "arm",
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "scikit_learn": "1.9.0",
+  "numba": "0.68.0"
+ },
+ "policy_bundle": {
+  "path": "data/rankers/olmoe_setdev_dev_trees100.pkl",
+  "model": "allenai/OLMoE-1B-7B-0924",
+  "trace_hash": "ccec01b2ae5059655e23d7f791427fac75b5fac21e967b9e157bb6087c639dea",
+  "configuration": {
+   "window_radius": 2,
+   "stage2_scope": "all",
+   "rerank_mode": "residual",
+   "residual_strength": 1.0,
+   "stage2_set_context": true,
+   "stage2_rich_context": false,
+   "boundary_cross_layer": false,
+   "global_target": "rank",
+   "distance_cap": 33
+  }
+ },
+ "capacity": 32,
+ "backend": "numba",
+ "score_scope": "candidates",
+ "limit_sequences": 20,
+ "policies": {
+  "global_token_gbt": {
+   "workloads": {
+    "stationary_general": {
+     "events": 40960,
+     "eviction_decisions": 21102,
+     "stage2_rows_scored": 0,
+     "transfers": 41472,
+     "seconds_by_component": {
+      "features": 2.635062992,
+      "global_score": 3.997077449,
+      "stage2": 0.062226749,
+      "bookkeeping": 1.026267788,
+      "policy": 7.720634978
+     },
+     "ms_per_event_by_component": {
+      "features": 0.064332592578125,
+      "global_score": 0.09758489865722655,
+      "stage2": 0.0015192077392578124,
+      "bookkeeping": 0.025055365917968753,
+      "policy": 0.18849206489257814
+     },
+     "ms_per_decision_policy": 0.36587219116671404,
+     "ms_per_token_policy": 3.01587303828125,
+     "event_policy_ms_percentiles": {
+      "p50": 0.2255,
+      "p90": 0.281625,
+      "p99": 0.3056002199999998,
+      "p99.9": 0.3395984160000018
+     },
+     "event_policy_ms_max": 306.997042,
+     "wall_seconds": 7.814650334010366,
+     "check": {},
+     "per_sequence": [
+      {
+       "sequence_position": 0,
+       "source_sequence_id": 20,
+       "domain": "general",
+       "expert_transfers": 2510
+      },
+      {
+       "sequence_position": 1,
+       "source_sequence_id": 21,
+       "domain": "general",
+       "expert_transfers": 2593
+      },
+      {
+       "sequence_position": 2,
+       "source_sequence_id": 22,
+       "domain": "general",
+       "expert_transfers": 2959
+      },
+      {
+       "sequence_position": 3,
+       "source_sequence_id": 23,
+       "domain": "general",
+       "expert_transfers": 467
+      },
+      {
+       "sequence_position": 4,
+       "source_sequence_id": 24,
+       "domain": "general",
+       "expert_transfers": 3224
+      },
+      {
+       "sequence_position": 5,
+       "source_sequence_id": 25,
+       "domain": "general",
+       "expert_transfers": 2989
+      },
+      {
+       "sequence_position": 6,
+       "source_sequence_id": 26,
+       "domain": "general",
+       "expert_transfers": 3009
+      },
+      {
+       "sequence_position": 7,
+       "source_sequence_id": 27,
+       "domain": "general",
+       "expert_transfers": 895
+      },
+      {
+       "sequence_position": 8,
+       "source_sequence_id": 28,
+       "domain": "general",
+       "expert_transfers": 3098
+      },
+      {
+       "sequence_position": 9,
+       "source_sequence_id": 29,
+       "domain": "general",
+       "expert_transfers": 3103
+      },
+      {
+       "sequence_position": 10,
+       "source_sequence_id": 30,
+       "domain": "general",
+       "expert_transfers": 520
+      },
+      {
+       "sequence_position": 11,
+       "source_sequence_id": 31,
+       "domain": "general",
+       "expert_transfers": 3231
+      },
+      {
+       "sequence_position": 12,
+       "source_sequence_id": 32,
+       "domain": "general",
+       "expert_transfers": 3007
+      },
+      {
+       "sequence_position": 13,
+       "source_sequence_id": 33,
+       "domain": "general",
+       "expert_transfers": 180
+      },
+      {
+       "sequence_position": 14,
+       "source_sequence_id": 34,
+       "domain": "general",
+       "expert_transfers": 2503
+      },
+      {
+       "sequence_position": 15,
+       "source_sequence_id": 35,
+       "domain": "general",
+       "expert_transfers": 1631
+      },
+      {
+       "sequence_position": 16,
+       "source_sequence_id": 36,
+       "domain": "general",
+       "expert_transfers": 2167
+      },
+      {
+       "sequence_position": 17,
+       "source_sequence_id": 37,
+       "domain": "general",
+       "expert_transfers": 2545
+      },
+      {
+       "sequence_position": 18,
+       "source_sequence_id": 38,
+       "domain": "general",
+       "expert_transfers": 237
+      },
+      {
+       "sequence_position": 19,
+       "source_sequence_id": 39,
+       "domain": "general",
+       "expert_transfers": 604
+      }
+     ]
+    }
+   },
+   "aggregate": {
+    "events": 40960,
+    "eviction_decisions": 21102,
+    "transfers": 41472,
+    "ms_per_event_by_component": {
+     "features": 0.064332592578125,
+     "global_score": 0.09758489865722655,
+     "stage2": 0.0015192077392578124,
+     "bookkeeping": 0.025055365917968746,
+     "policy": 0.18849206489257814
+    },
+    "ms_per_token_policy": 3.01587303828125,
+    "all_checks_exact": true
+   }
+  },
+  "caer_gbt": {
+   "workloads": {
+    "stationary_general": {
+     "events": 40960,
+     "eviction_decisions": 20947,
+     "stage2_rows_scored": 543243,
+     "transfers": 41027,
+     "seconds_by_component": {
+      "features": 2.708460466,
+      "global_score": 3.812212399,
+      "stage2": 5.525187009,
+      "bookkeeping": 1.054153214,
+      "policy": 13.100013088
+     },
+     "ms_per_event_by_component": {
+      "features": 0.06612452309570313,
+      "global_score": 0.09307159177246094,
+      "stage2": 0.13489226096191406,
+      "bookkeeping": 0.025736162451171874,
+      "policy": 0.31982453828125
+     },
+     "ms_per_decision_policy": 0.6253885085215066,
+     "ms_per_token_policy": 5.1171926125,
+     "event_policy_ms_percentiles": {
+      "p50": 0.4627295,
+      "p90": 0.558333,
+      "p99": 0.588875,
+      "p99.9": 0.6338818470000007
+     },
+     "event_policy_ms_max": 0.763,
+     "wall_seconds": 13.20680037495913,
+     "check": {},
+     "per_sequence": [
+      {
+       "sequence_position": 0,
+       "source_sequence_id": 20,
+       "domain": "general",
+       "expert_transfers": 2514
+      },
+      {
+       "sequence_position": 1,
+       "source_sequence_id": 21,
+       "domain": "general",
+       "expert_transfers": 2566
+      },
+      {
+       "sequence_position": 2,
+       "source_sequence_id": 22,
+       "domain": "general",
+       "expert_transfers": 2965
+      },
+      {
+       "sequence_position": 3,
+       "source_sequence_id": 23,
+       "domain": "general",
+       "expert_transfers": 406
+      },
+      {
+       "sequence_position": 4,
+       "source_sequence_id": 24,
+       "domain": "general",
+       "expert_transfers": 3201
+      },
+      {
+       "sequence_position": 5,
+       "source_sequence_id": 25,
+       "domain": "general",
+       "expert_transfers": 2958
+      },
+      {
+       "sequence_position": 6,
+       "source_sequence_id": 26,
+       "domain": "general",
+       "expert_transfers": 3050
+      },
+      {
+       "sequence_position": 7,
+       "source_sequence_id": 27,
+       "domain": "general",
+       "expert_transfers": 869
+      },
+      {
+       "sequence_position": 8,
+       "source_sequence_id": 28,
+       "domain": "general",
+       "expert_transfers": 3075
+      },
+      {
+       "sequence_position": 9,
+       "source_sequence_id": 29,
+       "domain": "general",
+       "expert_transfers": 3070
+      },
+      {
+       "sequence_position": 10,
+       "source_sequence_id": 30,
+       "domain": "general",
+       "expert_transfers": 445
+      },
+      {
+       "sequence_position": 11,
+       "source_sequence_id": 31,
+       "domain": "general",
+       "expert_transfers": 3210
+      },
+      {
+       "sequence_position": 12,
+       "source_sequence_id": 32,
+       "domain": "general",
+       "expert_transfers": 3003
+      },
+      {
+       "sequence_position": 13,
+       "source_sequence_id": 33,
+       "domain": "general",
+       "expert_transfers": 168
+      },
+      {
+       "sequence_position": 14,
+       "source_sequence_id": 34,
+       "domain": "general",
+       "expert_transfers": 2492
+      },
+      {
+       "sequence_position": 15,
+       "source_sequence_id": 35,
+       "domain": "general",
+       "expert_transfers": 1564
+      },
+      {
+       "sequence_position": 16,
+       "source_sequence_id": 36,
+       "domain": "general",
+       "expert_transfers": 2184
+      },
+      {
+       "sequence_position": 17,
+       "source_sequence_id": 37,
+       "domain": "general",
+       "expert_transfers": 2512
+      },
+      {
+       "sequence_position": 18,
+       "source_sequence_id": 38,
+       "domain": "general",
+       "expert_transfers": 228
+      },
+      {
+       "sequence_position": 19,
+       "source_sequence_id": 39,
+       "domain": "general",
+       "expert_transfers": 547
+      }
+     ]
+    }
+   },
+   "aggregate": {
+    "events": 40960,
+    "eviction_decisions": 20947,
+    "transfers": 41027,
+    "ms_per_event_by_component": {
+     "features": 0.06612452309570313,
+     "global_score": 0.09307159177246094,
+     "stage2": 0.13489226096191403,
+     "bookkeeping": 0.025736162451171878,
+     "policy": 0.31982453828125
+    },
+    "ms_per_token_policy": 5.1171926125,
+    "all_checks_exact": true
+   }
+  }
+ }
+}

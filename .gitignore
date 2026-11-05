@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+logs/
+data/
+*.tar.gz
+measurement/stage3_residency/traces/
+measurement/stage3_residency/results/
+measurement/stage3_residency/reports/
+measurement/stage3_residency/stage1_prediction/configs/
+measurement/stage3_residency/stage1_prediction/results/
+measurement/stage3_residency/stage1_prediction/reports/
+measurement/stage3_residency/stage2_race/results/
+measurement/stage3_residency/stage3_ranking/results/
+*.out
+# large stage-2 training set that src/run_caer.py writes by default; no other script reads it
+results/caer_boundary_train_*.npz
+.DS_Store

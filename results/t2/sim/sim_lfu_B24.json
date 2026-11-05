@@ -1,0 +1,499 @@
+{
+ "arm": "lfu",
+ "capacity": 24,
+ "trace_hash": "2f3f5a8fe9a9da37e56815a279befbc24fcd1a7588433321e953275b3bbab8b3",
+ "frozen": {
+  "sync_bundle": "data/rankers/olmoe_setdev_policy.pkl",
+  "p2_bundle": "data/rankers/olmoe_frozen_lag_req_trees200.pkl",
+  "p1_bundle": "data/rankers/olmoe_frozen_lag_tok_trees200.pkl"
+ },
+ "paths": {
+  "calibration_mixed": {
+   "transfers": 327421,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 15,
+     "domain": "general",
+     "transfers": 5730
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 204,
+     "domain": "math",
+     "transfers": 3452
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 318,
+     "domain": "reasoning",
+     "transfers": 4294
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 317,
+     "domain": "reasoning",
+     "transfers": 4286
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 113,
+     "domain": "coding",
+     "transfers": 2897
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 314,
+     "domain": "reasoning",
+     "transfers": 4722
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 108,
+     "domain": "coding",
+     "transfers": 2655
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 4,
+     "domain": "general",
+     "transfers": 4836
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 313,
+     "domain": "reasoning",
+     "transfers": 4055
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 110,
+     "domain": "coding",
+     "transfers": 3070
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 106,
+     "domain": "coding",
+     "transfers": 2846
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 18,
+     "domain": "general",
+     "transfers": 5759
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 203,
+     "domain": "math",
+     "transfers": 4548
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 310,
+     "domain": "reasoning",
+     "transfers": 4955
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 300,
+     "domain": "reasoning",
+     "transfers": 5121
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 13,
+     "domain": "general",
+     "transfers": 4828
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 12,
+     "domain": "general",
+     "transfers": 3392
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 2,
+     "domain": "general",
+     "transfers": 4666
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 101,
+     "domain": "coding",
+     "transfers": 2923
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 218,
+     "domain": "math",
+     "transfers": 5699
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 9,
+     "domain": "general",
+     "transfers": 2889
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 319,
+     "domain": "reasoning",
+     "transfers": 4811
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 117,
+     "domain": "coding",
+     "transfers": 2197
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 5,
+     "domain": "general",
+     "transfers": 945
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 7,
+     "domain": "general",
+     "transfers": 5719
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 212,
+     "domain": "math",
+     "transfers": 5016
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 100,
+     "domain": "coding",
+     "transfers": 3222
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 205,
+     "domain": "math",
+     "transfers": 3189
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 3,
+     "domain": "general",
+     "transfers": 2359
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 309,
+     "domain": "reasoning",
+     "transfers": 5045
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 14,
+     "domain": "general",
+     "transfers": 5076
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 111,
+     "domain": "coding",
+     "transfers": 3105
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 312,
+     "domain": "reasoning",
+     "transfers": 4233
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 102,
+     "domain": "coding",
+     "transfers": 3073
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 19,
+     "domain": "general",
+     "transfers": 5169
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 301,
+     "domain": "reasoning",
+     "transfers": 4978
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 17,
+     "domain": "general",
+     "transfers": 2324
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 118,
+     "domain": "coding",
+     "transfers": 2833
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 208,
+     "domain": "math",
+     "transfers": 4827
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 200,
+     "domain": "math",
+     "transfers": 4531
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 308,
+     "domain": "reasoning",
+     "transfers": 4272
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 6,
+     "domain": "general",
+     "transfers": 6123
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 214,
+     "domain": "math",
+     "transfers": 4793
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 217,
+     "domain": "math",
+     "transfers": 4565
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 115,
+     "domain": "coding",
+     "transfers": 2525
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 104,
+     "domain": "coding",
+     "transfers": 3666
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 16,
+     "domain": "general",
+     "transfers": 5707
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 211,
+     "domain": "math",
+     "transfers": 3878
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 304,
+     "domain": "reasoning",
+     "transfers": 4192
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 306,
+     "domain": "reasoning",
+     "transfers": 4550
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 116,
+     "domain": "coding",
+     "transfers": 2904
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 207,
+     "domain": "math",
+     "transfers": 4110
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 8,
+     "domain": "general",
+     "transfers": 5477
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 219,
+     "domain": "math",
+     "transfers": 5786
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 305,
+     "domain": "reasoning",
+     "transfers": 5246
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 307,
+     "domain": "reasoning",
+     "transfers": 3889
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 112,
+     "domain": "coding",
+     "transfers": 2233
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 10,
+     "domain": "general",
+     "transfers": 5057
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 316,
+     "domain": "reasoning",
+     "transfers": 3866
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 119,
+     "domain": "coding",
+     "transfers": 2545
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 103,
+     "domain": "coding",
+     "transfers": 2940
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 209,
+     "domain": "math",
+     "transfers": 3848
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 311,
+     "domain": "reasoning",
+     "transfers": 4259
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 315,
+     "domain": "reasoning",
+     "transfers": 5074
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 215,
+     "domain": "math",
+     "transfers": 4899
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 105,
+     "domain": "coding",
+     "transfers": 3006
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 302,
+     "domain": "reasoning",
+     "transfers": 4446
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 216,
+     "domain": "math",
+     "transfers": 4756
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 303,
+     "domain": "reasoning",
+     "transfers": 5071
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 1,
+     "domain": "general",
+     "transfers": 5422
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 206,
+     "domain": "math",
+     "transfers": 5779
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 109,
+     "domain": "coding",
+     "transfers": 2842
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 201,
+     "domain": "math",
+     "transfers": 5046
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 210,
+     "domain": "math",
+     "transfers": 2276
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 0,
+     "domain": "general",
+     "transfers": 2732
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 11,
+     "domain": "general",
+     "transfers": 4242
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 213,
+     "domain": "math",
+     "transfers": 5144
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 114,
+     "domain": "coding",
+     "transfers": 2570
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 202,
+     "domain": "math",
+     "transfers": 4249
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 107,
+     "domain": "coding",
+     "transfers": 3161
+    }
+   ]
+  }
+ },
+ "transfers": 327421,
+ "wall_seconds": 13.296542874944862
+}

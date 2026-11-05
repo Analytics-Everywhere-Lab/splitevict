@@ -1,0 +1,47 @@
+{
+ "split": "fitted on calA (tables and model), deployed on calB",
+ "features": "frozen 45 causal, with and without the 5 causal token features",
+ "model": "HistGradientBoostingRegressor(127 leaves, 800 iters)",
+ "deployments": {
+  "B24_token": {
+   "cost": 139247,
+   "stage1": 153844,
+   "simple": 163604,
+   "oracle": 100454,
+   "gap_closed": 0.3857007125890736,
+   "vs_stage1": 0.09488182834559684,
+   "train_rows": 371688,
+   "seconds": 423.8519322919892
+  },
+  "B24_base": {
+   "cost": 141171,
+   "stage1": 153844,
+   "simple": 163604,
+   "oracle": 100454,
+   "gap_closed": 0.35523357086302454,
+   "vs_stage1": 0.08237565325914563,
+   "train_rows": 371688,
+   "seconds": 440.43013020802755
+  },
+  "B32_token": {
+   "cost": 86203,
+   "stage1": 97319,
+   "simple": 105187,
+   "oracle": 55739,
+   "gap_closed": 0.38391845979614947,
+   "vs_stage1": 0.11422229985922584,
+   "train_rows": 404683,
+   "seconds": 457.8903676670161
+  },
+  "B32_base": {
+   "cost": 88167,
+   "stage1": 97319,
+   "simple": 105187,
+   "oracle": 55739,
+   "gap_closed": 0.34419996764277627,
+   "vs_stage1": 0.09404124579989519,
+   "train_rows": 404683,
+   "seconds": 473.5766064169584
+  }
+ }
+}

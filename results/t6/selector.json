@@ -1,0 +1,63 @@
+{
+ "margin": 0.01,
+ "settings": {
+  "1": {
+   "policy": "splitphase",
+   "measured": 0.050597463087660825,
+   "ci": [
+    0.03595163968113491,
+    0.06730148109526415
+   ],
+   "kind": "clear_gain",
+   "correct": true,
+   "realized": 0.050597463087660825,
+   "regret": 0.0
+  },
+  "2": {
+   "policy": "splitphase",
+   "measured": 0.058683922036656656,
+   "ci": [
+    0.051944467563904646,
+    0.06618149464723001
+   ],
+   "kind": "clear_gain",
+   "correct": true,
+   "realized": 0.058683922036656656,
+   "regret": 0.0
+  },
+  "4": {
+   "policy": "splitphase",
+   "measured": 0.06232317260802629,
+   "ci": [
+    0.055218184851829034,
+    0.07025820872526921
+   ],
+   "kind": "clear_gain",
+   "correct": true,
+   "realized": 0.06232317260802629,
+   "regret": 0.0
+  },
+  "7": {
+   "policy": "splitphase",
+   "measured": 0.06521711389342072,
+   "ci": [
+    0.058022685646386234,
+    0.07312698634452412
+   ],
+   "kind": "clear_gain",
+   "correct": true,
+   "realized": 0.06521711389342072,
+   "regret": 0.0
+  }
+ },
+ "avoids_every_clear_loss": true,
+ "keeps_every_clear_gain": true,
+ "clear_losses": 0,
+ "clear_gains": 4,
+ "regret_sum": {
+  "selector": 0.0,
+  "always_splitphase": 0.0,
+  "always_lfu": 0.2368216716257645
+ },
+ "worst_realized": 0.050597463087660825
+}

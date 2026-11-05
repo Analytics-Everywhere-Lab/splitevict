@@ -1,0 +1,126 @@
+{
+ "trace": "t1",
+ "model": "olmoe",
+ "trace_hash": "2f3f5a8fe9a9da37e56815a279befbc24fcd1a7588433321e953275b3bbab8b3",
+ "fit": "frozen",
+ "capacities": {
+  "32": {
+   "hobbit_w": 0.1,
+   "paths": {
+    "lfu_decay": {
+     "stationary_general": 218144,
+     "stationary_coding": 126768,
+     "stationary_math": 211534,
+     "stationary_reasoning": 236601,
+     "general_to_coding": 344797,
+     "coding_to_general": 345030,
+     "general_to_math": 429608,
+     "math_to_reasoning": 447923,
+     "repeated_domain_cycle": 256541,
+     "mixed_interleaved": 822414
+    },
+    "lru": {
+     "stationary_general": 261937,
+     "stationary_coding": 142951,
+     "stationary_math": 264023,
+     "stationary_reasoning": 279886,
+     "general_to_coding": 404676,
+     "coding_to_general": 404687,
+     "general_to_math": 525801,
+     "math_to_reasoning": 543631,
+     "repeated_domain_cycle": 308481,
+     "mixed_interleaved": 956644
+    },
+    "hobbit": {
+     "stationary_general": 206956,
+     "stationary_coding": 126445,
+     "stationary_math": 202834,
+     "stationary_reasoning": 229815,
+     "general_to_coding": 333200,
+     "coding_to_general": 333185,
+     "general_to_math": 409593,
+     "math_to_reasoning": 432373,
+     "repeated_domain_cycle": 246752,
+     "mixed_interleaved": 776650
+    },
+    "moe_infinity": {
+     "stationary_general": 234893,
+     "stationary_coding": 126109,
+     "stationary_math": 222903,
+     "stationary_reasoning": 242190,
+     "general_to_coding": 360753,
+     "coding_to_general": 360803,
+     "general_to_math": 457308,
+     "math_to_reasoning": 464267,
+     "repeated_domain_cycle": 271381,
+     "mixed_interleaved": 832590
+    }
+   },
+   "totals": {
+    "lfu_decay": 3439360,
+    "lru": 4092717,
+    "hobbit": 3297803,
+    "moe_infinity": 3573197
+   }
+  },
+  "24": {
+   "hobbit_w": 0.15,
+   "paths": {
+    "lfu_decay": {
+     "stationary_general": 337293,
+     "stationary_coding": 218808,
+     "stationary_math": 345550,
+     "stationary_reasoning": 367852,
+     "general_to_coding": 556113,
+     "coding_to_general": 556308,
+     "general_to_math": 682867,
+     "math_to_reasoning": 713297,
+     "repeated_domain_cycle": 406292,
+     "mixed_interleaved": 1297500
+    },
+    "lru": {
+     "stationary_general": 388059,
+     "stationary_coding": 250451,
+     "stationary_math": 417607,
+     "stationary_reasoning": 414683,
+     "general_to_coding": 638396,
+     "coding_to_general": 638431,
+     "general_to_math": 805592,
+     "math_to_reasoning": 832120,
+     "repeated_domain_cycle": 470101,
+     "mixed_interleaved": 1476137
+    },
+    "hobbit": {
+     "stationary_general": 325830,
+     "stationary_coding": 219466,
+     "stationary_math": 336547,
+     "stationary_reasoning": 360947,
+     "general_to_coding": 545179,
+     "coding_to_general": 545175,
+     "general_to_math": 662276,
+     "math_to_reasoning": 697313,
+     "repeated_domain_cycle": 396455,
+     "mixed_interleaved": 1250117
+    },
+    "moe_infinity": {
+     "stationary_general": 355823,
+     "stationary_coding": 218324,
+     "stationary_math": 355581,
+     "stationary_reasoning": 373229,
+     "general_to_coding": 574060,
+     "coding_to_general": 574050,
+     "general_to_math": 710811,
+     "math_to_reasoning": 728330,
+     "repeated_domain_cycle": 421754,
+     "mixed_interleaved": 1305632
+    }
+   },
+   "totals": {
+    "lfu_decay": 5481880,
+    "lru": 6331577,
+    "hobbit": 5339305,
+    "moe_infinity": 5617594
+   }
+  }
+ }
+}

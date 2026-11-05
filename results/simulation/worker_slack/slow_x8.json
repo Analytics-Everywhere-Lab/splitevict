@@ -1,0 +1,77 @@
+{
+ "policy": "splitphase",
+ "capacity": 32,
+ "workers": 1,
+ "layer_ms": 2.6,
+ "tokens": 1280,
+ "events": 20480,
+ "transfers": 20522,
+ "wall_seconds": 83.8934618330095,
+ "ms_per_token_wall": 65.54176705703867,
+ "ms_per_token_emulated_gpu": 41.6,
+ "policy_ms_per_token": 23.83054772421875,
+ "policy_ms_per_event_p50_p99": [
+  0.9595005,
+  12.09032060999999
+ ],
+ "wait_ms_per_token": 23.351549883593748,
+ "events_that_waited": 11132,
+ "worker_busy_ms_per_token": [
+  65.41392977968749
+ ],
+ "ms_per_token_parts": {
+  "decide": 0.423664790625,
+  "post": 0.055333049999999995,
+  "begin_token": 0.0027769421875
+ },
+ "worker_profile": [
+  [
+   2570043180,
+   79744967069,
+   20490,
+   2565077
+  ]
+ ],
+ "per_sequence": [
+  {
+   "source_sequence_id": 308,
+   "transfers": 2223
+  },
+  {
+   "source_sequence_id": 6,
+   "transfers": 3195
+  },
+  {
+   "source_sequence_id": 214,
+   "transfers": 2808
+  },
+  {
+   "source_sequence_id": 217,
+   "transfers": 1880
+  },
+  {
+   "source_sequence_id": 115,
+   "transfers": 1288
+  },
+  {
+   "source_sequence_id": 104,
+   "transfers": 1398
+  },
+  {
+   "source_sequence_id": 16,
+   "transfers": 87
+  },
+  {
+   "source_sequence_id": 211,
+   "transfers": 2943
+  },
+  {
+   "source_sequence_id": 304,
+   "transfers": 2273
+  },
+  {
+   "source_sequence_id": 306,
+   "transfers": 2427
+  }
+ ]
+}

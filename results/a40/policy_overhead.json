@@ -1,0 +1,401 @@
+{
+ "schema_version": "policy_overhead_v1",
+ "status": "calibration-only tree sweep (calA -> calB) joined with replay timings; the sealed evaluation used 800 rounds",
+ "tree_sweep": [
+  {
+   "trees": 100,
+   "development": {
+    "24": {
+     "global_token_gbt": {
+      "transfers": 140160,
+      "oracle_gap_closed": 0.371243072050673
+     },
+     "caer_gbt": {
+      "transfers": 140336,
+      "oracle_gap_closed": 0.3684560570071259,
+      "reduction_vs_global": -0.0012557077625570776
+     }
+    },
+    "32": {
+     "global_token_gbt": {
+      "transfers": 86599,
+      "oracle_gap_closed": 0.3759100469179744
+     },
+     "caer_gbt": {
+      "transfers": 86296,
+      "oracle_gap_closed": 0.38203769616566896,
+      "reduction_vs_global": 0.0034988856684257325
+     }
+    }
+   },
+   "overhead": {
+    "host": {
+     "hostname": "dev-machine",
+     "platform": "macOS-27.0-arm64-arm-64bit",
+     "processor": "arm",
+     "python": "3.12.14",
+     "numpy": "2.5.3",
+     "scikit_learn": "1.9.0",
+     "numba": "0.68.0"
+    },
+    "backend": "numba",
+    "capacity": 32,
+    "limit_sequences": 20,
+    "policies": {
+     "global_token_gbt": {
+      "ms_per_event_by_component": {
+       "features": 0.064332592578125,
+       "global_score": 0.09758489865722655,
+       "stage2": 0.0015192077392578124,
+       "bookkeeping": 0.025055365917968746,
+       "policy": 0.18849206489257814
+      },
+      "ms_per_token_policy": 3.01587303828125,
+      "ms_per_decision_policy": 0.36587219116671404,
+      "event_policy_ms_percentiles": {
+       "p50": 0.2255,
+       "p90": 0.281625,
+       "p99": 0.3056002199999998,
+       "p99.9": 0.3395984160000018
+      }
+     },
+     "caer_gbt": {
+      "ms_per_event_by_component": {
+       "features": 0.06612452309570313,
+       "global_score": 0.09307159177246094,
+       "stage2": 0.13489226096191403,
+       "bookkeeping": 0.025736162451171878,
+       "policy": 0.31982453828125
+      },
+      "ms_per_token_policy": 5.1171926125,
+      "ms_per_decision_policy": 0.6253885085215066,
+      "event_policy_ms_percentiles": {
+       "p50": 0.4627295,
+       "p90": 0.558333,
+       "p99": 0.588875,
+       "p99.9": 0.6338818470000007
+      }
+     }
+    }
+   }
+  },
+  {
+   "trees": 200,
+   "development": {
+    "24": {
+     "global_token_gbt": {
+      "transfers": 139633,
+      "oracle_gap_closed": 0.3795882818685669
+     },
+     "caer_gbt": {
+      "transfers": 139936,
+      "oracle_gap_closed": 0.3747901821060966,
+      "reduction_vs_global": -0.002169974146512644
+     }
+    },
+    "32": {
+     "global_token_gbt": {
+      "transfers": 86302,
+      "oracle_gap_closed": 0.3819163565766057
+     },
+     "caer_gbt": {
+      "transfers": 85792,
+      "oracle_gap_closed": 0.3922302216469827,
+      "reduction_vs_global": 0.005909480660934856
+     }
+    }
+   },
+   "overhead": {
+    "host": {
+     "hostname": "dev-machine",
+     "platform": "macOS-27.0-arm64-arm-64bit",
+     "processor": "arm",
+     "python": "3.12.14",
+     "numpy": "2.5.3",
+     "scikit_learn": "1.9.0",
+     "numba": "0.68.0"
+    },
+    "backend": "numba",
+    "capacity": 32,
+    "limit_sequences": 20,
+    "policies": {
+     "global_token_gbt": {
+      "ms_per_event_by_component": {
+       "features": 0.06375509912109376,
+       "global_score": 0.13691056767578125,
+       "stage2": 0.0014739841064453124,
+       "bookkeeping": 0.024876444433593752,
+       "policy": 0.22701609533691408
+      },
+      "ms_per_token_policy": 3.6322575253906253,
+      "ms_per_decision_policy": 0.43991953754080526,
+      "event_policy_ms_percentiles": {
+       "p50": 0.2990625,
+       "p90": 0.36575,
+       "p99": 0.395375,
+       "p99.9": 0.4231667220000096
+      }
+     },
+     "caer_gbt": {
+      "ms_per_event_by_component": {
+       "features": 0.06057049829101563,
+       "global_score": 0.11890331909179686,
+       "stage2": 0.12105602785644531,
+       "bookkeeping": 0.022958742504882813,
+       "policy": 0.32348858774414063
+      },
+      "ms_per_token_policy": 5.17581740390625,
+      "ms_per_decision_policy": 0.6333696249521988,
+      "event_policy_ms_percentiles": {
+       "p50": 0.495584,
+       "p90": 0.5868791999999999,
+       "p99": 0.6644920299999997,
+       "p99.9": 0.7161677220000049
+      }
+     }
+    }
+   }
+  },
+  {
+   "trees": 400,
+   "development": {
+    "24": {
+     "global_token_gbt": {
+      "transfers": 139350,
+      "oracle_gap_closed": 0.38406967537608866
+     },
+     "caer_gbt": {
+      "transfers": 139609,
+      "oracle_gap_closed": 0.37996832937450514,
+      "reduction_vs_global": -0.0018586293505561536
+     }
+    },
+    "32": {
+     "global_token_gbt": {
+      "transfers": 86341,
+      "oracle_gap_closed": 0.38112764924769454
+     },
+     "caer_gbt": {
+      "transfers": 85756,
+      "oracle_gap_closed": 0.39295825918136223,
+      "reduction_vs_global": 0.0067754600942773425
+     }
+    }
+   },
+   "overhead": {
+    "host": {
+     "hostname": "dev-machine",
+     "platform": "macOS-27.0-arm64-arm-64bit",
+     "processor": "arm",
+     "python": "3.12.14",
+     "numpy": "2.5.3",
+     "scikit_learn": "1.9.0",
+     "numba": "0.68.0"
+    },
+    "backend": "numba",
+    "capacity": 32,
+    "limit_sequences": 20,
+    "policies": {
+     "global_token_gbt": {
+      "ms_per_event_by_component": {
+       "features": 0.06427875258789062,
+       "global_score": 0.1937400049072266,
+       "stage2": 0.0015045493408203125,
+       "bookkeeping": 0.024986455786132813,
+       "policy": 0.28450976262207034
+      },
+      "ms_per_token_policy": 4.552156201953125,
+      "ms_per_decision_policy": 0.5512284128943759,
+      "event_policy_ms_percentiles": {
+       "p50": 0.39727049999999997,
+       "p90": 0.482833,
+       "p99": 0.52029141,
+       "p99.9": 0.5509279720000013
+      }
+     },
+     "caer_gbt": {
+      "ms_per_event_by_component": {
+       "features": 0.06640133073730468,
+       "global_score": 0.19088870236816408,
+       "stage2": 0.14738174704589843,
+       "bookkeeping": 0.025725648144531255,
+       "policy": 0.43039742829589844
+      },
+      "ms_per_token_policy": 6.886358852734375,
+      "ms_per_decision_policy": 0.8406809090605627,
+      "event_policy_ms_percentiles": {
+       "p50": 0.6613960000000001,
+       "p90": 0.784458,
+       "p99": 0.8322010299999997,
+       "p99.9": 0.8756266810000002
+      }
+     }
+    }
+   }
+  },
+  {
+   "trees": 800,
+   "development": {
+    "24": {
+     "global_token_gbt": {
+      "transfers": 139247,
+      "oracle_gap_closed": 0.3857007125890736
+     },
+     "caer_gbt": {
+      "transfers": 139665,
+      "oracle_gap_closed": 0.37908155186064924,
+      "reduction_vs_global": -0.0030018600041652604
+     }
+    },
+    "32": {
+     "global_token_gbt": {
+      "transfers": 86203,
+      "oracle_gap_closed": 0.38391845979614947
+     },
+     "caer_gbt": {
+      "transfers": 85701,
+      "oracle_gap_closed": 0.3940705387477754,
+      "reduction_vs_global": 0.005823463220537568
+     }
+    }
+   },
+   "overhead": {
+    "host": {
+     "hostname": "dev-machine",
+     "platform": "macOS-27.0-arm64-arm-64bit",
+     "processor": "arm",
+     "python": "3.12.14",
+     "numpy": "2.5.3",
+     "scikit_learn": "1.9.0",
+     "numba": "0.68.0"
+    },
+    "backend": "numba",
+    "capacity": 32,
+    "limit_sequences": 20,
+    "policies": {
+     "global_token_gbt": {
+      "ms_per_event_by_component": {
+       "features": 0.06523088303222656,
+       "global_score": 0.28935971943359373,
+       "stage2": 0.0015796746093750002,
+       "bookkeeping": 0.02534253115234375,
+       "policy": 0.3815128082275391
+      },
+      "ms_per_token_policy": 6.104204931640625,
+      "ms_per_decision_policy": 0.7384002563436186,
+      "event_policy_ms_percentiles": {
+       "p50": 0.5594795,
+       "p90": 0.685208,
+       "p99": 0.7425588099999999,
+       "p99.9": 0.7884699720000014
+      }
+     },
+     "caer_gbt": {
+      "ms_per_event_by_component": {
+       "features": 0.06351874816894532,
+       "global_score": 0.2648496507080078,
+       "stage2": 0.13926742385253904,
+       "bookkeeping": 0.024213323681640624,
+       "policy": 0.49184914641113286
+      },
+      "ms_per_token_policy": 7.869586342578126,
+      "ms_per_decision_policy": 0.9586552955983821,
+      "event_policy_ms_percentiles": {
+       "p50": 0.7587710000000001,
+       "p90": 0.9542961,
+       "p99": 1.0292178399999994,
+       "p99.9": 1.0886704030000005
+      }
+     }
+    }
+   }
+  }
+ ],
+ "full_policy_replay_b32": {
+  "host": {
+   "hostname": "dev-machine",
+   "platform": "macOS-27.0-arm64-arm-64bit",
+   "processor": "arm",
+   "python": "3.12.14",
+   "numpy": "2.5.3",
+   "scikit_learn": "1.9.0",
+   "numba": "0.68.0"
+  },
+  "backend": "numba",
+  "capacity": 32,
+  "policies": {
+   "lru": {
+    "events": 2820608,
+    "eviction_decisions": 1772910,
+    "transfers": 3972050,
+    "ms_per_event_by_component": {
+     "policy": 0.006394445198694749
+    },
+    "ms_per_token_policy": 0.10231112317911599,
+    "all_checks_exact": true
+   },
+   "lfu_decay": {
+    "events": 2820608,
+    "eviction_decisions": 1662087,
+    "transfers": 3299634,
+    "ms_per_event_by_component": {
+     "policy": 0.007450677473438351
+    },
+    "ms_per_token_policy": 0.11921083957501362,
+    "all_checks_exact": true
+   },
+   "static_hotset": {
+    "events": 2820608,
+    "eviction_decisions": 1981423,
+    "transfers": 4706470,
+    "ms_per_event_by_component": {
+     "policy": 0.006377414488649257
+    },
+    "ms_per_token_policy": 0.10203863181838811,
+    "all_checks_exact": true
+   },
+   "global_token_gbt": {
+    "events": 2820608,
+    "eviction_decisions": 1549091,
+    "transfers": 2785556,
+    "ms_per_event_by_component": {
+     "features": 0.07115313679036576,
+     "global_score": 0.3306712365684987,
+     "stage2": 0.0021021027934402794,
+     "bookkeeping": 0.026626394792895722,
+     "policy": 0.43055287094520045
+    },
+    "ms_per_token_policy": 6.888845935123207,
+    "all_checks_exact": true
+   },
+   "caer_logistic": {
+    "events": 2820608,
+    "eviction_decisions": 1533613,
+    "transfers": 2757285,
+    "ms_per_event_by_component": {
+     "features": 0.11261815129823076,
+     "global_score": 0.4834457292413551,
+     "stage2": 0.07290260542549692,
+     "bookkeeping": 0.04185048861841136,
+     "policy": 0.710816974583494
+    },
+    "ms_per_token_policy": 11.373071593335904,
+    "all_checks_exact": true
+   },
+   "caer_gbt": {
+    "events": 2820608,
+    "eviction_decisions": 1528272,
+    "transfers": 2747327,
+    "ms_per_event_by_component": {
+     "features": 0.07086092754505412,
+     "global_score": 0.33150678459112354,
+     "stage2": 0.17481061177554627,
+     "bookkeeping": 0.026394514206511507,
+     "policy": 0.6035728381182356
+    },
+    "ms_per_token_policy": 9.65716540989177,
+    "all_checks_exact": true
+   }
+  }
+ }
+}

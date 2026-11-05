@@ -1,0 +1,342 @@
+{
+ "model": "olmoe",
+ "capacity": 32,
+ "host": "h100-node",
+ "fidelity": {
+  "copy_repeat_as_sealed": true,
+  "passes_as_sealed": true,
+  "arms_as_sealed": true,
+  "hobbit_w_as_sealed": true,
+  "nvme_calibration": {
+   "direct_io": true,
+   "readback_equal": true,
+   "page_cache_growth_kib": -72620,
+   "page_cache_held": true,
+   "probe_ms_mean": [
+    2.666801828125,
+    2.5742455468750003
+   ],
+   "repeat_ms": [
+    [
+     2.441929,
+     2.996346
+    ],
+    [
+     3.047247,
+     2.37374
+    ]
+   ]
+  },
+  "nvme_sealed_run": {
+   "direct_io": true,
+   "readback_equal": true,
+   "page_cache_growth_kib": -911040,
+   "page_cache_held": true,
+   "probe_ms_mean": [
+    2.8449795,
+    2.730455
+   ],
+   "repeat_ms": [
+    [
+     3.395683,
+     3.385519
+    ],
+    [
+     3.410853,
+     3.387824
+    ]
+   ]
+  },
+  "lfu_decay": {
+   "routing_all_events": true,
+   "token_agreement": [
+    1.0
+   ],
+   "simulator_equal_every_pass": true,
+   "reads_equal_transfers": true
+  },
+  "hobbit": {
+   "routing_all_events": true,
+   "token_agreement": [
+    1.0
+   ],
+   "simulator_equal_every_pass": true,
+   "reads_equal_transfers": true
+  },
+  "splitphase": {
+   "routing_all_events": true,
+   "token_agreement": [
+    1.0
+   ],
+   "simulator_equal_every_pass": true,
+   "reads_equal_transfers": true
+  },
+  "global_token_gbt": {
+   "routing_all_events": true,
+   "token_agreement": [
+    1.0
+   ],
+   "simulator_equal_every_pass": true,
+   "reads_equal_transfers": true
+  }
+ },
+ "comparisons": {
+  "splitphase vs lfu_decay": {
+   "a_priori": 0.11525655327311958,
+   "calibration_gain": 0.12396726211778934,
+   "model_run_costs": 0.08779427255242524,
+   "estimate": {
+    "gain": 0.11491133260992534,
+    "ci": [
+     0.10326034983805507,
+     0.1255815798049169
+    ],
+    "faster": 39,
+    "units": 40
+   },
+   "above_zero": true,
+   "below_zero": false
+  },
+  "hobbit vs lfu_decay": {
+   "a_priori": 0.03512716253278907,
+   "calibration_gain": 0.033812087811762204,
+   "model_run_costs": 0.030307289526807935,
+   "estimate": {
+    "gain": 0.03802873363363751,
+    "ci": [
+     0.028959040695285872,
+     0.04525493133440551
+    ],
+    "faster": 34,
+    "units": 40
+   },
+   "above_zero": true,
+   "below_zero": false
+  },
+  "splitphase vs hobbit": {
+   "a_priori": 0.08329707293961269,
+   "calibration_gain": 0.09331018652659634,
+   "model_run_costs": 0.05977513559907364,
+   "estimate": {
+    "gain": 0.07992192871487228,
+    "ci": [
+     0.07108371295954437,
+     0.08892435247111223
+    ],
+    "faster": 38,
+    "units": 40
+   },
+   "above_zero": true,
+   "below_zero": false
+  },
+  "global_token_gbt vs lfu_decay": {
+   "a_priori": 0.03888234490963558,
+   "calibration_gain": 0.045293838425536234,
+   "model_run_costs": -0.11974541574755869,
+   "estimate": {
+    "gain": 0.031619712049071595,
+    "ci": [
+     0.014876584673680852,
+     0.04836397932040995
+    ],
+    "faster": 29,
+    "units": 40
+   },
+   "above_zero": true,
+   "below_zero": false
+  },
+  "splitphase vs global_token_gbt": {
+   "a_priori": 0.078867991546059,
+   "calibration_gain": 0.08240590336455776,
+   "model_run_costs": 0.21091386953825086,
+   "estimate": {
+    "gain": 0.08601127222147098,
+    "ci": [
+     0.07972501649718175,
+     0.0922597278878127
+    ],
+    "faster": 40,
+    "units": 40
+   },
+   "above_zero": true,
+   "below_zero": false
+  }
+ },
+ "arms": {
+  "lfu_decay": {
+   "wall": 119.90035988984376,
+   "demand": 20.7208984375,
+   "t_copy": 3.163388719468015,
+   "t_issue": 0.16377392858018117,
+   "policy": 2.42083456171875
+  },
+  "hobbit": {
+   "wall": 115.34070104101563,
+   "demand": 19.4419921875,
+   "t_copy": 3.150228201796298,
+   "t_issue": 0.1651679309544619,
+   "policy": 3.034584610546875
+  },
+  "splitphase": {
+   "wall": 106.12244975449218,
+   "demand": 17.2439453125,
+   "t_copy": 3.126686503198053,
+   "t_issue": 0.16567781286456978,
+   "policy": 3.402162168359375
+  },
+  "global_token_gbt": {
+   "wall": 116.10914503554686,
+   "demand": 16.9818359375,
+   "t_copy": 2.922190614125987,
+   "t_issue": 0.1403088055597088,
+   "policy": 28.724025917578125
+  }
+ },
+ "simulated_per_token": {
+  "lfu_decay": {
+   "demand": 20.7208984375,
+   "prefetch": 0.0
+  },
+  "hobbit": {
+   "demand": 19.4419921875,
+   "prefetch": 0.0
+  },
+  "splitphase": {
+   "demand": 17.2439453125,
+   "prefetch": 0.0
+  },
+  "global_token_gbt": {
+   "demand": 16.9818359375,
+   "prefetch": 0.0
+  }
+ },
+ "costs_calibration": {
+  "t_copy": 2.936802982937059,
+  "t_issue": 0.15867567325671064,
+  "t_pf_issue": 0.0,
+  "passes": 1,
+  "arms": {
+   "lfu_decay": {
+    "wall": 115.9990002039084,
+    "demand": 20.879392025266483,
+    "prefetch": 0.0,
+    "policy": 2.3700677962889856,
+    "residual": 0.0
+   },
+   "hobbit": {
+    "wall": 112.07683182293722,
+    "demand": 19.694038689301223,
+    "prefetch": 0.0,
+    "policy": 2.966831213975523,
+    "residual": -0.8496958471291642
+   },
+   "splitphase": {
+    "wall": 101.61892174022898,
+    "demand": 17.221279115673116,
+    "prefetch": 0.0,
+    "policy": 3.28976400809317,
+    "residual": -3.976164241890441
+   },
+   "global_token_gbt": {
+    "wall": 110.74496023114882,
+    "demand": 16.949072246348205,
+    "prefetch": 0.0,
+    "policy": 27.224345222660876,
+    "residual": -17.942096411473717
+   }
+  },
+  "label": "e18/olmoe/cal_B32_nvme",
+  "capacity": 32
+ },
+ "costs_frozen_equal": true,
+ "breakeven_copy_ms": {
+  "hobbit": -0.37205713662995715,
+  "splitphase": -0.9942070266139833,
+  "global_token_gbt": 1.6000059108663445
+ },
+ "per_copy": {
+  "lfu_decay": {
+   "read_ms": 2.9622673032585234,
+   "copy_ms": 3.163388719468015,
+   "issue_ms": 0.16377392858018117,
+   "reads_equal_transfers": true
+  },
+  "hobbit": {
+   "read_ms": 2.945382792481641,
+   "copy_ms": 3.150228201796298,
+   "issue_ms": 0.1651679309544619,
+   "reads_equal_transfers": true
+  },
+  "splitphase": {
+   "read_ms": 2.91590380637452,
+   "copy_ms": 3.126686503198053,
+   "issue_ms": 0.16567781286456978,
+   "reads_equal_transfers": true
+  },
+  "global_token_gbt": {
+   "read_ms": 2.7232956966772863,
+   "copy_ms": 2.922190614125987,
+   "issue_ms": 0.1403088055597088,
+   "reads_equal_transfers": true
+  }
+ },
+ "hypotheses": {
+  "P1": {
+   "comparison": "splitphase vs lfu_decay",
+   "exists": true,
+   "criterion": "above",
+   "measured": 0.11491133260992534,
+   "ci": [
+    0.10326034983805507,
+    0.1255815798049169
+   ],
+   "a_priori": 0.11525655327311958,
+   "met": true
+  },
+  "S1": {
+   "comparison": "splitphase vs hobbit",
+   "exists": true,
+   "criterion": "above",
+   "measured": 0.07992192871487228,
+   "ci": [
+    0.07108371295954437,
+    0.08892435247111223
+   ],
+   "a_priori": 0.08329707293961269,
+   "met": true
+  },
+  "S2": {
+   "comparison": "global_token_gbt vs lfu_decay",
+   "exists": true,
+   "criterion": "above",
+   "measured": 0.031619712049071595,
+   "ci": [
+    0.014876584673680852,
+    0.04836397932040995
+   ],
+   "a_priori": 0.03888234490963558,
+   "met": true
+  },
+  "S3": {
+   "comparison": "splitphase vs global_token_gbt",
+   "exists": true,
+   "criterion": "above",
+   "measured": 0.08601127222147098,
+   "ci": [
+    0.07972501649718175,
+    0.0922597278878127
+   ],
+   "a_priori": 0.078867991546059,
+   "met": true
+  }
+ },
+ "a_priori": {
+  "comparisons": 5,
+  "decisive": 5,
+  "A1_sign_agreement_decisive": true,
+  "sign_misses": [],
+  "median_abs_error": 0.0033751442247404173,
+  "A2_median_abs_error_at_most_1pt": true,
+  "inside_interval": 4
+ }
+}

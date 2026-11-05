@@ -1,0 +1,231 @@
+{
+ "arm": "lag_req_mix0_native",
+ "refresh": 1,
+ "touch": false,
+ "mix_layer0": true,
+ "lag_bundle": "data/rankers/olmoe_dev_lag_req_trees200.pkl",
+ "refreshes": 0,
+ "touch_rows": 0,
+ "source": "lag_req",
+ "window": "none",
+ "w": 2,
+ "capacity": 24,
+ "bundle": "data/rankers/olmoe_setdev_dev_trees800.pkl",
+ "deploy": "calB",
+ "sequences": 40,
+ "transfers": 141428,
+ "decisions": 62021,
+ "disagree_decisions": 0,
+ "disagree_fraction": 0.0,
+ "offset_histogram": {},
+ "fraction_within_cutoff_w2": null,
+ "window_covers_disagreement": 0.0,
+ "window_fixed_disagreement": 0.0,
+ "timing_ms_per_decision": {
+  "lag_features_ns": 0.07580574368359104,
+  "lag_score_ns": 0.175390168733171
+ },
+ "wall_seconds": 23.02277070900891,
+ "per_sequence": [
+  {
+   "source_sequence_id": 308,
+   "position": 0,
+   "transfers": 3177
+  },
+  {
+   "source_sequence_id": 6,
+   "position": 1,
+   "transfers": 4709
+  },
+  {
+   "source_sequence_id": 214,
+   "position": 2,
+   "transfers": 4508
+  },
+  {
+   "source_sequence_id": 217,
+   "position": 3,
+   "transfers": 3353
+  },
+  {
+   "source_sequence_id": 115,
+   "position": 4,
+   "transfers": 2174
+  },
+  {
+   "source_sequence_id": 104,
+   "position": 5,
+   "transfers": 2444
+  },
+  {
+   "source_sequence_id": 16,
+   "position": 6,
+   "transfers": 138
+  },
+  {
+   "source_sequence_id": 211,
+   "position": 7,
+   "transfers": 4367
+  },
+  {
+   "source_sequence_id": 304,
+   "position": 8,
+   "transfers": 3748
+  },
+  {
+   "source_sequence_id": 306,
+   "position": 9,
+   "transfers": 3809
+  },
+  {
+   "source_sequence_id": 116,
+   "position": 10,
+   "transfers": 2983
+  },
+  {
+   "source_sequence_id": 207,
+   "position": 11,
+   "transfers": 3516
+  },
+  {
+   "source_sequence_id": 8,
+   "position": 12,
+   "transfers": 4853
+  },
+  {
+   "source_sequence_id": 219,
+   "position": 13,
+   "transfers": 4434
+  },
+  {
+   "source_sequence_id": 305,
+   "position": 14,
+   "transfers": 4167
+  },
+  {
+   "source_sequence_id": 307,
+   "position": 15,
+   "transfers": 4052
+  },
+  {
+   "source_sequence_id": 112,
+   "position": 16,
+   "transfers": 2707
+  },
+  {
+   "source_sequence_id": 10,
+   "position": 17,
+   "transfers": 3750
+  },
+  {
+   "source_sequence_id": 316,
+   "position": 18,
+   "transfers": 4717
+  },
+  {
+   "source_sequence_id": 119,
+   "position": 19,
+   "transfers": 3247
+  },
+  {
+   "source_sequence_id": 103,
+   "position": 20,
+   "transfers": 2274
+  },
+  {
+   "source_sequence_id": 209,
+   "position": 21,
+   "transfers": 2797
+  },
+  {
+   "source_sequence_id": 311,
+   "position": 22,
+   "transfers": 4739
+  },
+  {
+   "source_sequence_id": 315,
+   "position": 23,
+   "transfers": 3988
+  },
+  {
+   "source_sequence_id": 215,
+   "position": 24,
+   "transfers": 4380
+  },
+  {
+   "source_sequence_id": 105,
+   "position": 25,
+   "transfers": 1672
+  },
+  {
+   "source_sequence_id": 302,
+   "position": 26,
+   "transfers": 4486
+  },
+  {
+   "source_sequence_id": 216,
+   "position": 27,
+   "transfers": 4118
+  },
+  {
+   "source_sequence_id": 303,
+   "position": 28,
+   "transfers": 4104
+  },
+  {
+   "source_sequence_id": 1,
+   "position": 29,
+   "transfers": 4393
+  },
+  {
+   "source_sequence_id": 206,
+   "position": 30,
+   "transfers": 4099
+  },
+  {
+   "source_sequence_id": 109,
+   "position": 31,
+   "transfers": 2382
+  },
+  {
+   "source_sequence_id": 201,
+   "position": 32,
+   "transfers": 2879
+  },
+  {
+   "source_sequence_id": 210,
+   "position": 33,
+   "transfers": 4305
+  },
+  {
+   "source_sequence_id": 0,
+   "position": 34,
+   "transfers": 3740
+  },
+  {
+   "source_sequence_id": 11,
+   "position": 35,
+   "transfers": 4534
+  },
+  {
+   "source_sequence_id": 213,
+   "position": 36,
+   "transfers": 4441
+  },
+  {
+   "source_sequence_id": 114,
+   "position": 37,
+   "transfers": 2548
+  },
+  {
+   "source_sequence_id": 202,
+   "position": 38,
+   "transfers": 2460
+  },
+  {
+   "source_sequence_id": 107,
+   "position": 39,
+   "transfers": 2236
+  }
+ ]
+}

@@ -1,0 +1,8344 @@
+{
+ "arm": "lfu",
+ "capacity": 32,
+ "trace_hash": "2f3f5a8fe9a9da37e56815a279befbc24fcd1a7588433321e953275b3bbab8b3",
+ "frozen": {
+  "sync_bundle": "data/rankers/olmoe_setdev_policy.pkl",
+  "p2_bundle": "data/rankers/olmoe_frozen_lag_req_trees200.pkl",
+  "p1_bundle": "data/rankers/olmoe_frozen_lag_tok_trees200.pkl"
+ },
+ "paths": {
+  "stationary_general": {
+   "transfers": 218144,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 20,
+     "domain": "general",
+     "transfers": 4264
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 21,
+     "domain": "general",
+     "transfers": 3377
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 22,
+     "domain": "general",
+     "transfers": 3422
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 23,
+     "domain": "general",
+     "transfers": 3484
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 24,
+     "domain": "general",
+     "transfers": 3160
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 25,
+     "domain": "general",
+     "transfers": 521
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 26,
+     "domain": "general",
+     "transfers": 2482
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 27,
+     "domain": "general",
+     "transfers": 2825
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 28,
+     "domain": "general",
+     "transfers": 2858
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 29,
+     "domain": "general",
+     "transfers": 3014
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 30,
+     "domain": "general",
+     "transfers": 2033
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 31,
+     "domain": "general",
+     "transfers": 126
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 32,
+     "domain": "general",
+     "transfers": 96
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 33,
+     "domain": "general",
+     "transfers": 3230
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 34,
+     "domain": "general",
+     "transfers": 3209
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 35,
+     "domain": "general",
+     "transfers": 3356
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 36,
+     "domain": "general",
+     "transfers": 2826
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 37,
+     "domain": "general",
+     "transfers": 560
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 38,
+     "domain": "general",
+     "transfers": 3451
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 39,
+     "domain": "general",
+     "transfers": 2352
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 40,
+     "domain": "general",
+     "transfers": 2922
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 41,
+     "domain": "general",
+     "transfers": 3997
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 42,
+     "domain": "general",
+     "transfers": 3597
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 43,
+     "domain": "general",
+     "transfers": 2909
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 44,
+     "domain": "general",
+     "transfers": 483
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 45,
+     "domain": "general",
+     "transfers": 3906
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 46,
+     "domain": "general",
+     "transfers": 3443
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 47,
+     "domain": "general",
+     "transfers": 3406
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 48,
+     "domain": "general",
+     "transfers": 3740
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 49,
+     "domain": "general",
+     "transfers": 3509
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 50,
+     "domain": "general",
+     "transfers": 2341
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 51,
+     "domain": "general",
+     "transfers": 3359
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 52,
+     "domain": "general",
+     "transfers": 2920
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 53,
+     "domain": "general",
+     "transfers": 3429
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 54,
+     "domain": "general",
+     "transfers": 3969
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 55,
+     "domain": "general",
+     "transfers": 2834
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 56,
+     "domain": "general",
+     "transfers": 296
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 57,
+     "domain": "general",
+     "transfers": 2946
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 58,
+     "domain": "general",
+     "transfers": 3273
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 59,
+     "domain": "general",
+     "transfers": 2085
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 60,
+     "domain": "general",
+     "transfers": 168
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 61,
+     "domain": "general",
+     "transfers": 4071
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 62,
+     "domain": "general",
+     "transfers": 3194
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 63,
+     "domain": "general",
+     "transfers": 3246
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 64,
+     "domain": "general",
+     "transfers": 3225
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 65,
+     "domain": "general",
+     "transfers": 709
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 66,
+     "domain": "general",
+     "transfers": 3591
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 67,
+     "domain": "general",
+     "transfers": 3443
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 68,
+     "domain": "general",
+     "transfers": 3208
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 69,
+     "domain": "general",
+     "transfers": 894
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 70,
+     "domain": "general",
+     "transfers": 3095
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 71,
+     "domain": "general",
+     "transfers": 3620
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 72,
+     "domain": "general",
+     "transfers": 4094
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 73,
+     "domain": "general",
+     "transfers": 4056
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 74,
+     "domain": "general",
+     "transfers": 1822
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 75,
+     "domain": "general",
+     "transfers": 2987
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 76,
+     "domain": "general",
+     "transfers": 3274
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 77,
+     "domain": "general",
+     "transfers": 3556
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 78,
+     "domain": "general",
+     "transfers": 643
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 79,
+     "domain": "general",
+     "transfers": 842
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 80,
+     "domain": "general",
+     "transfers": 1392
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 81,
+     "domain": "general",
+     "transfers": 418
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 82,
+     "domain": "general",
+     "transfers": 3880
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 83,
+     "domain": "general",
+     "transfers": 3436
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 84,
+     "domain": "general",
+     "transfers": 901
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 85,
+     "domain": "general",
+     "transfers": 2846
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 86,
+     "domain": "general",
+     "transfers": 3469
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 87,
+     "domain": "general",
+     "transfers": 2058
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 88,
+     "domain": "general",
+     "transfers": 3485
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 89,
+     "domain": "general",
+     "transfers": 3930
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 90,
+     "domain": "general",
+     "transfers": 2822
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 91,
+     "domain": "general",
+     "transfers": 2958
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 92,
+     "domain": "general",
+     "transfers": 3281
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 93,
+     "domain": "general",
+     "transfers": 3180
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 94,
+     "domain": "general",
+     "transfers": 3673
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 95,
+     "domain": "general",
+     "transfers": 2452
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 96,
+     "domain": "general",
+     "transfers": 1971
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 97,
+     "domain": "general",
+     "transfers": 3782
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 98,
+     "domain": "general",
+     "transfers": 796
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 99,
+     "domain": "general",
+     "transfers": 3666
+    }
+   ]
+  },
+  "stationary_coding": {
+   "transfers": 126768,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 120,
+     "domain": "coding",
+     "transfers": 2163
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 121,
+     "domain": "coding",
+     "transfers": 1432
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 122,
+     "domain": "coding",
+     "transfers": 1711
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 123,
+     "domain": "coding",
+     "transfers": 1592
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 124,
+     "domain": "coding",
+     "transfers": 1388
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 125,
+     "domain": "coding",
+     "transfers": 771
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 126,
+     "domain": "coding",
+     "transfers": 1529
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 127,
+     "domain": "coding",
+     "transfers": 799
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 128,
+     "domain": "coding",
+     "transfers": 1487
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 129,
+     "domain": "coding",
+     "transfers": 1700
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 130,
+     "domain": "coding",
+     "transfers": 1916
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 131,
+     "domain": "coding",
+     "transfers": 1809
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 132,
+     "domain": "coding",
+     "transfers": 1487
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 133,
+     "domain": "coding",
+     "transfers": 1215
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 134,
+     "domain": "coding",
+     "transfers": 1690
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 135,
+     "domain": "coding",
+     "transfers": 1907
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 136,
+     "domain": "coding",
+     "transfers": 1707
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 137,
+     "domain": "coding",
+     "transfers": 1475
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 138,
+     "domain": "coding",
+     "transfers": 1796
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 139,
+     "domain": "coding",
+     "transfers": 1779
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 140,
+     "domain": "coding",
+     "transfers": 1604
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 141,
+     "domain": "coding",
+     "transfers": 1657
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 142,
+     "domain": "coding",
+     "transfers": 1499
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 143,
+     "domain": "coding",
+     "transfers": 1207
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 144,
+     "domain": "coding",
+     "transfers": 1767
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 145,
+     "domain": "coding",
+     "transfers": 1993
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 146,
+     "domain": "coding",
+     "transfers": 1661
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 147,
+     "domain": "coding",
+     "transfers": 1628
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 148,
+     "domain": "coding",
+     "transfers": 1797
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 149,
+     "domain": "coding",
+     "transfers": 755
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 150,
+     "domain": "coding",
+     "transfers": 1622
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 151,
+     "domain": "coding",
+     "transfers": 1919
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 152,
+     "domain": "coding",
+     "transfers": 1689
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 153,
+     "domain": "coding",
+     "transfers": 1513
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 154,
+     "domain": "coding",
+     "transfers": 1371
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 155,
+     "domain": "coding",
+     "transfers": 1329
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 156,
+     "domain": "coding",
+     "transfers": 720
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 157,
+     "domain": "coding",
+     "transfers": 1516
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 158,
+     "domain": "coding",
+     "transfers": 1738
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 159,
+     "domain": "coding",
+     "transfers": 1784
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 160,
+     "domain": "coding",
+     "transfers": 1623
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 161,
+     "domain": "coding",
+     "transfers": 1568
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 162,
+     "domain": "coding",
+     "transfers": 1730
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 163,
+     "domain": "coding",
+     "transfers": 1692
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 164,
+     "domain": "coding",
+     "transfers": 1521
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 165,
+     "domain": "coding",
+     "transfers": 1634
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 166,
+     "domain": "coding",
+     "transfers": 1688
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 167,
+     "domain": "coding",
+     "transfers": 1477
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 168,
+     "domain": "coding",
+     "transfers": 1460
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 169,
+     "domain": "coding",
+     "transfers": 1252
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 170,
+     "domain": "coding",
+     "transfers": 1559
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 171,
+     "domain": "coding",
+     "transfers": 1374
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 172,
+     "domain": "coding",
+     "transfers": 1722
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 173,
+     "domain": "coding",
+     "transfers": 1745
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 174,
+     "domain": "coding",
+     "transfers": 2057
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 175,
+     "domain": "coding",
+     "transfers": 1398
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 176,
+     "domain": "coding",
+     "transfers": 1692
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 177,
+     "domain": "coding",
+     "transfers": 1750
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 178,
+     "domain": "coding",
+     "transfers": 1751
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 179,
+     "domain": "coding",
+     "transfers": 2318
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 180,
+     "domain": "coding",
+     "transfers": 1613
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 181,
+     "domain": "coding",
+     "transfers": 1843
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 182,
+     "domain": "coding",
+     "transfers": 1965
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 183,
+     "domain": "coding",
+     "transfers": 794
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 184,
+     "domain": "coding",
+     "transfers": 1702
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 185,
+     "domain": "coding",
+     "transfers": 1757
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 186,
+     "domain": "coding",
+     "transfers": 2011
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 187,
+     "domain": "coding",
+     "transfers": 2358
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 188,
+     "domain": "coding",
+     "transfers": 1337
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 189,
+     "domain": "coding",
+     "transfers": 1407
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 190,
+     "domain": "coding",
+     "transfers": 1851
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 191,
+     "domain": "coding",
+     "transfers": 1543
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 192,
+     "domain": "coding",
+     "transfers": 746
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 193,
+     "domain": "coding",
+     "transfers": 1947
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 194,
+     "domain": "coding",
+     "transfers": 1492
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 195,
+     "domain": "coding",
+     "transfers": 1498
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 196,
+     "domain": "coding",
+     "transfers": 1489
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 197,
+     "domain": "coding",
+     "transfers": 1759
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 198,
+     "domain": "coding",
+     "transfers": 929
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 199,
+     "domain": "coding",
+     "transfers": 1594
+    }
+   ]
+  },
+  "stationary_math": {
+   "transfers": 211534,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 220,
+     "domain": "math",
+     "transfers": 2145
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 221,
+     "domain": "math",
+     "transfers": 1896
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 222,
+     "domain": "math",
+     "transfers": 2968
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 223,
+     "domain": "math",
+     "transfers": 1428
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 224,
+     "domain": "math",
+     "transfers": 2979
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 225,
+     "domain": "math",
+     "transfers": 2419
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 226,
+     "domain": "math",
+     "transfers": 3535
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 227,
+     "domain": "math",
+     "transfers": 3378
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 228,
+     "domain": "math",
+     "transfers": 2566
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 229,
+     "domain": "math",
+     "transfers": 1481
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 230,
+     "domain": "math",
+     "transfers": 3716
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 231,
+     "domain": "math",
+     "transfers": 3487
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 232,
+     "domain": "math",
+     "transfers": 3157
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 233,
+     "domain": "math",
+     "transfers": 2791
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 234,
+     "domain": "math",
+     "transfers": 2795
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 235,
+     "domain": "math",
+     "transfers": 2634
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 236,
+     "domain": "math",
+     "transfers": 3115
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 237,
+     "domain": "math",
+     "transfers": 3352
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 238,
+     "domain": "math",
+     "transfers": 2825
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 239,
+     "domain": "math",
+     "transfers": 3097
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 240,
+     "domain": "math",
+     "transfers": 2568
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 241,
+     "domain": "math",
+     "transfers": 2493
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 242,
+     "domain": "math",
+     "transfers": 3189
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 243,
+     "domain": "math",
+     "transfers": 3812
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 244,
+     "domain": "math",
+     "transfers": 1605
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 245,
+     "domain": "math",
+     "transfers": 2182
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 246,
+     "domain": "math",
+     "transfers": 3036
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 247,
+     "domain": "math",
+     "transfers": 3654
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 248,
+     "domain": "math",
+     "transfers": 2658
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 249,
+     "domain": "math",
+     "transfers": 1656
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 250,
+     "domain": "math",
+     "transfers": 1330
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 251,
+     "domain": "math",
+     "transfers": 2797
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 252,
+     "domain": "math",
+     "transfers": 1689
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 253,
+     "domain": "math",
+     "transfers": 2739
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 254,
+     "domain": "math",
+     "transfers": 2491
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 255,
+     "domain": "math",
+     "transfers": 2428
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 256,
+     "domain": "math",
+     "transfers": 142
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 257,
+     "domain": "math",
+     "transfers": 2473
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 258,
+     "domain": "math",
+     "transfers": 2611
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 259,
+     "domain": "math",
+     "transfers": 2445
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 260,
+     "domain": "math",
+     "transfers": 2293
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 261,
+     "domain": "math",
+     "transfers": 2871
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 262,
+     "domain": "math",
+     "transfers": 2783
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 263,
+     "domain": "math",
+     "transfers": 864
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 264,
+     "domain": "math",
+     "transfers": 3095
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 265,
+     "domain": "math",
+     "transfers": 3179
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 266,
+     "domain": "math",
+     "transfers": 3274
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 267,
+     "domain": "math",
+     "transfers": 2276
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 268,
+     "domain": "math",
+     "transfers": 3395
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 269,
+     "domain": "math",
+     "transfers": 2233
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 270,
+     "domain": "math",
+     "transfers": 2430
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 271,
+     "domain": "math",
+     "transfers": 3416
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 272,
+     "domain": "math",
+     "transfers": 3116
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 273,
+     "domain": "math",
+     "transfers": 3013
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 274,
+     "domain": "math",
+     "transfers": 3014
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 275,
+     "domain": "math",
+     "transfers": 777
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 276,
+     "domain": "math",
+     "transfers": 1681
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 277,
+     "domain": "math",
+     "transfers": 1828
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 278,
+     "domain": "math",
+     "transfers": 2829
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 279,
+     "domain": "math",
+     "transfers": 2566
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 280,
+     "domain": "math",
+     "transfers": 2902
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 281,
+     "domain": "math",
+     "transfers": 2064
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 282,
+     "domain": "math",
+     "transfers": 2922
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 283,
+     "domain": "math",
+     "transfers": 3090
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 284,
+     "domain": "math",
+     "transfers": 3347
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 285,
+     "domain": "math",
+     "transfers": 2182
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 286,
+     "domain": "math",
+     "transfers": 2517
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 287,
+     "domain": "math",
+     "transfers": 3133
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 288,
+     "domain": "math",
+     "transfers": 3285
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 289,
+     "domain": "math",
+     "transfers": 2813
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 290,
+     "domain": "math",
+     "transfers": 2310
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 291,
+     "domain": "math",
+     "transfers": 2847
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 292,
+     "domain": "math",
+     "transfers": 2704
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 293,
+     "domain": "math",
+     "transfers": 3019
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 294,
+     "domain": "math",
+     "transfers": 3252
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 295,
+     "domain": "math",
+     "transfers": 3451
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 296,
+     "domain": "math",
+     "transfers": 3093
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 297,
+     "domain": "math",
+     "transfers": 2918
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 298,
+     "domain": "math",
+     "transfers": 2252
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 299,
+     "domain": "math",
+     "transfers": 2738
+    }
+   ]
+  },
+  "stationary_reasoning": {
+   "transfers": 236601,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 320,
+     "domain": "reasoning",
+     "transfers": 4345
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 321,
+     "domain": "reasoning",
+     "transfers": 3681
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 322,
+     "domain": "reasoning",
+     "transfers": 2642
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 323,
+     "domain": "reasoning",
+     "transfers": 2576
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 324,
+     "domain": "reasoning",
+     "transfers": 2797
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 325,
+     "domain": "reasoning",
+     "transfers": 2299
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 326,
+     "domain": "reasoning",
+     "transfers": 2538
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 327,
+     "domain": "reasoning",
+     "transfers": 2742
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 328,
+     "domain": "reasoning",
+     "transfers": 3307
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 329,
+     "domain": "reasoning",
+     "transfers": 3287
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 330,
+     "domain": "reasoning",
+     "transfers": 3051
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 331,
+     "domain": "reasoning",
+     "transfers": 1774
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 332,
+     "domain": "reasoning",
+     "transfers": 2388
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 333,
+     "domain": "reasoning",
+     "transfers": 3609
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 334,
+     "domain": "reasoning",
+     "transfers": 3359
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 335,
+     "domain": "reasoning",
+     "transfers": 2402
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 336,
+     "domain": "reasoning",
+     "transfers": 3069
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 337,
+     "domain": "reasoning",
+     "transfers": 3129
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 338,
+     "domain": "reasoning",
+     "transfers": 3589
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 339,
+     "domain": "reasoning",
+     "transfers": 3214
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 340,
+     "domain": "reasoning",
+     "transfers": 2792
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 341,
+     "domain": "reasoning",
+     "transfers": 2581
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 342,
+     "domain": "reasoning",
+     "transfers": 3162
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 343,
+     "domain": "reasoning",
+     "transfers": 3017
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 344,
+     "domain": "reasoning",
+     "transfers": 1902
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 345,
+     "domain": "reasoning",
+     "transfers": 4038
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 346,
+     "domain": "reasoning",
+     "transfers": 1763
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 347,
+     "domain": "reasoning",
+     "transfers": 3902
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 348,
+     "domain": "reasoning",
+     "transfers": 3326
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 349,
+     "domain": "reasoning",
+     "transfers": 3290
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 350,
+     "domain": "reasoning",
+     "transfers": 3164
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 351,
+     "domain": "reasoning",
+     "transfers": 2041
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 352,
+     "domain": "reasoning",
+     "transfers": 2162
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 353,
+     "domain": "reasoning",
+     "transfers": 2386
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 354,
+     "domain": "reasoning",
+     "transfers": 3446
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 355,
+     "domain": "reasoning",
+     "transfers": 2698
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 356,
+     "domain": "reasoning",
+     "transfers": 3066
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 357,
+     "domain": "reasoning",
+     "transfers": 3036
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 358,
+     "domain": "reasoning",
+     "transfers": 2750
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 359,
+     "domain": "reasoning",
+     "transfers": 2687
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 360,
+     "domain": "reasoning",
+     "transfers": 1742
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 361,
+     "domain": "reasoning",
+     "transfers": 3653
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 362,
+     "domain": "reasoning",
+     "transfers": 3062
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 363,
+     "domain": "reasoning",
+     "transfers": 2666
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 364,
+     "domain": "reasoning",
+     "transfers": 3439
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 365,
+     "domain": "reasoning",
+     "transfers": 3230
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 366,
+     "domain": "reasoning",
+     "transfers": 3516
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 367,
+     "domain": "reasoning",
+     "transfers": 2895
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 368,
+     "domain": "reasoning",
+     "transfers": 3659
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 369,
+     "domain": "reasoning",
+     "transfers": 3043
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 370,
+     "domain": "reasoning",
+     "transfers": 2237
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 371,
+     "domain": "reasoning",
+     "transfers": 2689
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 372,
+     "domain": "reasoning",
+     "transfers": 3522
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 373,
+     "domain": "reasoning",
+     "transfers": 3433
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 374,
+     "domain": "reasoning",
+     "transfers": 3204
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 375,
+     "domain": "reasoning",
+     "transfers": 2924
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 376,
+     "domain": "reasoning",
+     "transfers": 2489
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 377,
+     "domain": "reasoning",
+     "transfers": 2372
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 378,
+     "domain": "reasoning",
+     "transfers": 3340
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 379,
+     "domain": "reasoning",
+     "transfers": 2267
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 380,
+     "domain": "reasoning",
+     "transfers": 2381
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 381,
+     "domain": "reasoning",
+     "transfers": 3148
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 382,
+     "domain": "reasoning",
+     "transfers": 2800
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 383,
+     "domain": "reasoning",
+     "transfers": 3107
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 384,
+     "domain": "reasoning",
+     "transfers": 3580
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 385,
+     "domain": "reasoning",
+     "transfers": 3235
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 386,
+     "domain": "reasoning",
+     "transfers": 2459
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 387,
+     "domain": "reasoning",
+     "transfers": 3624
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 388,
+     "domain": "reasoning",
+     "transfers": 2910
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 389,
+     "domain": "reasoning",
+     "transfers": 3223
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 390,
+     "domain": "reasoning",
+     "transfers": 1940
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 391,
+     "domain": "reasoning",
+     "transfers": 2564
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 392,
+     "domain": "reasoning",
+     "transfers": 2917
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 393,
+     "domain": "reasoning",
+     "transfers": 3094
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 394,
+     "domain": "reasoning",
+     "transfers": 2186
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 395,
+     "domain": "reasoning",
+     "transfers": 3263
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 396,
+     "domain": "reasoning",
+     "transfers": 3710
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 397,
+     "domain": "reasoning",
+     "transfers": 3016
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 398,
+     "domain": "reasoning",
+     "transfers": 3792
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 399,
+     "domain": "reasoning",
+     "transfers": 3263
+    }
+   ]
+  },
+  "general_to_coding": {
+   "transfers": 344797,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 20,
+     "domain": "general",
+     "transfers": 4264
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 21,
+     "domain": "general",
+     "transfers": 3377
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 22,
+     "domain": "general",
+     "transfers": 3422
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 23,
+     "domain": "general",
+     "transfers": 3484
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 24,
+     "domain": "general",
+     "transfers": 3160
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 25,
+     "domain": "general",
+     "transfers": 521
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 26,
+     "domain": "general",
+     "transfers": 2482
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 27,
+     "domain": "general",
+     "transfers": 2825
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 28,
+     "domain": "general",
+     "transfers": 2858
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 29,
+     "domain": "general",
+     "transfers": 3014
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 30,
+     "domain": "general",
+     "transfers": 2033
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 31,
+     "domain": "general",
+     "transfers": 126
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 32,
+     "domain": "general",
+     "transfers": 96
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 33,
+     "domain": "general",
+     "transfers": 3230
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 34,
+     "domain": "general",
+     "transfers": 3209
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 35,
+     "domain": "general",
+     "transfers": 3356
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 36,
+     "domain": "general",
+     "transfers": 2826
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 37,
+     "domain": "general",
+     "transfers": 560
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 38,
+     "domain": "general",
+     "transfers": 3451
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 39,
+     "domain": "general",
+     "transfers": 2352
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 40,
+     "domain": "general",
+     "transfers": 2922
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 41,
+     "domain": "general",
+     "transfers": 3997
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 42,
+     "domain": "general",
+     "transfers": 3597
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 43,
+     "domain": "general",
+     "transfers": 2909
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 44,
+     "domain": "general",
+     "transfers": 483
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 45,
+     "domain": "general",
+     "transfers": 3906
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 46,
+     "domain": "general",
+     "transfers": 3443
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 47,
+     "domain": "general",
+     "transfers": 3406
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 48,
+     "domain": "general",
+     "transfers": 3740
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 49,
+     "domain": "general",
+     "transfers": 3509
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 50,
+     "domain": "general",
+     "transfers": 2341
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 51,
+     "domain": "general",
+     "transfers": 3359
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 52,
+     "domain": "general",
+     "transfers": 2920
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 53,
+     "domain": "general",
+     "transfers": 3429
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 54,
+     "domain": "general",
+     "transfers": 3969
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 55,
+     "domain": "general",
+     "transfers": 2834
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 56,
+     "domain": "general",
+     "transfers": 296
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 57,
+     "domain": "general",
+     "transfers": 2946
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 58,
+     "domain": "general",
+     "transfers": 3273
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 59,
+     "domain": "general",
+     "transfers": 2085
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 60,
+     "domain": "general",
+     "transfers": 168
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 61,
+     "domain": "general",
+     "transfers": 4071
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 62,
+     "domain": "general",
+     "transfers": 3194
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 63,
+     "domain": "general",
+     "transfers": 3246
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 64,
+     "domain": "general",
+     "transfers": 3225
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 65,
+     "domain": "general",
+     "transfers": 709
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 66,
+     "domain": "general",
+     "transfers": 3591
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 67,
+     "domain": "general",
+     "transfers": 3443
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 68,
+     "domain": "general",
+     "transfers": 3208
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 69,
+     "domain": "general",
+     "transfers": 894
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 70,
+     "domain": "general",
+     "transfers": 3095
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 71,
+     "domain": "general",
+     "transfers": 3620
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 72,
+     "domain": "general",
+     "transfers": 4094
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 73,
+     "domain": "general",
+     "transfers": 4056
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 74,
+     "domain": "general",
+     "transfers": 1822
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 75,
+     "domain": "general",
+     "transfers": 2987
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 76,
+     "domain": "general",
+     "transfers": 3274
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 77,
+     "domain": "general",
+     "transfers": 3556
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 78,
+     "domain": "general",
+     "transfers": 643
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 79,
+     "domain": "general",
+     "transfers": 842
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 80,
+     "domain": "general",
+     "transfers": 1392
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 81,
+     "domain": "general",
+     "transfers": 418
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 82,
+     "domain": "general",
+     "transfers": 3880
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 83,
+     "domain": "general",
+     "transfers": 3436
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 84,
+     "domain": "general",
+     "transfers": 901
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 85,
+     "domain": "general",
+     "transfers": 2846
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 86,
+     "domain": "general",
+     "transfers": 3469
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 87,
+     "domain": "general",
+     "transfers": 2058
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 88,
+     "domain": "general",
+     "transfers": 3485
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 89,
+     "domain": "general",
+     "transfers": 3930
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 90,
+     "domain": "general",
+     "transfers": 2822
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 91,
+     "domain": "general",
+     "transfers": 2958
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 92,
+     "domain": "general",
+     "transfers": 3281
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 93,
+     "domain": "general",
+     "transfers": 3180
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 94,
+     "domain": "general",
+     "transfers": 3673
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 95,
+     "domain": "general",
+     "transfers": 2452
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 96,
+     "domain": "general",
+     "transfers": 1971
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 97,
+     "domain": "general",
+     "transfers": 3782
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 98,
+     "domain": "general",
+     "transfers": 796
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 99,
+     "domain": "general",
+     "transfers": 3666
+    },
+    {
+     "position": 80,
+     "source_sequence_id": 120,
+     "domain": "coding",
+     "transfers": 2048
+    },
+    {
+     "position": 81,
+     "source_sequence_id": 121,
+     "domain": "coding",
+     "transfers": 1432
+    },
+    {
+     "position": 82,
+     "source_sequence_id": 122,
+     "domain": "coding",
+     "transfers": 1711
+    },
+    {
+     "position": 83,
+     "source_sequence_id": 123,
+     "domain": "coding",
+     "transfers": 1592
+    },
+    {
+     "position": 84,
+     "source_sequence_id": 124,
+     "domain": "coding",
+     "transfers": 1388
+    },
+    {
+     "position": 85,
+     "source_sequence_id": 125,
+     "domain": "coding",
+     "transfers": 771
+    },
+    {
+     "position": 86,
+     "source_sequence_id": 126,
+     "domain": "coding",
+     "transfers": 1529
+    },
+    {
+     "position": 87,
+     "source_sequence_id": 127,
+     "domain": "coding",
+     "transfers": 799
+    },
+    {
+     "position": 88,
+     "source_sequence_id": 128,
+     "domain": "coding",
+     "transfers": 1487
+    },
+    {
+     "position": 89,
+     "source_sequence_id": 129,
+     "domain": "coding",
+     "transfers": 1700
+    },
+    {
+     "position": 90,
+     "source_sequence_id": 130,
+     "domain": "coding",
+     "transfers": 1916
+    },
+    {
+     "position": 91,
+     "source_sequence_id": 131,
+     "domain": "coding",
+     "transfers": 1809
+    },
+    {
+     "position": 92,
+     "source_sequence_id": 132,
+     "domain": "coding",
+     "transfers": 1487
+    },
+    {
+     "position": 93,
+     "source_sequence_id": 133,
+     "domain": "coding",
+     "transfers": 1215
+    },
+    {
+     "position": 94,
+     "source_sequence_id": 134,
+     "domain": "coding",
+     "transfers": 1690
+    },
+    {
+     "position": 95,
+     "source_sequence_id": 135,
+     "domain": "coding",
+     "transfers": 1907
+    },
+    {
+     "position": 96,
+     "source_sequence_id": 136,
+     "domain": "coding",
+     "transfers": 1707
+    },
+    {
+     "position": 97,
+     "source_sequence_id": 137,
+     "domain": "coding",
+     "transfers": 1475
+    },
+    {
+     "position": 98,
+     "source_sequence_id": 138,
+     "domain": "coding",
+     "transfers": 1796
+    },
+    {
+     "position": 99,
+     "source_sequence_id": 139,
+     "domain": "coding",
+     "transfers": 1779
+    },
+    {
+     "position": 100,
+     "source_sequence_id": 140,
+     "domain": "coding",
+     "transfers": 1604
+    },
+    {
+     "position": 101,
+     "source_sequence_id": 141,
+     "domain": "coding",
+     "transfers": 1657
+    },
+    {
+     "position": 102,
+     "source_sequence_id": 142,
+     "domain": "coding",
+     "transfers": 1499
+    },
+    {
+     "position": 103,
+     "source_sequence_id": 143,
+     "domain": "coding",
+     "transfers": 1207
+    },
+    {
+     "position": 104,
+     "source_sequence_id": 144,
+     "domain": "coding",
+     "transfers": 1767
+    },
+    {
+     "position": 105,
+     "source_sequence_id": 145,
+     "domain": "coding",
+     "transfers": 1993
+    },
+    {
+     "position": 106,
+     "source_sequence_id": 146,
+     "domain": "coding",
+     "transfers": 1661
+    },
+    {
+     "position": 107,
+     "source_sequence_id": 147,
+     "domain": "coding",
+     "transfers": 1628
+    },
+    {
+     "position": 108,
+     "source_sequence_id": 148,
+     "domain": "coding",
+     "transfers": 1797
+    },
+    {
+     "position": 109,
+     "source_sequence_id": 149,
+     "domain": "coding",
+     "transfers": 755
+    },
+    {
+     "position": 110,
+     "source_sequence_id": 150,
+     "domain": "coding",
+     "transfers": 1622
+    },
+    {
+     "position": 111,
+     "source_sequence_id": 151,
+     "domain": "coding",
+     "transfers": 1919
+    },
+    {
+     "position": 112,
+     "source_sequence_id": 152,
+     "domain": "coding",
+     "transfers": 1689
+    },
+    {
+     "position": 113,
+     "source_sequence_id": 153,
+     "domain": "coding",
+     "transfers": 1513
+    },
+    {
+     "position": 114,
+     "source_sequence_id": 154,
+     "domain": "coding",
+     "transfers": 1371
+    },
+    {
+     "position": 115,
+     "source_sequence_id": 155,
+     "domain": "coding",
+     "transfers": 1329
+    },
+    {
+     "position": 116,
+     "source_sequence_id": 156,
+     "domain": "coding",
+     "transfers": 720
+    },
+    {
+     "position": 117,
+     "source_sequence_id": 157,
+     "domain": "coding",
+     "transfers": 1516
+    },
+    {
+     "position": 118,
+     "source_sequence_id": 158,
+     "domain": "coding",
+     "transfers": 1738
+    },
+    {
+     "position": 119,
+     "source_sequence_id": 159,
+     "domain": "coding",
+     "transfers": 1784
+    },
+    {
+     "position": 120,
+     "source_sequence_id": 160,
+     "domain": "coding",
+     "transfers": 1623
+    },
+    {
+     "position": 121,
+     "source_sequence_id": 161,
+     "domain": "coding",
+     "transfers": 1568
+    },
+    {
+     "position": 122,
+     "source_sequence_id": 162,
+     "domain": "coding",
+     "transfers": 1730
+    },
+    {
+     "position": 123,
+     "source_sequence_id": 163,
+     "domain": "coding",
+     "transfers": 1692
+    },
+    {
+     "position": 124,
+     "source_sequence_id": 164,
+     "domain": "coding",
+     "transfers": 1521
+    },
+    {
+     "position": 125,
+     "source_sequence_id": 165,
+     "domain": "coding",
+     "transfers": 1634
+    },
+    {
+     "position": 126,
+     "source_sequence_id": 166,
+     "domain": "coding",
+     "transfers": 1688
+    },
+    {
+     "position": 127,
+     "source_sequence_id": 167,
+     "domain": "coding",
+     "transfers": 1477
+    },
+    {
+     "position": 128,
+     "source_sequence_id": 168,
+     "domain": "coding",
+     "transfers": 1460
+    },
+    {
+     "position": 129,
+     "source_sequence_id": 169,
+     "domain": "coding",
+     "transfers": 1252
+    },
+    {
+     "position": 130,
+     "source_sequence_id": 170,
+     "domain": "coding",
+     "transfers": 1559
+    },
+    {
+     "position": 131,
+     "source_sequence_id": 171,
+     "domain": "coding",
+     "transfers": 1374
+    },
+    {
+     "position": 132,
+     "source_sequence_id": 172,
+     "domain": "coding",
+     "transfers": 1722
+    },
+    {
+     "position": 133,
+     "source_sequence_id": 173,
+     "domain": "coding",
+     "transfers": 1745
+    },
+    {
+     "position": 134,
+     "source_sequence_id": 174,
+     "domain": "coding",
+     "transfers": 2057
+    },
+    {
+     "position": 135,
+     "source_sequence_id": 175,
+     "domain": "coding",
+     "transfers": 1398
+    },
+    {
+     "position": 136,
+     "source_sequence_id": 176,
+     "domain": "coding",
+     "transfers": 1692
+    },
+    {
+     "position": 137,
+     "source_sequence_id": 177,
+     "domain": "coding",
+     "transfers": 1750
+    },
+    {
+     "position": 138,
+     "source_sequence_id": 178,
+     "domain": "coding",
+     "transfers": 1751
+    },
+    {
+     "position": 139,
+     "source_sequence_id": 179,
+     "domain": "coding",
+     "transfers": 2318
+    },
+    {
+     "position": 140,
+     "source_sequence_id": 180,
+     "domain": "coding",
+     "transfers": 1613
+    },
+    {
+     "position": 141,
+     "source_sequence_id": 181,
+     "domain": "coding",
+     "transfers": 1843
+    },
+    {
+     "position": 142,
+     "source_sequence_id": 182,
+     "domain": "coding",
+     "transfers": 1965
+    },
+    {
+     "position": 143,
+     "source_sequence_id": 183,
+     "domain": "coding",
+     "transfers": 794
+    },
+    {
+     "position": 144,
+     "source_sequence_id": 184,
+     "domain": "coding",
+     "transfers": 1702
+    },
+    {
+     "position": 145,
+     "source_sequence_id": 185,
+     "domain": "coding",
+     "transfers": 1757
+    },
+    {
+     "position": 146,
+     "source_sequence_id": 186,
+     "domain": "coding",
+     "transfers": 2011
+    },
+    {
+     "position": 147,
+     "source_sequence_id": 187,
+     "domain": "coding",
+     "transfers": 2358
+    },
+    {
+     "position": 148,
+     "source_sequence_id": 188,
+     "domain": "coding",
+     "transfers": 1337
+    },
+    {
+     "position": 149,
+     "source_sequence_id": 189,
+     "domain": "coding",
+     "transfers": 1407
+    },
+    {
+     "position": 150,
+     "source_sequence_id": 190,
+     "domain": "coding",
+     "transfers": 1851
+    },
+    {
+     "position": 151,
+     "source_sequence_id": 191,
+     "domain": "coding",
+     "transfers": 1543
+    },
+    {
+     "position": 152,
+     "source_sequence_id": 192,
+     "domain": "coding",
+     "transfers": 746
+    },
+    {
+     "position": 153,
+     "source_sequence_id": 193,
+     "domain": "coding",
+     "transfers": 1947
+    },
+    {
+     "position": 154,
+     "source_sequence_id": 194,
+     "domain": "coding",
+     "transfers": 1492
+    },
+    {
+     "position": 155,
+     "source_sequence_id": 195,
+     "domain": "coding",
+     "transfers": 1498
+    },
+    {
+     "position": 156,
+     "source_sequence_id": 196,
+     "domain": "coding",
+     "transfers": 1489
+    },
+    {
+     "position": 157,
+     "source_sequence_id": 197,
+     "domain": "coding",
+     "transfers": 1759
+    },
+    {
+     "position": 158,
+     "source_sequence_id": 198,
+     "domain": "coding",
+     "transfers": 929
+    },
+    {
+     "position": 159,
+     "source_sequence_id": 199,
+     "domain": "coding",
+     "transfers": 1594
+    }
+   ]
+  },
+  "coding_to_general": {
+   "transfers": 345030,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 120,
+     "domain": "coding",
+     "transfers": 2163
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 121,
+     "domain": "coding",
+     "transfers": 1432
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 122,
+     "domain": "coding",
+     "transfers": 1711
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 123,
+     "domain": "coding",
+     "transfers": 1592
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 124,
+     "domain": "coding",
+     "transfers": 1388
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 125,
+     "domain": "coding",
+     "transfers": 771
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 126,
+     "domain": "coding",
+     "transfers": 1529
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 127,
+     "domain": "coding",
+     "transfers": 799
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 128,
+     "domain": "coding",
+     "transfers": 1487
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 129,
+     "domain": "coding",
+     "transfers": 1700
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 130,
+     "domain": "coding",
+     "transfers": 1916
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 131,
+     "domain": "coding",
+     "transfers": 1809
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 132,
+     "domain": "coding",
+     "transfers": 1487
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 133,
+     "domain": "coding",
+     "transfers": 1215
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 134,
+     "domain": "coding",
+     "transfers": 1690
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 135,
+     "domain": "coding",
+     "transfers": 1907
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 136,
+     "domain": "coding",
+     "transfers": 1707
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 137,
+     "domain": "coding",
+     "transfers": 1475
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 138,
+     "domain": "coding",
+     "transfers": 1796
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 139,
+     "domain": "coding",
+     "transfers": 1779
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 140,
+     "domain": "coding",
+     "transfers": 1604
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 141,
+     "domain": "coding",
+     "transfers": 1657
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 142,
+     "domain": "coding",
+     "transfers": 1499
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 143,
+     "domain": "coding",
+     "transfers": 1207
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 144,
+     "domain": "coding",
+     "transfers": 1767
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 145,
+     "domain": "coding",
+     "transfers": 1993
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 146,
+     "domain": "coding",
+     "transfers": 1661
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 147,
+     "domain": "coding",
+     "transfers": 1628
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 148,
+     "domain": "coding",
+     "transfers": 1797
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 149,
+     "domain": "coding",
+     "transfers": 755
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 150,
+     "domain": "coding",
+     "transfers": 1622
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 151,
+     "domain": "coding",
+     "transfers": 1919
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 152,
+     "domain": "coding",
+     "transfers": 1689
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 153,
+     "domain": "coding",
+     "transfers": 1513
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 154,
+     "domain": "coding",
+     "transfers": 1371
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 155,
+     "domain": "coding",
+     "transfers": 1329
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 156,
+     "domain": "coding",
+     "transfers": 720
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 157,
+     "domain": "coding",
+     "transfers": 1516
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 158,
+     "domain": "coding",
+     "transfers": 1738
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 159,
+     "domain": "coding",
+     "transfers": 1784
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 160,
+     "domain": "coding",
+     "transfers": 1623
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 161,
+     "domain": "coding",
+     "transfers": 1568
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 162,
+     "domain": "coding",
+     "transfers": 1730
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 163,
+     "domain": "coding",
+     "transfers": 1692
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 164,
+     "domain": "coding",
+     "transfers": 1521
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 165,
+     "domain": "coding",
+     "transfers": 1634
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 166,
+     "domain": "coding",
+     "transfers": 1688
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 167,
+     "domain": "coding",
+     "transfers": 1477
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 168,
+     "domain": "coding",
+     "transfers": 1460
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 169,
+     "domain": "coding",
+     "transfers": 1252
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 170,
+     "domain": "coding",
+     "transfers": 1559
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 171,
+     "domain": "coding",
+     "transfers": 1374
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 172,
+     "domain": "coding",
+     "transfers": 1722
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 173,
+     "domain": "coding",
+     "transfers": 1745
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 174,
+     "domain": "coding",
+     "transfers": 2057
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 175,
+     "domain": "coding",
+     "transfers": 1398
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 176,
+     "domain": "coding",
+     "transfers": 1692
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 177,
+     "domain": "coding",
+     "transfers": 1750
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 178,
+     "domain": "coding",
+     "transfers": 1751
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 179,
+     "domain": "coding",
+     "transfers": 2318
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 180,
+     "domain": "coding",
+     "transfers": 1613
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 181,
+     "domain": "coding",
+     "transfers": 1843
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 182,
+     "domain": "coding",
+     "transfers": 1965
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 183,
+     "domain": "coding",
+     "transfers": 794
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 184,
+     "domain": "coding",
+     "transfers": 1702
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 185,
+     "domain": "coding",
+     "transfers": 1757
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 186,
+     "domain": "coding",
+     "transfers": 2011
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 187,
+     "domain": "coding",
+     "transfers": 2358
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 188,
+     "domain": "coding",
+     "transfers": 1337
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 189,
+     "domain": "coding",
+     "transfers": 1407
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 190,
+     "domain": "coding",
+     "transfers": 1851
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 191,
+     "domain": "coding",
+     "transfers": 1543
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 192,
+     "domain": "coding",
+     "transfers": 746
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 193,
+     "domain": "coding",
+     "transfers": 1947
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 194,
+     "domain": "coding",
+     "transfers": 1492
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 195,
+     "domain": "coding",
+     "transfers": 1498
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 196,
+     "domain": "coding",
+     "transfers": 1489
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 197,
+     "domain": "coding",
+     "transfers": 1759
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 198,
+     "domain": "coding",
+     "transfers": 929
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 199,
+     "domain": "coding",
+     "transfers": 1594
+    },
+    {
+     "position": 80,
+     "source_sequence_id": 20,
+     "domain": "general",
+     "transfers": 4383
+    },
+    {
+     "position": 81,
+     "source_sequence_id": 21,
+     "domain": "general",
+     "transfers": 3376
+    },
+    {
+     "position": 82,
+     "source_sequence_id": 22,
+     "domain": "general",
+     "transfers": 3422
+    },
+    {
+     "position": 83,
+     "source_sequence_id": 23,
+     "domain": "general",
+     "transfers": 3484
+    },
+    {
+     "position": 84,
+     "source_sequence_id": 24,
+     "domain": "general",
+     "transfers": 3160
+    },
+    {
+     "position": 85,
+     "source_sequence_id": 25,
+     "domain": "general",
+     "transfers": 521
+    },
+    {
+     "position": 86,
+     "source_sequence_id": 26,
+     "domain": "general",
+     "transfers": 2482
+    },
+    {
+     "position": 87,
+     "source_sequence_id": 27,
+     "domain": "general",
+     "transfers": 2825
+    },
+    {
+     "position": 88,
+     "source_sequence_id": 28,
+     "domain": "general",
+     "transfers": 2858
+    },
+    {
+     "position": 89,
+     "source_sequence_id": 29,
+     "domain": "general",
+     "transfers": 3014
+    },
+    {
+     "position": 90,
+     "source_sequence_id": 30,
+     "domain": "general",
+     "transfers": 2033
+    },
+    {
+     "position": 91,
+     "source_sequence_id": 31,
+     "domain": "general",
+     "transfers": 126
+    },
+    {
+     "position": 92,
+     "source_sequence_id": 32,
+     "domain": "general",
+     "transfers": 96
+    },
+    {
+     "position": 93,
+     "source_sequence_id": 33,
+     "domain": "general",
+     "transfers": 3230
+    },
+    {
+     "position": 94,
+     "source_sequence_id": 34,
+     "domain": "general",
+     "transfers": 3209
+    },
+    {
+     "position": 95,
+     "source_sequence_id": 35,
+     "domain": "general",
+     "transfers": 3356
+    },
+    {
+     "position": 96,
+     "source_sequence_id": 36,
+     "domain": "general",
+     "transfers": 2826
+    },
+    {
+     "position": 97,
+     "source_sequence_id": 37,
+     "domain": "general",
+     "transfers": 560
+    },
+    {
+     "position": 98,
+     "source_sequence_id": 38,
+     "domain": "general",
+     "transfers": 3451
+    },
+    {
+     "position": 99,
+     "source_sequence_id": 39,
+     "domain": "general",
+     "transfers": 2352
+    },
+    {
+     "position": 100,
+     "source_sequence_id": 40,
+     "domain": "general",
+     "transfers": 2922
+    },
+    {
+     "position": 101,
+     "source_sequence_id": 41,
+     "domain": "general",
+     "transfers": 3997
+    },
+    {
+     "position": 102,
+     "source_sequence_id": 42,
+     "domain": "general",
+     "transfers": 3597
+    },
+    {
+     "position": 103,
+     "source_sequence_id": 43,
+     "domain": "general",
+     "transfers": 2909
+    },
+    {
+     "position": 104,
+     "source_sequence_id": 44,
+     "domain": "general",
+     "transfers": 483
+    },
+    {
+     "position": 105,
+     "source_sequence_id": 45,
+     "domain": "general",
+     "transfers": 3906
+    },
+    {
+     "position": 106,
+     "source_sequence_id": 46,
+     "domain": "general",
+     "transfers": 3443
+    },
+    {
+     "position": 107,
+     "source_sequence_id": 47,
+     "domain": "general",
+     "transfers": 3406
+    },
+    {
+     "position": 108,
+     "source_sequence_id": 48,
+     "domain": "general",
+     "transfers": 3740
+    },
+    {
+     "position": 109,
+     "source_sequence_id": 49,
+     "domain": "general",
+     "transfers": 3509
+    },
+    {
+     "position": 110,
+     "source_sequence_id": 50,
+     "domain": "general",
+     "transfers": 2341
+    },
+    {
+     "position": 111,
+     "source_sequence_id": 51,
+     "domain": "general",
+     "transfers": 3359
+    },
+    {
+     "position": 112,
+     "source_sequence_id": 52,
+     "domain": "general",
+     "transfers": 2920
+    },
+    {
+     "position": 113,
+     "source_sequence_id": 53,
+     "domain": "general",
+     "transfers": 3429
+    },
+    {
+     "position": 114,
+     "source_sequence_id": 54,
+     "domain": "general",
+     "transfers": 3969
+    },
+    {
+     "position": 115,
+     "source_sequence_id": 55,
+     "domain": "general",
+     "transfers": 2834
+    },
+    {
+     "position": 116,
+     "source_sequence_id": 56,
+     "domain": "general",
+     "transfers": 296
+    },
+    {
+     "position": 117,
+     "source_sequence_id": 57,
+     "domain": "general",
+     "transfers": 2946
+    },
+    {
+     "position": 118,
+     "source_sequence_id": 58,
+     "domain": "general",
+     "transfers": 3273
+    },
+    {
+     "position": 119,
+     "source_sequence_id": 59,
+     "domain": "general",
+     "transfers": 2085
+    },
+    {
+     "position": 120,
+     "source_sequence_id": 60,
+     "domain": "general",
+     "transfers": 168
+    },
+    {
+     "position": 121,
+     "source_sequence_id": 61,
+     "domain": "general",
+     "transfers": 4071
+    },
+    {
+     "position": 122,
+     "source_sequence_id": 62,
+     "domain": "general",
+     "transfers": 3194
+    },
+    {
+     "position": 123,
+     "source_sequence_id": 63,
+     "domain": "general",
+     "transfers": 3246
+    },
+    {
+     "position": 124,
+     "source_sequence_id": 64,
+     "domain": "general",
+     "transfers": 3225
+    },
+    {
+     "position": 125,
+     "source_sequence_id": 65,
+     "domain": "general",
+     "transfers": 709
+    },
+    {
+     "position": 126,
+     "source_sequence_id": 66,
+     "domain": "general",
+     "transfers": 3591
+    },
+    {
+     "position": 127,
+     "source_sequence_id": 67,
+     "domain": "general",
+     "transfers": 3443
+    },
+    {
+     "position": 128,
+     "source_sequence_id": 68,
+     "domain": "general",
+     "transfers": 3208
+    },
+    {
+     "position": 129,
+     "source_sequence_id": 69,
+     "domain": "general",
+     "transfers": 894
+    },
+    {
+     "position": 130,
+     "source_sequence_id": 70,
+     "domain": "general",
+     "transfers": 3095
+    },
+    {
+     "position": 131,
+     "source_sequence_id": 71,
+     "domain": "general",
+     "transfers": 3620
+    },
+    {
+     "position": 132,
+     "source_sequence_id": 72,
+     "domain": "general",
+     "transfers": 4094
+    },
+    {
+     "position": 133,
+     "source_sequence_id": 73,
+     "domain": "general",
+     "transfers": 4056
+    },
+    {
+     "position": 134,
+     "source_sequence_id": 74,
+     "domain": "general",
+     "transfers": 1822
+    },
+    {
+     "position": 135,
+     "source_sequence_id": 75,
+     "domain": "general",
+     "transfers": 2987
+    },
+    {
+     "position": 136,
+     "source_sequence_id": 76,
+     "domain": "general",
+     "transfers": 3274
+    },
+    {
+     "position": 137,
+     "source_sequence_id": 77,
+     "domain": "general",
+     "transfers": 3556
+    },
+    {
+     "position": 138,
+     "source_sequence_id": 78,
+     "domain": "general",
+     "transfers": 643
+    },
+    {
+     "position": 139,
+     "source_sequence_id": 79,
+     "domain": "general",
+     "transfers": 842
+    },
+    {
+     "position": 140,
+     "source_sequence_id": 80,
+     "domain": "general",
+     "transfers": 1392
+    },
+    {
+     "position": 141,
+     "source_sequence_id": 81,
+     "domain": "general",
+     "transfers": 418
+    },
+    {
+     "position": 142,
+     "source_sequence_id": 82,
+     "domain": "general",
+     "transfers": 3880
+    },
+    {
+     "position": 143,
+     "source_sequence_id": 83,
+     "domain": "general",
+     "transfers": 3436
+    },
+    {
+     "position": 144,
+     "source_sequence_id": 84,
+     "domain": "general",
+     "transfers": 901
+    },
+    {
+     "position": 145,
+     "source_sequence_id": 85,
+     "domain": "general",
+     "transfers": 2846
+    },
+    {
+     "position": 146,
+     "source_sequence_id": 86,
+     "domain": "general",
+     "transfers": 3469
+    },
+    {
+     "position": 147,
+     "source_sequence_id": 87,
+     "domain": "general",
+     "transfers": 2058
+    },
+    {
+     "position": 148,
+     "source_sequence_id": 88,
+     "domain": "general",
+     "transfers": 3485
+    },
+    {
+     "position": 149,
+     "source_sequence_id": 89,
+     "domain": "general",
+     "transfers": 3930
+    },
+    {
+     "position": 150,
+     "source_sequence_id": 90,
+     "domain": "general",
+     "transfers": 2822
+    },
+    {
+     "position": 151,
+     "source_sequence_id": 91,
+     "domain": "general",
+     "transfers": 2958
+    },
+    {
+     "position": 152,
+     "source_sequence_id": 92,
+     "domain": "general",
+     "transfers": 3281
+    },
+    {
+     "position": 153,
+     "source_sequence_id": 93,
+     "domain": "general",
+     "transfers": 3180
+    },
+    {
+     "position": 154,
+     "source_sequence_id": 94,
+     "domain": "general",
+     "transfers": 3673
+    },
+    {
+     "position": 155,
+     "source_sequence_id": 95,
+     "domain": "general",
+     "transfers": 2452
+    },
+    {
+     "position": 156,
+     "source_sequence_id": 96,
+     "domain": "general",
+     "transfers": 1971
+    },
+    {
+     "position": 157,
+     "source_sequence_id": 97,
+     "domain": "general",
+     "transfers": 3782
+    },
+    {
+     "position": 158,
+     "source_sequence_id": 98,
+     "domain": "general",
+     "transfers": 796
+    },
+    {
+     "position": 159,
+     "source_sequence_id": 99,
+     "domain": "general",
+     "transfers": 3666
+    }
+   ]
+  },
+  "general_to_math": {
+   "transfers": 429608,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 20,
+     "domain": "general",
+     "transfers": 4264
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 21,
+     "domain": "general",
+     "transfers": 3377
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 22,
+     "domain": "general",
+     "transfers": 3422
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 23,
+     "domain": "general",
+     "transfers": 3484
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 24,
+     "domain": "general",
+     "transfers": 3160
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 25,
+     "domain": "general",
+     "transfers": 521
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 26,
+     "domain": "general",
+     "transfers": 2482
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 27,
+     "domain": "general",
+     "transfers": 2825
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 28,
+     "domain": "general",
+     "transfers": 2858
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 29,
+     "domain": "general",
+     "transfers": 3014
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 30,
+     "domain": "general",
+     "transfers": 2033
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 31,
+     "domain": "general",
+     "transfers": 126
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 32,
+     "domain": "general",
+     "transfers": 96
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 33,
+     "domain": "general",
+     "transfers": 3230
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 34,
+     "domain": "general",
+     "transfers": 3209
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 35,
+     "domain": "general",
+     "transfers": 3356
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 36,
+     "domain": "general",
+     "transfers": 2826
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 37,
+     "domain": "general",
+     "transfers": 560
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 38,
+     "domain": "general",
+     "transfers": 3451
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 39,
+     "domain": "general",
+     "transfers": 2352
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 40,
+     "domain": "general",
+     "transfers": 2922
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 41,
+     "domain": "general",
+     "transfers": 3997
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 42,
+     "domain": "general",
+     "transfers": 3597
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 43,
+     "domain": "general",
+     "transfers": 2909
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 44,
+     "domain": "general",
+     "transfers": 483
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 45,
+     "domain": "general",
+     "transfers": 3906
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 46,
+     "domain": "general",
+     "transfers": 3443
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 47,
+     "domain": "general",
+     "transfers": 3406
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 48,
+     "domain": "general",
+     "transfers": 3740
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 49,
+     "domain": "general",
+     "transfers": 3509
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 50,
+     "domain": "general",
+     "transfers": 2341
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 51,
+     "domain": "general",
+     "transfers": 3359
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 52,
+     "domain": "general",
+     "transfers": 2920
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 53,
+     "domain": "general",
+     "transfers": 3429
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 54,
+     "domain": "general",
+     "transfers": 3969
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 55,
+     "domain": "general",
+     "transfers": 2834
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 56,
+     "domain": "general",
+     "transfers": 296
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 57,
+     "domain": "general",
+     "transfers": 2946
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 58,
+     "domain": "general",
+     "transfers": 3273
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 59,
+     "domain": "general",
+     "transfers": 2085
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 60,
+     "domain": "general",
+     "transfers": 168
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 61,
+     "domain": "general",
+     "transfers": 4071
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 62,
+     "domain": "general",
+     "transfers": 3194
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 63,
+     "domain": "general",
+     "transfers": 3246
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 64,
+     "domain": "general",
+     "transfers": 3225
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 65,
+     "domain": "general",
+     "transfers": 709
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 66,
+     "domain": "general",
+     "transfers": 3591
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 67,
+     "domain": "general",
+     "transfers": 3443
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 68,
+     "domain": "general",
+     "transfers": 3208
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 69,
+     "domain": "general",
+     "transfers": 894
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 70,
+     "domain": "general",
+     "transfers": 3095
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 71,
+     "domain": "general",
+     "transfers": 3620
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 72,
+     "domain": "general",
+     "transfers": 4094
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 73,
+     "domain": "general",
+     "transfers": 4056
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 74,
+     "domain": "general",
+     "transfers": 1822
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 75,
+     "domain": "general",
+     "transfers": 2987
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 76,
+     "domain": "general",
+     "transfers": 3274
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 77,
+     "domain": "general",
+     "transfers": 3556
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 78,
+     "domain": "general",
+     "transfers": 643
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 79,
+     "domain": "general",
+     "transfers": 842
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 80,
+     "domain": "general",
+     "transfers": 1392
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 81,
+     "domain": "general",
+     "transfers": 418
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 82,
+     "domain": "general",
+     "transfers": 3880
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 83,
+     "domain": "general",
+     "transfers": 3436
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 84,
+     "domain": "general",
+     "transfers": 901
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 85,
+     "domain": "general",
+     "transfers": 2846
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 86,
+     "domain": "general",
+     "transfers": 3469
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 87,
+     "domain": "general",
+     "transfers": 2058
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 88,
+     "domain": "general",
+     "transfers": 3485
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 89,
+     "domain": "general",
+     "transfers": 3930
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 90,
+     "domain": "general",
+     "transfers": 2822
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 91,
+     "domain": "general",
+     "transfers": 2958
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 92,
+     "domain": "general",
+     "transfers": 3281
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 93,
+     "domain": "general",
+     "transfers": 3180
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 94,
+     "domain": "general",
+     "transfers": 3673
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 95,
+     "domain": "general",
+     "transfers": 2452
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 96,
+     "domain": "general",
+     "transfers": 1971
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 97,
+     "domain": "general",
+     "transfers": 3782
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 98,
+     "domain": "general",
+     "transfers": 796
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 99,
+     "domain": "general",
+     "transfers": 3666
+    },
+    {
+     "position": 80,
+     "source_sequence_id": 220,
+     "domain": "math",
+     "transfers": 2074
+    },
+    {
+     "position": 81,
+     "source_sequence_id": 221,
+     "domain": "math",
+     "transfers": 1897
+    },
+    {
+     "position": 82,
+     "source_sequence_id": 222,
+     "domain": "math",
+     "transfers": 2968
+    },
+    {
+     "position": 83,
+     "source_sequence_id": 223,
+     "domain": "math",
+     "transfers": 1428
+    },
+    {
+     "position": 84,
+     "source_sequence_id": 224,
+     "domain": "math",
+     "transfers": 2979
+    },
+    {
+     "position": 85,
+     "source_sequence_id": 225,
+     "domain": "math",
+     "transfers": 2419
+    },
+    {
+     "position": 86,
+     "source_sequence_id": 226,
+     "domain": "math",
+     "transfers": 3535
+    },
+    {
+     "position": 87,
+     "source_sequence_id": 227,
+     "domain": "math",
+     "transfers": 3378
+    },
+    {
+     "position": 88,
+     "source_sequence_id": 228,
+     "domain": "math",
+     "transfers": 2566
+    },
+    {
+     "position": 89,
+     "source_sequence_id": 229,
+     "domain": "math",
+     "transfers": 1481
+    },
+    {
+     "position": 90,
+     "source_sequence_id": 230,
+     "domain": "math",
+     "transfers": 3716
+    },
+    {
+     "position": 91,
+     "source_sequence_id": 231,
+     "domain": "math",
+     "transfers": 3487
+    },
+    {
+     "position": 92,
+     "source_sequence_id": 232,
+     "domain": "math",
+     "transfers": 3157
+    },
+    {
+     "position": 93,
+     "source_sequence_id": 233,
+     "domain": "math",
+     "transfers": 2791
+    },
+    {
+     "position": 94,
+     "source_sequence_id": 234,
+     "domain": "math",
+     "transfers": 2795
+    },
+    {
+     "position": 95,
+     "source_sequence_id": 235,
+     "domain": "math",
+     "transfers": 2634
+    },
+    {
+     "position": 96,
+     "source_sequence_id": 236,
+     "domain": "math",
+     "transfers": 3115
+    },
+    {
+     "position": 97,
+     "source_sequence_id": 237,
+     "domain": "math",
+     "transfers": 3352
+    },
+    {
+     "position": 98,
+     "source_sequence_id": 238,
+     "domain": "math",
+     "transfers": 2825
+    },
+    {
+     "position": 99,
+     "source_sequence_id": 239,
+     "domain": "math",
+     "transfers": 3097
+    },
+    {
+     "position": 100,
+     "source_sequence_id": 240,
+     "domain": "math",
+     "transfers": 2568
+    },
+    {
+     "position": 101,
+     "source_sequence_id": 241,
+     "domain": "math",
+     "transfers": 2493
+    },
+    {
+     "position": 102,
+     "source_sequence_id": 242,
+     "domain": "math",
+     "transfers": 3189
+    },
+    {
+     "position": 103,
+     "source_sequence_id": 243,
+     "domain": "math",
+     "transfers": 3812
+    },
+    {
+     "position": 104,
+     "source_sequence_id": 244,
+     "domain": "math",
+     "transfers": 1605
+    },
+    {
+     "position": 105,
+     "source_sequence_id": 245,
+     "domain": "math",
+     "transfers": 2182
+    },
+    {
+     "position": 106,
+     "source_sequence_id": 246,
+     "domain": "math",
+     "transfers": 3036
+    },
+    {
+     "position": 107,
+     "source_sequence_id": 247,
+     "domain": "math",
+     "transfers": 3654
+    },
+    {
+     "position": 108,
+     "source_sequence_id": 248,
+     "domain": "math",
+     "transfers": 2658
+    },
+    {
+     "position": 109,
+     "source_sequence_id": 249,
+     "domain": "math",
+     "transfers": 1656
+    },
+    {
+     "position": 110,
+     "source_sequence_id": 250,
+     "domain": "math",
+     "transfers": 1330
+    },
+    {
+     "position": 111,
+     "source_sequence_id": 251,
+     "domain": "math",
+     "transfers": 2797
+    },
+    {
+     "position": 112,
+     "source_sequence_id": 252,
+     "domain": "math",
+     "transfers": 1689
+    },
+    {
+     "position": 113,
+     "source_sequence_id": 253,
+     "domain": "math",
+     "transfers": 2739
+    },
+    {
+     "position": 114,
+     "source_sequence_id": 254,
+     "domain": "math",
+     "transfers": 2491
+    },
+    {
+     "position": 115,
+     "source_sequence_id": 255,
+     "domain": "math",
+     "transfers": 2428
+    },
+    {
+     "position": 116,
+     "source_sequence_id": 256,
+     "domain": "math",
+     "transfers": 142
+    },
+    {
+     "position": 117,
+     "source_sequence_id": 257,
+     "domain": "math",
+     "transfers": 2473
+    },
+    {
+     "position": 118,
+     "source_sequence_id": 258,
+     "domain": "math",
+     "transfers": 2611
+    },
+    {
+     "position": 119,
+     "source_sequence_id": 259,
+     "domain": "math",
+     "transfers": 2445
+    },
+    {
+     "position": 120,
+     "source_sequence_id": 260,
+     "domain": "math",
+     "transfers": 2293
+    },
+    {
+     "position": 121,
+     "source_sequence_id": 261,
+     "domain": "math",
+     "transfers": 2871
+    },
+    {
+     "position": 122,
+     "source_sequence_id": 262,
+     "domain": "math",
+     "transfers": 2783
+    },
+    {
+     "position": 123,
+     "source_sequence_id": 263,
+     "domain": "math",
+     "transfers": 864
+    },
+    {
+     "position": 124,
+     "source_sequence_id": 264,
+     "domain": "math",
+     "transfers": 3095
+    },
+    {
+     "position": 125,
+     "source_sequence_id": 265,
+     "domain": "math",
+     "transfers": 3179
+    },
+    {
+     "position": 126,
+     "source_sequence_id": 266,
+     "domain": "math",
+     "transfers": 3274
+    },
+    {
+     "position": 127,
+     "source_sequence_id": 267,
+     "domain": "math",
+     "transfers": 2276
+    },
+    {
+     "position": 128,
+     "source_sequence_id": 268,
+     "domain": "math",
+     "transfers": 3395
+    },
+    {
+     "position": 129,
+     "source_sequence_id": 269,
+     "domain": "math",
+     "transfers": 2233
+    },
+    {
+     "position": 130,
+     "source_sequence_id": 270,
+     "domain": "math",
+     "transfers": 2430
+    },
+    {
+     "position": 131,
+     "source_sequence_id": 271,
+     "domain": "math",
+     "transfers": 3416
+    },
+    {
+     "position": 132,
+     "source_sequence_id": 272,
+     "domain": "math",
+     "transfers": 3116
+    },
+    {
+     "position": 133,
+     "source_sequence_id": 273,
+     "domain": "math",
+     "transfers": 3013
+    },
+    {
+     "position": 134,
+     "source_sequence_id": 274,
+     "domain": "math",
+     "transfers": 3014
+    },
+    {
+     "position": 135,
+     "source_sequence_id": 275,
+     "domain": "math",
+     "transfers": 777
+    },
+    {
+     "position": 136,
+     "source_sequence_id": 276,
+     "domain": "math",
+     "transfers": 1681
+    },
+    {
+     "position": 137,
+     "source_sequence_id": 277,
+     "domain": "math",
+     "transfers": 1828
+    },
+    {
+     "position": 138,
+     "source_sequence_id": 278,
+     "domain": "math",
+     "transfers": 2829
+    },
+    {
+     "position": 139,
+     "source_sequence_id": 279,
+     "domain": "math",
+     "transfers": 2566
+    },
+    {
+     "position": 140,
+     "source_sequence_id": 280,
+     "domain": "math",
+     "transfers": 2902
+    },
+    {
+     "position": 141,
+     "source_sequence_id": 281,
+     "domain": "math",
+     "transfers": 2064
+    },
+    {
+     "position": 142,
+     "source_sequence_id": 282,
+     "domain": "math",
+     "transfers": 2922
+    },
+    {
+     "position": 143,
+     "source_sequence_id": 283,
+     "domain": "math",
+     "transfers": 3090
+    },
+    {
+     "position": 144,
+     "source_sequence_id": 284,
+     "domain": "math",
+     "transfers": 3347
+    },
+    {
+     "position": 145,
+     "source_sequence_id": 285,
+     "domain": "math",
+     "transfers": 2182
+    },
+    {
+     "position": 146,
+     "source_sequence_id": 286,
+     "domain": "math",
+     "transfers": 2517
+    },
+    {
+     "position": 147,
+     "source_sequence_id": 287,
+     "domain": "math",
+     "transfers": 3133
+    },
+    {
+     "position": 148,
+     "source_sequence_id": 288,
+     "domain": "math",
+     "transfers": 3285
+    },
+    {
+     "position": 149,
+     "source_sequence_id": 289,
+     "domain": "math",
+     "transfers": 2813
+    },
+    {
+     "position": 150,
+     "source_sequence_id": 290,
+     "domain": "math",
+     "transfers": 2310
+    },
+    {
+     "position": 151,
+     "source_sequence_id": 291,
+     "domain": "math",
+     "transfers": 2847
+    },
+    {
+     "position": 152,
+     "source_sequence_id": 292,
+     "domain": "math",
+     "transfers": 2704
+    },
+    {
+     "position": 153,
+     "source_sequence_id": 293,
+     "domain": "math",
+     "transfers": 3019
+    },
+    {
+     "position": 154,
+     "source_sequence_id": 294,
+     "domain": "math",
+     "transfers": 3252
+    },
+    {
+     "position": 155,
+     "source_sequence_id": 295,
+     "domain": "math",
+     "transfers": 3451
+    },
+    {
+     "position": 156,
+     "source_sequence_id": 296,
+     "domain": "math",
+     "transfers": 3093
+    },
+    {
+     "position": 157,
+     "source_sequence_id": 297,
+     "domain": "math",
+     "transfers": 2918
+    },
+    {
+     "position": 158,
+     "source_sequence_id": 298,
+     "domain": "math",
+     "transfers": 2252
+    },
+    {
+     "position": 159,
+     "source_sequence_id": 299,
+     "domain": "math",
+     "transfers": 2738
+    }
+   ]
+  },
+  "math_to_reasoning": {
+   "transfers": 447923,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 220,
+     "domain": "math",
+     "transfers": 2145
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 221,
+     "domain": "math",
+     "transfers": 1896
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 222,
+     "domain": "math",
+     "transfers": 2968
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 223,
+     "domain": "math",
+     "transfers": 1428
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 224,
+     "domain": "math",
+     "transfers": 2979
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 225,
+     "domain": "math",
+     "transfers": 2419
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 226,
+     "domain": "math",
+     "transfers": 3535
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 227,
+     "domain": "math",
+     "transfers": 3378
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 228,
+     "domain": "math",
+     "transfers": 2566
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 229,
+     "domain": "math",
+     "transfers": 1481
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 230,
+     "domain": "math",
+     "transfers": 3716
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 231,
+     "domain": "math",
+     "transfers": 3487
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 232,
+     "domain": "math",
+     "transfers": 3157
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 233,
+     "domain": "math",
+     "transfers": 2791
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 234,
+     "domain": "math",
+     "transfers": 2795
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 235,
+     "domain": "math",
+     "transfers": 2634
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 236,
+     "domain": "math",
+     "transfers": 3115
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 237,
+     "domain": "math",
+     "transfers": 3352
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 238,
+     "domain": "math",
+     "transfers": 2825
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 239,
+     "domain": "math",
+     "transfers": 3097
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 240,
+     "domain": "math",
+     "transfers": 2568
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 241,
+     "domain": "math",
+     "transfers": 2493
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 242,
+     "domain": "math",
+     "transfers": 3189
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 243,
+     "domain": "math",
+     "transfers": 3812
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 244,
+     "domain": "math",
+     "transfers": 1605
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 245,
+     "domain": "math",
+     "transfers": 2182
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 246,
+     "domain": "math",
+     "transfers": 3036
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 247,
+     "domain": "math",
+     "transfers": 3654
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 248,
+     "domain": "math",
+     "transfers": 2658
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 249,
+     "domain": "math",
+     "transfers": 1656
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 250,
+     "domain": "math",
+     "transfers": 1330
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 251,
+     "domain": "math",
+     "transfers": 2797
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 252,
+     "domain": "math",
+     "transfers": 1689
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 253,
+     "domain": "math",
+     "transfers": 2739
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 254,
+     "domain": "math",
+     "transfers": 2491
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 255,
+     "domain": "math",
+     "transfers": 2428
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 256,
+     "domain": "math",
+     "transfers": 142
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 257,
+     "domain": "math",
+     "transfers": 2473
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 258,
+     "domain": "math",
+     "transfers": 2611
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 259,
+     "domain": "math",
+     "transfers": 2445
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 260,
+     "domain": "math",
+     "transfers": 2293
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 261,
+     "domain": "math",
+     "transfers": 2871
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 262,
+     "domain": "math",
+     "transfers": 2783
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 263,
+     "domain": "math",
+     "transfers": 864
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 264,
+     "domain": "math",
+     "transfers": 3095
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 265,
+     "domain": "math",
+     "transfers": 3179
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 266,
+     "domain": "math",
+     "transfers": 3274
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 267,
+     "domain": "math",
+     "transfers": 2276
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 268,
+     "domain": "math",
+     "transfers": 3395
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 269,
+     "domain": "math",
+     "transfers": 2233
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 270,
+     "domain": "math",
+     "transfers": 2430
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 271,
+     "domain": "math",
+     "transfers": 3416
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 272,
+     "domain": "math",
+     "transfers": 3116
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 273,
+     "domain": "math",
+     "transfers": 3013
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 274,
+     "domain": "math",
+     "transfers": 3014
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 275,
+     "domain": "math",
+     "transfers": 777
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 276,
+     "domain": "math",
+     "transfers": 1681
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 277,
+     "domain": "math",
+     "transfers": 1828
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 278,
+     "domain": "math",
+     "transfers": 2829
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 279,
+     "domain": "math",
+     "transfers": 2566
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 280,
+     "domain": "math",
+     "transfers": 2902
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 281,
+     "domain": "math",
+     "transfers": 2064
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 282,
+     "domain": "math",
+     "transfers": 2922
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 283,
+     "domain": "math",
+     "transfers": 3090
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 284,
+     "domain": "math",
+     "transfers": 3347
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 285,
+     "domain": "math",
+     "transfers": 2182
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 286,
+     "domain": "math",
+     "transfers": 2517
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 287,
+     "domain": "math",
+     "transfers": 3133
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 288,
+     "domain": "math",
+     "transfers": 3285
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 289,
+     "domain": "math",
+     "transfers": 2813
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 290,
+     "domain": "math",
+     "transfers": 2310
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 291,
+     "domain": "math",
+     "transfers": 2847
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 292,
+     "domain": "math",
+     "transfers": 2704
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 293,
+     "domain": "math",
+     "transfers": 3019
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 294,
+     "domain": "math",
+     "transfers": 3252
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 295,
+     "domain": "math",
+     "transfers": 3451
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 296,
+     "domain": "math",
+     "transfers": 3093
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 297,
+     "domain": "math",
+     "transfers": 2918
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 298,
+     "domain": "math",
+     "transfers": 2252
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 299,
+     "domain": "math",
+     "transfers": 2738
+    },
+    {
+     "position": 80,
+     "source_sequence_id": 320,
+     "domain": "reasoning",
+     "transfers": 4130
+    },
+    {
+     "position": 81,
+     "source_sequence_id": 321,
+     "domain": "reasoning",
+     "transfers": 3684
+    },
+    {
+     "position": 82,
+     "source_sequence_id": 322,
+     "domain": "reasoning",
+     "transfers": 2642
+    },
+    {
+     "position": 83,
+     "source_sequence_id": 323,
+     "domain": "reasoning",
+     "transfers": 2576
+    },
+    {
+     "position": 84,
+     "source_sequence_id": 324,
+     "domain": "reasoning",
+     "transfers": 2797
+    },
+    {
+     "position": 85,
+     "source_sequence_id": 325,
+     "domain": "reasoning",
+     "transfers": 2299
+    },
+    {
+     "position": 86,
+     "source_sequence_id": 326,
+     "domain": "reasoning",
+     "transfers": 2538
+    },
+    {
+     "position": 87,
+     "source_sequence_id": 327,
+     "domain": "reasoning",
+     "transfers": 2742
+    },
+    {
+     "position": 88,
+     "source_sequence_id": 328,
+     "domain": "reasoning",
+     "transfers": 3307
+    },
+    {
+     "position": 89,
+     "source_sequence_id": 329,
+     "domain": "reasoning",
+     "transfers": 3287
+    },
+    {
+     "position": 90,
+     "source_sequence_id": 330,
+     "domain": "reasoning",
+     "transfers": 3051
+    },
+    {
+     "position": 91,
+     "source_sequence_id": 331,
+     "domain": "reasoning",
+     "transfers": 1774
+    },
+    {
+     "position": 92,
+     "source_sequence_id": 332,
+     "domain": "reasoning",
+     "transfers": 2388
+    },
+    {
+     "position": 93,
+     "source_sequence_id": 333,
+     "domain": "reasoning",
+     "transfers": 3609
+    },
+    {
+     "position": 94,
+     "source_sequence_id": 334,
+     "domain": "reasoning",
+     "transfers": 3359
+    },
+    {
+     "position": 95,
+     "source_sequence_id": 335,
+     "domain": "reasoning",
+     "transfers": 2402
+    },
+    {
+     "position": 96,
+     "source_sequence_id": 336,
+     "domain": "reasoning",
+     "transfers": 3069
+    },
+    {
+     "position": 97,
+     "source_sequence_id": 337,
+     "domain": "reasoning",
+     "transfers": 3129
+    },
+    {
+     "position": 98,
+     "source_sequence_id": 338,
+     "domain": "reasoning",
+     "transfers": 3589
+    },
+    {
+     "position": 99,
+     "source_sequence_id": 339,
+     "domain": "reasoning",
+     "transfers": 3214
+    },
+    {
+     "position": 100,
+     "source_sequence_id": 340,
+     "domain": "reasoning",
+     "transfers": 2792
+    },
+    {
+     "position": 101,
+     "source_sequence_id": 341,
+     "domain": "reasoning",
+     "transfers": 2581
+    },
+    {
+     "position": 102,
+     "source_sequence_id": 342,
+     "domain": "reasoning",
+     "transfers": 3162
+    },
+    {
+     "position": 103,
+     "source_sequence_id": 343,
+     "domain": "reasoning",
+     "transfers": 3017
+    },
+    {
+     "position": 104,
+     "source_sequence_id": 344,
+     "domain": "reasoning",
+     "transfers": 1902
+    },
+    {
+     "position": 105,
+     "source_sequence_id": 345,
+     "domain": "reasoning",
+     "transfers": 4038
+    },
+    {
+     "position": 106,
+     "source_sequence_id": 346,
+     "domain": "reasoning",
+     "transfers": 1763
+    },
+    {
+     "position": 107,
+     "source_sequence_id": 347,
+     "domain": "reasoning",
+     "transfers": 3902
+    },
+    {
+     "position": 108,
+     "source_sequence_id": 348,
+     "domain": "reasoning",
+     "transfers": 3326
+    },
+    {
+     "position": 109,
+     "source_sequence_id": 349,
+     "domain": "reasoning",
+     "transfers": 3290
+    },
+    {
+     "position": 110,
+     "source_sequence_id": 350,
+     "domain": "reasoning",
+     "transfers": 3164
+    },
+    {
+     "position": 111,
+     "source_sequence_id": 351,
+     "domain": "reasoning",
+     "transfers": 2041
+    },
+    {
+     "position": 112,
+     "source_sequence_id": 352,
+     "domain": "reasoning",
+     "transfers": 2162
+    },
+    {
+     "position": 113,
+     "source_sequence_id": 353,
+     "domain": "reasoning",
+     "transfers": 2386
+    },
+    {
+     "position": 114,
+     "source_sequence_id": 354,
+     "domain": "reasoning",
+     "transfers": 3446
+    },
+    {
+     "position": 115,
+     "source_sequence_id": 355,
+     "domain": "reasoning",
+     "transfers": 2698
+    },
+    {
+     "position": 116,
+     "source_sequence_id": 356,
+     "domain": "reasoning",
+     "transfers": 3066
+    },
+    {
+     "position": 117,
+     "source_sequence_id": 357,
+     "domain": "reasoning",
+     "transfers": 3036
+    },
+    {
+     "position": 118,
+     "source_sequence_id": 358,
+     "domain": "reasoning",
+     "transfers": 2750
+    },
+    {
+     "position": 119,
+     "source_sequence_id": 359,
+     "domain": "reasoning",
+     "transfers": 2687
+    },
+    {
+     "position": 120,
+     "source_sequence_id": 360,
+     "domain": "reasoning",
+     "transfers": 1742
+    },
+    {
+     "position": 121,
+     "source_sequence_id": 361,
+     "domain": "reasoning",
+     "transfers": 3653
+    },
+    {
+     "position": 122,
+     "source_sequence_id": 362,
+     "domain": "reasoning",
+     "transfers": 3062
+    },
+    {
+     "position": 123,
+     "source_sequence_id": 363,
+     "domain": "reasoning",
+     "transfers": 2666
+    },
+    {
+     "position": 124,
+     "source_sequence_id": 364,
+     "domain": "reasoning",
+     "transfers": 3439
+    },
+    {
+     "position": 125,
+     "source_sequence_id": 365,
+     "domain": "reasoning",
+     "transfers": 3230
+    },
+    {
+     "position": 126,
+     "source_sequence_id": 366,
+     "domain": "reasoning",
+     "transfers": 3516
+    },
+    {
+     "position": 127,
+     "source_sequence_id": 367,
+     "domain": "reasoning",
+     "transfers": 2895
+    },
+    {
+     "position": 128,
+     "source_sequence_id": 368,
+     "domain": "reasoning",
+     "transfers": 3659
+    },
+    {
+     "position": 129,
+     "source_sequence_id": 369,
+     "domain": "reasoning",
+     "transfers": 3043
+    },
+    {
+     "position": 130,
+     "source_sequence_id": 370,
+     "domain": "reasoning",
+     "transfers": 2237
+    },
+    {
+     "position": 131,
+     "source_sequence_id": 371,
+     "domain": "reasoning",
+     "transfers": 2689
+    },
+    {
+     "position": 132,
+     "source_sequence_id": 372,
+     "domain": "reasoning",
+     "transfers": 3522
+    },
+    {
+     "position": 133,
+     "source_sequence_id": 373,
+     "domain": "reasoning",
+     "transfers": 3433
+    },
+    {
+     "position": 134,
+     "source_sequence_id": 374,
+     "domain": "reasoning",
+     "transfers": 3204
+    },
+    {
+     "position": 135,
+     "source_sequence_id": 375,
+     "domain": "reasoning",
+     "transfers": 2924
+    },
+    {
+     "position": 136,
+     "source_sequence_id": 376,
+     "domain": "reasoning",
+     "transfers": 2489
+    },
+    {
+     "position": 137,
+     "source_sequence_id": 377,
+     "domain": "reasoning",
+     "transfers": 2372
+    },
+    {
+     "position": 138,
+     "source_sequence_id": 378,
+     "domain": "reasoning",
+     "transfers": 3340
+    },
+    {
+     "position": 139,
+     "source_sequence_id": 379,
+     "domain": "reasoning",
+     "transfers": 2267
+    },
+    {
+     "position": 140,
+     "source_sequence_id": 380,
+     "domain": "reasoning",
+     "transfers": 2381
+    },
+    {
+     "position": 141,
+     "source_sequence_id": 381,
+     "domain": "reasoning",
+     "transfers": 3148
+    },
+    {
+     "position": 142,
+     "source_sequence_id": 382,
+     "domain": "reasoning",
+     "transfers": 2800
+    },
+    {
+     "position": 143,
+     "source_sequence_id": 383,
+     "domain": "reasoning",
+     "transfers": 3107
+    },
+    {
+     "position": 144,
+     "source_sequence_id": 384,
+     "domain": "reasoning",
+     "transfers": 3580
+    },
+    {
+     "position": 145,
+     "source_sequence_id": 385,
+     "domain": "reasoning",
+     "transfers": 3235
+    },
+    {
+     "position": 146,
+     "source_sequence_id": 386,
+     "domain": "reasoning",
+     "transfers": 2459
+    },
+    {
+     "position": 147,
+     "source_sequence_id": 387,
+     "domain": "reasoning",
+     "transfers": 3624
+    },
+    {
+     "position": 148,
+     "source_sequence_id": 388,
+     "domain": "reasoning",
+     "transfers": 2910
+    },
+    {
+     "position": 149,
+     "source_sequence_id": 389,
+     "domain": "reasoning",
+     "transfers": 3223
+    },
+    {
+     "position": 150,
+     "source_sequence_id": 390,
+     "domain": "reasoning",
+     "transfers": 1940
+    },
+    {
+     "position": 151,
+     "source_sequence_id": 391,
+     "domain": "reasoning",
+     "transfers": 2564
+    },
+    {
+     "position": 152,
+     "source_sequence_id": 392,
+     "domain": "reasoning",
+     "transfers": 2917
+    },
+    {
+     "position": 153,
+     "source_sequence_id": 393,
+     "domain": "reasoning",
+     "transfers": 3094
+    },
+    {
+     "position": 154,
+     "source_sequence_id": 394,
+     "domain": "reasoning",
+     "transfers": 2186
+    },
+    {
+     "position": 155,
+     "source_sequence_id": 395,
+     "domain": "reasoning",
+     "transfers": 3263
+    },
+    {
+     "position": 156,
+     "source_sequence_id": 396,
+     "domain": "reasoning",
+     "transfers": 3710
+    },
+    {
+     "position": 157,
+     "source_sequence_id": 397,
+     "domain": "reasoning",
+     "transfers": 3016
+    },
+    {
+     "position": 158,
+     "source_sequence_id": 398,
+     "domain": "reasoning",
+     "transfers": 3792
+    },
+    {
+     "position": 159,
+     "source_sequence_id": 399,
+     "domain": "reasoning",
+     "transfers": 3263
+    }
+   ]
+  },
+  "repeated_domain_cycle": {
+   "transfers": 256541,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 20,
+     "domain": "general",
+     "transfers": 4264
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 21,
+     "domain": "general",
+     "transfers": 3377
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 22,
+     "domain": "general",
+     "transfers": 3422
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 23,
+     "domain": "general",
+     "transfers": 3484
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 24,
+     "domain": "general",
+     "transfers": 3160
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 25,
+     "domain": "general",
+     "transfers": 521
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 26,
+     "domain": "general",
+     "transfers": 2482
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 27,
+     "domain": "general",
+     "transfers": 2825
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 28,
+     "domain": "general",
+     "transfers": 2858
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 29,
+     "domain": "general",
+     "transfers": 3014
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 30,
+     "domain": "general",
+     "transfers": 2033
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 31,
+     "domain": "general",
+     "transfers": 126
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 32,
+     "domain": "general",
+     "transfers": 96
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 33,
+     "domain": "general",
+     "transfers": 3230
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 34,
+     "domain": "general",
+     "transfers": 3209
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 35,
+     "domain": "general",
+     "transfers": 3356
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 36,
+     "domain": "general",
+     "transfers": 2826
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 37,
+     "domain": "general",
+     "transfers": 560
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 38,
+     "domain": "general",
+     "transfers": 3451
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 39,
+     "domain": "general",
+     "transfers": 2352
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 120,
+     "domain": "coding",
+     "transfers": 2005
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 121,
+     "domain": "coding",
+     "transfers": 1432
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 122,
+     "domain": "coding",
+     "transfers": 1711
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 123,
+     "domain": "coding",
+     "transfers": 1592
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 124,
+     "domain": "coding",
+     "transfers": 1388
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 125,
+     "domain": "coding",
+     "transfers": 771
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 126,
+     "domain": "coding",
+     "transfers": 1529
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 127,
+     "domain": "coding",
+     "transfers": 799
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 128,
+     "domain": "coding",
+     "transfers": 1487
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 129,
+     "domain": "coding",
+     "transfers": 1700
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 130,
+     "domain": "coding",
+     "transfers": 1916
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 131,
+     "domain": "coding",
+     "transfers": 1809
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 132,
+     "domain": "coding",
+     "transfers": 1487
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 133,
+     "domain": "coding",
+     "transfers": 1215
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 134,
+     "domain": "coding",
+     "transfers": 1690
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 135,
+     "domain": "coding",
+     "transfers": 1907
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 136,
+     "domain": "coding",
+     "transfers": 1707
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 137,
+     "domain": "coding",
+     "transfers": 1475
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 138,
+     "domain": "coding",
+     "transfers": 1796
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 139,
+     "domain": "coding",
+     "transfers": 1779
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 220,
+     "domain": "math",
+     "transfers": 1935
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 221,
+     "domain": "math",
+     "transfers": 1896
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 222,
+     "domain": "math",
+     "transfers": 2968
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 223,
+     "domain": "math",
+     "transfers": 1428
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 224,
+     "domain": "math",
+     "transfers": 2979
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 225,
+     "domain": "math",
+     "transfers": 2419
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 226,
+     "domain": "math",
+     "transfers": 3535
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 227,
+     "domain": "math",
+     "transfers": 3378
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 228,
+     "domain": "math",
+     "transfers": 2566
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 229,
+     "domain": "math",
+     "transfers": 1481
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 230,
+     "domain": "math",
+     "transfers": 3716
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 231,
+     "domain": "math",
+     "transfers": 3487
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 232,
+     "domain": "math",
+     "transfers": 3157
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 233,
+     "domain": "math",
+     "transfers": 2791
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 234,
+     "domain": "math",
+     "transfers": 2795
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 235,
+     "domain": "math",
+     "transfers": 2634
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 236,
+     "domain": "math",
+     "transfers": 3115
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 237,
+     "domain": "math",
+     "transfers": 3352
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 238,
+     "domain": "math",
+     "transfers": 2825
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 239,
+     "domain": "math",
+     "transfers": 3097
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 320,
+     "domain": "reasoning",
+     "transfers": 4141
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 321,
+     "domain": "reasoning",
+     "transfers": 3682
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 322,
+     "domain": "reasoning",
+     "transfers": 2642
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 323,
+     "domain": "reasoning",
+     "transfers": 2576
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 324,
+     "domain": "reasoning",
+     "transfers": 2797
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 325,
+     "domain": "reasoning",
+     "transfers": 2299
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 326,
+     "domain": "reasoning",
+     "transfers": 2538
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 327,
+     "domain": "reasoning",
+     "transfers": 2742
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 328,
+     "domain": "reasoning",
+     "transfers": 3307
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 329,
+     "domain": "reasoning",
+     "transfers": 3287
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 330,
+     "domain": "reasoning",
+     "transfers": 3051
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 331,
+     "domain": "reasoning",
+     "transfers": 1774
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 332,
+     "domain": "reasoning",
+     "transfers": 2388
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 333,
+     "domain": "reasoning",
+     "transfers": 3609
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 334,
+     "domain": "reasoning",
+     "transfers": 3359
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 335,
+     "domain": "reasoning",
+     "transfers": 2402
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 336,
+     "domain": "reasoning",
+     "transfers": 3069
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 337,
+     "domain": "reasoning",
+     "transfers": 3129
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 338,
+     "domain": "reasoning",
+     "transfers": 3589
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 339,
+     "domain": "reasoning",
+     "transfers": 3214
+    },
+    {
+     "position": 80,
+     "source_sequence_id": 40,
+     "domain": "general",
+     "transfers": 3110
+    },
+    {
+     "position": 81,
+     "source_sequence_id": 41,
+     "domain": "general",
+     "transfers": 3996
+    },
+    {
+     "position": 82,
+     "source_sequence_id": 42,
+     "domain": "general",
+     "transfers": 3597
+    },
+    {
+     "position": 83,
+     "source_sequence_id": 43,
+     "domain": "general",
+     "transfers": 2909
+    },
+    {
+     "position": 84,
+     "source_sequence_id": 44,
+     "domain": "general",
+     "transfers": 483
+    },
+    {
+     "position": 85,
+     "source_sequence_id": 45,
+     "domain": "general",
+     "transfers": 3906
+    },
+    {
+     "position": 86,
+     "source_sequence_id": 46,
+     "domain": "general",
+     "transfers": 3443
+    },
+    {
+     "position": 87,
+     "source_sequence_id": 47,
+     "domain": "general",
+     "transfers": 3406
+    },
+    {
+     "position": 88,
+     "source_sequence_id": 48,
+     "domain": "general",
+     "transfers": 3740
+    },
+    {
+     "position": 89,
+     "source_sequence_id": 49,
+     "domain": "general",
+     "transfers": 3509
+    },
+    {
+     "position": 90,
+     "source_sequence_id": 50,
+     "domain": "general",
+     "transfers": 2341
+    },
+    {
+     "position": 91,
+     "source_sequence_id": 51,
+     "domain": "general",
+     "transfers": 3359
+    },
+    {
+     "position": 92,
+     "source_sequence_id": 52,
+     "domain": "general",
+     "transfers": 2920
+    },
+    {
+     "position": 93,
+     "source_sequence_id": 53,
+     "domain": "general",
+     "transfers": 3429
+    },
+    {
+     "position": 94,
+     "source_sequence_id": 54,
+     "domain": "general",
+     "transfers": 3969
+    },
+    {
+     "position": 95,
+     "source_sequence_id": 55,
+     "domain": "general",
+     "transfers": 2834
+    },
+    {
+     "position": 96,
+     "source_sequence_id": 56,
+     "domain": "general",
+     "transfers": 296
+    },
+    {
+     "position": 97,
+     "source_sequence_id": 57,
+     "domain": "general",
+     "transfers": 2946
+    },
+    {
+     "position": 98,
+     "source_sequence_id": 58,
+     "domain": "general",
+     "transfers": 3273
+    },
+    {
+     "position": 99,
+     "source_sequence_id": 59,
+     "domain": "general",
+     "transfers": 2085
+    }
+   ]
+  },
+  "mixed_interleaved": {
+   "transfers": 822414,
+   "sequences": [
+    {
+     "position": 0,
+     "source_sequence_id": 375,
+     "domain": "reasoning",
+     "transfers": 3295
+    },
+    {
+     "position": 1,
+     "source_sequence_id": 198,
+     "domain": "coding",
+     "transfers": 1072
+    },
+    {
+     "position": 2,
+     "source_sequence_id": 145,
+     "domain": "coding",
+     "transfers": 2066
+    },
+    {
+     "position": 3,
+     "source_sequence_id": 139,
+     "domain": "coding",
+     "transfers": 1784
+    },
+    {
+     "position": 4,
+     "source_sequence_id": 81,
+     "domain": "general",
+     "transfers": 438
+    },
+    {
+     "position": 5,
+     "source_sequence_id": 399,
+     "domain": "reasoning",
+     "transfers": 3378
+    },
+    {
+     "position": 6,
+     "source_sequence_id": 273,
+     "domain": "math",
+     "transfers": 3051
+    },
+    {
+     "position": 7,
+     "source_sequence_id": 185,
+     "domain": "coding",
+     "transfers": 1812
+    },
+    {
+     "position": 8,
+     "source_sequence_id": 272,
+     "domain": "math",
+     "transfers": 3380
+    },
+    {
+     "position": 9,
+     "source_sequence_id": 134,
+     "domain": "coding",
+     "transfers": 1915
+    },
+    {
+     "position": 10,
+     "source_sequence_id": 392,
+     "domain": "reasoning",
+     "transfers": 3112
+    },
+    {
+     "position": 11,
+     "source_sequence_id": 55,
+     "domain": "general",
+     "transfers": 3025
+    },
+    {
+     "position": 12,
+     "source_sequence_id": 380,
+     "domain": "reasoning",
+     "transfers": 2654
+    },
+    {
+     "position": 13,
+     "source_sequence_id": 142,
+     "domain": "coding",
+     "transfers": 1491
+    },
+    {
+     "position": 14,
+     "source_sequence_id": 74,
+     "domain": "general",
+     "transfers": 1777
+    },
+    {
+     "position": 15,
+     "source_sequence_id": 39,
+     "domain": "general",
+     "transfers": 2358
+    },
+    {
+     "position": 16,
+     "source_sequence_id": 22,
+     "domain": "general",
+     "transfers": 3306
+    },
+    {
+     "position": 17,
+     "source_sequence_id": 258,
+     "domain": "math",
+     "transfers": 2833
+    },
+    {
+     "position": 18,
+     "source_sequence_id": 398,
+     "domain": "reasoning",
+     "transfers": 3757
+    },
+    {
+     "position": 19,
+     "source_sequence_id": 277,
+     "domain": "math",
+     "transfers": 1832
+    },
+    {
+     "position": 20,
+     "source_sequence_id": 271,
+     "domain": "math",
+     "transfers": 3407
+    },
+    {
+     "position": 21,
+     "source_sequence_id": 223,
+     "domain": "math",
+     "transfers": 1315
+    },
+    {
+     "position": 22,
+     "source_sequence_id": 90,
+     "domain": "general",
+     "transfers": 2955
+    },
+    {
+     "position": 23,
+     "source_sequence_id": 221,
+     "domain": "math",
+     "transfers": 2072
+    },
+    {
+     "position": 24,
+     "source_sequence_id": 99,
+     "domain": "general",
+     "transfers": 3670
+    },
+    {
+     "position": 25,
+     "source_sequence_id": 366,
+     "domain": "reasoning",
+     "transfers": 3791
+    },
+    {
+     "position": 26,
+     "source_sequence_id": 161,
+     "domain": "coding",
+     "transfers": 1725
+    },
+    {
+     "position": 27,
+     "source_sequence_id": 233,
+     "domain": "math",
+     "transfers": 2929
+    },
+    {
+     "position": 28,
+     "source_sequence_id": 153,
+     "domain": "coding",
+     "transfers": 1739
+    },
+    {
+     "position": 29,
+     "source_sequence_id": 174,
+     "domain": "coding",
+     "transfers": 2080
+    },
+    {
+     "position": 30,
+     "source_sequence_id": 60,
+     "domain": "general",
+     "transfers": 92
+    },
+    {
+     "position": 31,
+     "source_sequence_id": 187,
+     "domain": "coding",
+     "transfers": 2413
+    },
+    {
+     "position": 32,
+     "source_sequence_id": 243,
+     "domain": "math",
+     "transfers": 3914
+    },
+    {
+     "position": 33,
+     "source_sequence_id": 53,
+     "domain": "general",
+     "transfers": 3183
+    },
+    {
+     "position": 34,
+     "source_sequence_id": 284,
+     "domain": "math",
+     "transfers": 3552
+    },
+    {
+     "position": 35,
+     "source_sequence_id": 76,
+     "domain": "general",
+     "transfers": 3453
+    },
+    {
+     "position": 36,
+     "source_sequence_id": 170,
+     "domain": "coding",
+     "transfers": 2040
+    },
+    {
+     "position": 37,
+     "source_sequence_id": 357,
+     "domain": "reasoning",
+     "transfers": 3237
+    },
+    {
+     "position": 38,
+     "source_sequence_id": 48,
+     "domain": "general",
+     "transfers": 3893
+    },
+    {
+     "position": 39,
+     "source_sequence_id": 320,
+     "domain": "reasoning",
+     "transfers": 4201
+    },
+    {
+     "position": 40,
+     "source_sequence_id": 281,
+     "domain": "math",
+     "transfers": 2198
+    },
+    {
+     "position": 41,
+     "source_sequence_id": 372,
+     "domain": "reasoning",
+     "transfers": 3648
+    },
+    {
+     "position": 42,
+     "source_sequence_id": 26,
+     "domain": "general",
+     "transfers": 2296
+    },
+    {
+     "position": 43,
+     "source_sequence_id": 177,
+     "domain": "coding",
+     "transfers": 1977
+    },
+    {
+     "position": 44,
+     "source_sequence_id": 63,
+     "domain": "general",
+     "transfers": 3524
+    },
+    {
+     "position": 45,
+     "source_sequence_id": 37,
+     "domain": "general",
+     "transfers": 491
+    },
+    {
+     "position": 46,
+     "source_sequence_id": 181,
+     "domain": "coding",
+     "transfers": 1929
+    },
+    {
+     "position": 47,
+     "source_sequence_id": 362,
+     "domain": "reasoning",
+     "transfers": 3078
+    },
+    {
+     "position": 48,
+     "source_sequence_id": 98,
+     "domain": "general",
+     "transfers": 720
+    },
+    {
+     "position": 49,
+     "source_sequence_id": 86,
+     "domain": "general",
+     "transfers": 3698
+    },
+    {
+     "position": 50,
+     "source_sequence_id": 124,
+     "domain": "coding",
+     "transfers": 1799
+    },
+    {
+     "position": 51,
+     "source_sequence_id": 182,
+     "domain": "coding",
+     "transfers": 2036
+    },
+    {
+     "position": 52,
+     "source_sequence_id": 89,
+     "domain": "general",
+     "transfers": 4347
+    },
+    {
+     "position": 53,
+     "source_sequence_id": 58,
+     "domain": "general",
+     "transfers": 3356
+    },
+    {
+     "position": 54,
+     "source_sequence_id": 229,
+     "domain": "math",
+     "transfers": 1726
+    },
+    {
+     "position": 55,
+     "source_sequence_id": 57,
+     "domain": "general",
+     "transfers": 2931
+    },
+    {
+     "position": 56,
+     "source_sequence_id": 355,
+     "domain": "reasoning",
+     "transfers": 3009
+    },
+    {
+     "position": 57,
+     "source_sequence_id": 379,
+     "domain": "reasoning",
+     "transfers": 2173
+    },
+    {
+     "position": 58,
+     "source_sequence_id": 255,
+     "domain": "math",
+     "transfers": 2350
+    },
+    {
+     "position": 59,
+     "source_sequence_id": 72,
+     "domain": "general",
+     "transfers": 4222
+    },
+    {
+     "position": 60,
+     "source_sequence_id": 365,
+     "domain": "reasoning",
+     "transfers": 3563
+    },
+    {
+     "position": 61,
+     "source_sequence_id": 80,
+     "domain": "general",
+     "transfers": 1179
+    },
+    {
+     "position": 62,
+     "source_sequence_id": 184,
+     "domain": "coding",
+     "transfers": 1807
+    },
+    {
+     "position": 63,
+     "source_sequence_id": 77,
+     "domain": "general",
+     "transfers": 3958
+    },
+    {
+     "position": 64,
+     "source_sequence_id": 239,
+     "domain": "math",
+     "transfers": 3124
+    },
+    {
+     "position": 65,
+     "source_sequence_id": 158,
+     "domain": "coding",
+     "transfers": 1881
+    },
+    {
+     "position": 66,
+     "source_sequence_id": 378,
+     "domain": "reasoning",
+     "transfers": 3454
+    },
+    {
+     "position": 67,
+     "source_sequence_id": 383,
+     "domain": "reasoning",
+     "transfers": 3165
+    },
+    {
+     "position": 68,
+     "source_sequence_id": 237,
+     "domain": "math",
+     "transfers": 3610
+    },
+    {
+     "position": 69,
+     "source_sequence_id": 278,
+     "domain": "math",
+     "transfers": 2696
+    },
+    {
+     "position": 70,
+     "source_sequence_id": 236,
+     "domain": "math",
+     "transfers": 3291
+    },
+    {
+     "position": 71,
+     "source_sequence_id": 388,
+     "domain": "reasoning",
+     "transfers": 2899
+    },
+    {
+     "position": 72,
+     "source_sequence_id": 394,
+     "domain": "reasoning",
+     "transfers": 2269
+    },
+    {
+     "position": 73,
+     "source_sequence_id": 354,
+     "domain": "reasoning",
+     "transfers": 3458
+    },
+    {
+     "position": 74,
+     "source_sequence_id": 363,
+     "domain": "reasoning",
+     "transfers": 2600
+    },
+    {
+     "position": 75,
+     "source_sequence_id": 92,
+     "domain": "general",
+     "transfers": 3456
+    },
+    {
+     "position": 76,
+     "source_sequence_id": 21,
+     "domain": "general",
+     "transfers": 3269
+    },
+    {
+     "position": 77,
+     "source_sequence_id": 157,
+     "domain": "coding",
+     "transfers": 1754
+    },
+    {
+     "position": 78,
+     "source_sequence_id": 143,
+     "domain": "coding",
+     "transfers": 1268
+    },
+    {
+     "position": 79,
+     "source_sequence_id": 235,
+     "domain": "math",
+     "transfers": 2793
+    },
+    {
+     "position": 80,
+     "source_sequence_id": 294,
+     "domain": "math",
+     "transfers": 3219
+    },
+    {
+     "position": 81,
+     "source_sequence_id": 128,
+     "domain": "coding",
+     "transfers": 1607
+    },
+    {
+     "position": 82,
+     "source_sequence_id": 50,
+     "domain": "general",
+     "transfers": 2320
+    },
+    {
+     "position": 83,
+     "source_sequence_id": 280,
+     "domain": "math",
+     "transfers": 3092
+    },
+    {
+     "position": 84,
+     "source_sequence_id": 248,
+     "domain": "math",
+     "transfers": 2756
+    },
+    {
+     "position": 85,
+     "source_sequence_id": 54,
+     "domain": "general",
+     "transfers": 4040
+    },
+    {
+     "position": 86,
+     "source_sequence_id": 34,
+     "domain": "general",
+     "transfers": 3271
+    },
+    {
+     "position": 87,
+     "source_sequence_id": 178,
+     "domain": "coding",
+     "transfers": 2260
+    },
+    {
+     "position": 88,
+     "source_sequence_id": 296,
+     "domain": "math",
+     "transfers": 3216
+    },
+    {
+     "position": 89,
+     "source_sequence_id": 38,
+     "domain": "general",
+     "transfers": 3175
+    },
+    {
+     "position": 90,
+     "source_sequence_id": 79,
+     "domain": "general",
+     "transfers": 915
+    },
+    {
+     "position": 91,
+     "source_sequence_id": 395,
+     "domain": "reasoning",
+     "transfers": 3452
+    },
+    {
+     "position": 92,
+     "source_sequence_id": 326,
+     "domain": "reasoning",
+     "transfers": 2567
+    },
+    {
+     "position": 93,
+     "source_sequence_id": 64,
+     "domain": "general",
+     "transfers": 3388
+    },
+    {
+     "position": 94,
+     "source_sequence_id": 276,
+     "domain": "math",
+     "transfers": 1932
+    },
+    {
+     "position": 95,
+     "source_sequence_id": 257,
+     "domain": "math",
+     "transfers": 2426
+    },
+    {
+     "position": 96,
+     "source_sequence_id": 84,
+     "domain": "general",
+     "transfers": 753
+    },
+    {
+     "position": 97,
+     "source_sequence_id": 71,
+     "domain": "general",
+     "transfers": 3613
+    },
+    {
+     "position": 98,
+     "source_sequence_id": 132,
+     "domain": "coding",
+     "transfers": 1722
+    },
+    {
+     "position": 99,
+     "source_sequence_id": 297,
+     "domain": "math",
+     "transfers": 3118
+    },
+    {
+     "position": 100,
+     "source_sequence_id": 31,
+     "domain": "general",
+     "transfers": 163
+    },
+    {
+     "position": 101,
+     "source_sequence_id": 298,
+     "domain": "math",
+     "transfers": 2527
+    },
+    {
+     "position": 102,
+     "source_sequence_id": 322,
+     "domain": "reasoning",
+     "transfers": 2561
+    },
+    {
+     "position": 103,
+     "source_sequence_id": 292,
+     "domain": "math",
+     "transfers": 2742
+    },
+    {
+     "position": 104,
+     "source_sequence_id": 228,
+     "domain": "math",
+     "transfers": 2599
+    },
+    {
+     "position": 105,
+     "source_sequence_id": 259,
+     "domain": "math",
+     "transfers": 2569
+    },
+    {
+     "position": 106,
+     "source_sequence_id": 369,
+     "domain": "reasoning",
+     "transfers": 3160
+    },
+    {
+     "position": 107,
+     "source_sequence_id": 155,
+     "domain": "coding",
+     "transfers": 1539
+    },
+    {
+     "position": 108,
+     "source_sequence_id": 152,
+     "domain": "coding",
+     "transfers": 1710
+    },
+    {
+     "position": 109,
+     "source_sequence_id": 27,
+     "domain": "general",
+     "transfers": 2943
+    },
+    {
+     "position": 110,
+     "source_sequence_id": 349,
+     "domain": "reasoning",
+     "transfers": 3359
+    },
+    {
+     "position": 111,
+     "source_sequence_id": 264,
+     "domain": "math",
+     "transfers": 3102
+    },
+    {
+     "position": 112,
+     "source_sequence_id": 382,
+     "domain": "reasoning",
+     "transfers": 3075
+    },
+    {
+     "position": 113,
+     "source_sequence_id": 345,
+     "domain": "reasoning",
+     "transfers": 3926
+    },
+    {
+     "position": 114,
+     "source_sequence_id": 353,
+     "domain": "reasoning",
+     "transfers": 2534
+    },
+    {
+     "position": 115,
+     "source_sequence_id": 65,
+     "domain": "general",
+     "transfers": 618
+    },
+    {
+     "position": 116,
+     "source_sequence_id": 193,
+     "domain": "coding",
+     "transfers": 2012
+    },
+    {
+     "position": 117,
+     "source_sequence_id": 332,
+     "domain": "reasoning",
+     "transfers": 2434
+    },
+    {
+     "position": 118,
+     "source_sequence_id": 244,
+     "domain": "math",
+     "transfers": 1845
+    },
+    {
+     "position": 119,
+     "source_sequence_id": 265,
+     "domain": "math",
+     "transfers": 3254
+    },
+    {
+     "position": 120,
+     "source_sequence_id": 393,
+     "domain": "reasoning",
+     "transfers": 3143
+    },
+    {
+     "position": 121,
+     "source_sequence_id": 325,
+     "domain": "reasoning",
+     "transfers": 2311
+    },
+    {
+     "position": 122,
+     "source_sequence_id": 194,
+     "domain": "coding",
+     "transfers": 1579
+    },
+    {
+     "position": 123,
+     "source_sequence_id": 135,
+     "domain": "coding",
+     "transfers": 1945
+    },
+    {
+     "position": 124,
+     "source_sequence_id": 147,
+     "domain": "coding",
+     "transfers": 1738
+    },
+    {
+     "position": 125,
+     "source_sequence_id": 333,
+     "domain": "reasoning",
+     "transfers": 3513
+    },
+    {
+     "position": 126,
+     "source_sequence_id": 35,
+     "domain": "general",
+     "transfers": 3730
+    },
+    {
+     "position": 127,
+     "source_sequence_id": 162,
+     "domain": "coding",
+     "transfers": 2179
+    },
+    {
+     "position": 128,
+     "source_sequence_id": 222,
+     "domain": "math",
+     "transfers": 3073
+    },
+    {
+     "position": 129,
+     "source_sequence_id": 321,
+     "domain": "reasoning",
+     "transfers": 3690
+    },
+    {
+     "position": 130,
+     "source_sequence_id": 338,
+     "domain": "reasoning",
+     "transfers": 3619
+    },
+    {
+     "position": 131,
+     "source_sequence_id": 199,
+     "domain": "coding",
+     "transfers": 1765
+    },
+    {
+     "position": 132,
+     "source_sequence_id": 387,
+     "domain": "reasoning",
+     "transfers": 3777
+    },
+    {
+     "position": 133,
+     "source_sequence_id": 23,
+     "domain": "general",
+     "transfers": 3331
+    },
+    {
+     "position": 134,
+     "source_sequence_id": 69,
+     "domain": "general",
+     "transfers": 894
+    },
+    {
+     "position": 135,
+     "source_sequence_id": 247,
+     "domain": "math",
+     "transfers": 3871
+    },
+    {
+     "position": 136,
+     "source_sequence_id": 361,
+     "domain": "reasoning",
+     "transfers": 3653
+    },
+    {
+     "position": 137,
+     "source_sequence_id": 249,
+     "domain": "math",
+     "transfers": 1775
+    },
+    {
+     "position": 138,
+     "source_sequence_id": 351,
+     "domain": "reasoning",
+     "transfers": 1968
+    },
+    {
+     "position": 139,
+     "source_sequence_id": 283,
+     "domain": "math",
+     "transfers": 3221
+    },
+    {
+     "position": 140,
+     "source_sequence_id": 287,
+     "domain": "math",
+     "transfers": 3047
+    },
+    {
+     "position": 141,
+     "source_sequence_id": 144,
+     "domain": "coding",
+     "transfers": 1901
+    },
+    {
+     "position": 142,
+     "source_sequence_id": 225,
+     "domain": "math",
+     "transfers": 2452
+    },
+    {
+     "position": 143,
+     "source_sequence_id": 149,
+     "domain": "coding",
+     "transfers": 791
+    },
+    {
+     "position": 144,
+     "source_sequence_id": 348,
+     "domain": "reasoning",
+     "transfers": 3501
+    },
+    {
+     "position": 145,
+     "source_sequence_id": 350,
+     "domain": "reasoning",
+     "transfers": 3336
+    },
+    {
+     "position": 146,
+     "source_sequence_id": 32,
+     "domain": "general",
+     "transfers": 294
+    },
+    {
+     "position": 147,
+     "source_sequence_id": 270,
+     "domain": "math",
+     "transfers": 2384
+    },
+    {
+     "position": 148,
+     "source_sequence_id": 266,
+     "domain": "math",
+     "transfers": 3452
+    },
+    {
+     "position": 149,
+     "source_sequence_id": 24,
+     "domain": "general",
+     "transfers": 3237
+    },
+    {
+     "position": 150,
+     "source_sequence_id": 254,
+     "domain": "math",
+     "transfers": 2682
+    },
+    {
+     "position": 151,
+     "source_sequence_id": 367,
+     "domain": "reasoning",
+     "transfers": 2840
+    },
+    {
+     "position": 152,
+     "source_sequence_id": 295,
+     "domain": "math",
+     "transfers": 3478
+    },
+    {
+     "position": 153,
+     "source_sequence_id": 40,
+     "domain": "general",
+     "transfers": 3087
+    },
+    {
+     "position": 154,
+     "source_sequence_id": 137,
+     "domain": "coding",
+     "transfers": 1650
+    },
+    {
+     "position": 155,
+     "source_sequence_id": 122,
+     "domain": "coding",
+     "transfers": 1749
+    },
+    {
+     "position": 156,
+     "source_sequence_id": 43,
+     "domain": "general",
+     "transfers": 3297
+    },
+    {
+     "position": 157,
+     "source_sequence_id": 173,
+     "domain": "coding",
+     "transfers": 2080
+    },
+    {
+     "position": 158,
+     "source_sequence_id": 97,
+     "domain": "general",
+     "transfers": 4030
+    },
+    {
+     "position": 159,
+     "source_sequence_id": 359,
+     "domain": "reasoning",
+     "transfers": 2959
+    },
+    {
+     "position": 160,
+     "source_sequence_id": 377,
+     "domain": "reasoning",
+     "transfers": 2311
+    },
+    {
+     "position": 161,
+     "source_sequence_id": 238,
+     "domain": "math",
+     "transfers": 2903
+    },
+    {
+     "position": 162,
+     "source_sequence_id": 224,
+     "domain": "math",
+     "transfers": 2965
+    },
+    {
+     "position": 163,
+     "source_sequence_id": 252,
+     "domain": "math",
+     "transfers": 1611
+    },
+    {
+     "position": 164,
+     "source_sequence_id": 279,
+     "domain": "math",
+     "transfers": 2299
+    },
+    {
+     "position": 165,
+     "source_sequence_id": 28,
+     "domain": "general",
+     "transfers": 2891
+    },
+    {
+     "position": 166,
+     "source_sequence_id": 251,
+     "domain": "math",
+     "transfers": 2933
+    },
+    {
+     "position": 167,
+     "source_sequence_id": 171,
+     "domain": "coding",
+     "transfers": 1558
+    },
+    {
+     "position": 168,
+     "source_sequence_id": 88,
+     "domain": "general",
+     "transfers": 3677
+    },
+    {
+     "position": 169,
+     "source_sequence_id": 282,
+     "domain": "math",
+     "transfers": 3124
+    },
+    {
+     "position": 170,
+     "source_sequence_id": 226,
+     "domain": "math",
+     "transfers": 3546
+    },
+    {
+     "position": 171,
+     "source_sequence_id": 62,
+     "domain": "general",
+     "transfers": 3293
+    },
+    {
+     "position": 172,
+     "source_sequence_id": 166,
+     "domain": "coding",
+     "transfers": 1907
+    },
+    {
+     "position": 173,
+     "source_sequence_id": 242,
+     "domain": "math",
+     "transfers": 3327
+    },
+    {
+     "position": 174,
+     "source_sequence_id": 125,
+     "domain": "coding",
+     "transfers": 906
+    },
+    {
+     "position": 175,
+     "source_sequence_id": 189,
+     "domain": "coding",
+     "transfers": 1454
+    },
+    {
+     "position": 176,
+     "source_sequence_id": 373,
+     "domain": "reasoning",
+     "transfers": 3617
+    },
+    {
+     "position": 177,
+     "source_sequence_id": 343,
+     "domain": "reasoning",
+     "transfers": 3060
+    },
+    {
+     "position": 178,
+     "source_sequence_id": 183,
+     "domain": "coding",
+     "transfers": 920
+    },
+    {
+     "position": 179,
+     "source_sequence_id": 274,
+     "domain": "math",
+     "transfers": 3240
+    },
+    {
+     "position": 180,
+     "source_sequence_id": 389,
+     "domain": "reasoning",
+     "transfers": 3289
+    },
+    {
+     "position": 181,
+     "source_sequence_id": 156,
+     "domain": "coding",
+     "transfers": 920
+    },
+    {
+     "position": 182,
+     "source_sequence_id": 356,
+     "domain": "reasoning",
+     "transfers": 3296
+    },
+    {
+     "position": 183,
+     "source_sequence_id": 253,
+     "domain": "math",
+     "transfers": 2828
+    },
+    {
+     "position": 184,
+     "source_sequence_id": 140,
+     "domain": "coding",
+     "transfers": 1645
+    },
+    {
+     "position": 185,
+     "source_sequence_id": 33,
+     "domain": "general",
+     "transfers": 3332
+    },
+    {
+     "position": 186,
+     "source_sequence_id": 246,
+     "domain": "math",
+     "transfers": 3043
+    },
+    {
+     "position": 187,
+     "source_sequence_id": 268,
+     "domain": "math",
+     "transfers": 3393
+    },
+    {
+     "position": 188,
+     "source_sequence_id": 290,
+     "domain": "math",
+     "transfers": 2234
+    },
+    {
+     "position": 189,
+     "source_sequence_id": 167,
+     "domain": "coding",
+     "transfers": 1493
+    },
+    {
+     "position": 190,
+     "source_sequence_id": 197,
+     "domain": "coding",
+     "transfers": 1764
+    },
+    {
+     "position": 191,
+     "source_sequence_id": 163,
+     "domain": "coding",
+     "transfers": 1684
+    },
+    {
+     "position": 192,
+     "source_sequence_id": 358,
+     "domain": "reasoning",
+     "transfers": 2902
+    },
+    {
+     "position": 193,
+     "source_sequence_id": 150,
+     "domain": "coding",
+     "transfers": 1753
+    },
+    {
+     "position": 194,
+     "source_sequence_id": 376,
+     "domain": "reasoning",
+     "transfers": 2567
+    },
+    {
+     "position": 195,
+     "source_sequence_id": 336,
+     "domain": "reasoning",
+     "transfers": 3086
+    },
+    {
+     "position": 196,
+     "source_sequence_id": 82,
+     "domain": "general",
+     "transfers": 3666
+    },
+    {
+     "position": 197,
+     "source_sequence_id": 344,
+     "domain": "reasoning",
+     "transfers": 2166
+    },
+    {
+     "position": 198,
+     "source_sequence_id": 131,
+     "domain": "coding",
+     "transfers": 1861
+    },
+    {
+     "position": 199,
+     "source_sequence_id": 172,
+     "domain": "coding",
+     "transfers": 1758
+    },
+    {
+     "position": 200,
+     "source_sequence_id": 360,
+     "domain": "reasoning",
+     "transfers": 1729
+    },
+    {
+     "position": 201,
+     "source_sequence_id": 141,
+     "domain": "coding",
+     "transfers": 1628
+    },
+    {
+     "position": 202,
+     "source_sequence_id": 293,
+     "domain": "math",
+     "transfers": 2961
+    },
+    {
+     "position": 203,
+     "source_sequence_id": 385,
+     "domain": "reasoning",
+     "transfers": 3346
+    },
+    {
+     "position": 204,
+     "source_sequence_id": 288,
+     "domain": "math",
+     "transfers": 3446
+    },
+    {
+     "position": 205,
+     "source_sequence_id": 168,
+     "domain": "coding",
+     "transfers": 1638
+    },
+    {
+     "position": 206,
+     "source_sequence_id": 396,
+     "domain": "reasoning",
+     "transfers": 3937
+    },
+    {
+     "position": 207,
+     "source_sequence_id": 66,
+     "domain": "general",
+     "transfers": 3495
+    },
+    {
+     "position": 208,
+     "source_sequence_id": 299,
+     "domain": "math",
+     "transfers": 3174
+    },
+    {
+     "position": 209,
+     "source_sequence_id": 241,
+     "domain": "math",
+     "transfers": 2396
+    },
+    {
+     "position": 210,
+     "source_sequence_id": 346,
+     "domain": "reasoning",
+     "transfers": 1731
+    },
+    {
+     "position": 211,
+     "source_sequence_id": 196,
+     "domain": "coding",
+     "transfers": 1813
+    },
+    {
+     "position": 212,
+     "source_sequence_id": 91,
+     "domain": "general",
+     "transfers": 3629
+    },
+    {
+     "position": 213,
+     "source_sequence_id": 41,
+     "domain": "general",
+     "transfers": 3870
+    },
+    {
+     "position": 214,
+     "source_sequence_id": 256,
+     "domain": "math",
+     "transfers": 420
+    },
+    {
+     "position": 215,
+     "source_sequence_id": 154,
+     "domain": "coding",
+     "transfers": 1478
+    },
+    {
+     "position": 216,
+     "source_sequence_id": 47,
+     "domain": "general",
+     "transfers": 3618
+    },
+    {
+     "position": 217,
+     "source_sequence_id": 120,
+     "domain": "coding",
+     "transfers": 2185
+    },
+    {
+     "position": 218,
+     "source_sequence_id": 138,
+     "domain": "coding",
+     "transfers": 1763
+    },
+    {
+     "position": 219,
+     "source_sequence_id": 331,
+     "domain": "reasoning",
+     "transfers": 1734
+    },
+    {
+     "position": 220,
+     "source_sequence_id": 68,
+     "domain": "general",
+     "transfers": 3437
+    },
+    {
+     "position": 221,
+     "source_sequence_id": 230,
+     "domain": "math",
+     "transfers": 4029
+    },
+    {
+     "position": 222,
+     "source_sequence_id": 240,
+     "domain": "math",
+     "transfers": 2651
+    },
+    {
+     "position": 223,
+     "source_sequence_id": 340,
+     "domain": "reasoning",
+     "transfers": 2855
+    },
+    {
+     "position": 224,
+     "source_sequence_id": 327,
+     "domain": "reasoning",
+     "transfers": 2721
+    },
+    {
+     "position": 225,
+     "source_sequence_id": 93,
+     "domain": "general",
+     "transfers": 3416
+    },
+    {
+     "position": 226,
+     "source_sequence_id": 330,
+     "domain": "reasoning",
+     "transfers": 3188
+    },
+    {
+     "position": 227,
+     "source_sequence_id": 165,
+     "domain": "coding",
+     "transfers": 1801
+    },
+    {
+     "position": 228,
+     "source_sequence_id": 192,
+     "domain": "coding",
+     "transfers": 772
+    },
+    {
+     "position": 229,
+     "source_sequence_id": 151,
+     "domain": "coding",
+     "transfers": 1968
+    },
+    {
+     "position": 230,
+     "source_sequence_id": 364,
+     "domain": "reasoning",
+     "transfers": 3588
+    },
+    {
+     "position": 231,
+     "source_sequence_id": 384,
+     "domain": "reasoning",
+     "transfers": 3448
+    },
+    {
+     "position": 232,
+     "source_sequence_id": 67,
+     "domain": "general",
+     "transfers": 3410
+    },
+    {
+     "position": 233,
+     "source_sequence_id": 329,
+     "domain": "reasoning",
+     "transfers": 3565
+    },
+    {
+     "position": 234,
+     "source_sequence_id": 169,
+     "domain": "coding",
+     "transfers": 1501
+    },
+    {
+     "position": 235,
+     "source_sequence_id": 25,
+     "domain": "general",
+     "transfers": 400
+    },
+    {
+     "position": 236,
+     "source_sequence_id": 85,
+     "domain": "general",
+     "transfers": 2664
+    },
+    {
+     "position": 237,
+     "source_sequence_id": 260,
+     "domain": "math",
+     "transfers": 2491
+    },
+    {
+     "position": 238,
+     "source_sequence_id": 46,
+     "domain": "general",
+     "transfers": 3732
+    },
+    {
+     "position": 239,
+     "source_sequence_id": 164,
+     "domain": "coding",
+     "transfers": 1760
+    },
+    {
+     "position": 240,
+     "source_sequence_id": 267,
+     "domain": "math",
+     "transfers": 2384
+    },
+    {
+     "position": 241,
+     "source_sequence_id": 191,
+     "domain": "coding",
+     "transfers": 1764
+    },
+    {
+     "position": 242,
+     "source_sequence_id": 220,
+     "domain": "math",
+     "transfers": 1936
+    },
+    {
+     "position": 243,
+     "source_sequence_id": 232,
+     "domain": "math",
+     "transfers": 3303
+    },
+    {
+     "position": 244,
+     "source_sequence_id": 323,
+     "domain": "reasoning",
+     "transfers": 2698
+    },
+    {
+     "position": 245,
+     "source_sequence_id": 96,
+     "domain": "general",
+     "transfers": 2032
+    },
+    {
+     "position": 246,
+     "source_sequence_id": 324,
+     "domain": "reasoning",
+     "transfers": 2713
+    },
+    {
+     "position": 247,
+     "source_sequence_id": 42,
+     "domain": "general",
+     "transfers": 3529
+    },
+    {
+     "position": 248,
+     "source_sequence_id": 127,
+     "domain": "coding",
+     "transfers": 1032
+    },
+    {
+     "position": 249,
+     "source_sequence_id": 352,
+     "domain": "reasoning",
+     "transfers": 2393
+    },
+    {
+     "position": 250,
+     "source_sequence_id": 94,
+     "domain": "general",
+     "transfers": 4093
+    },
+    {
+     "position": 251,
+     "source_sequence_id": 190,
+     "domain": "coding",
+     "transfers": 2132
+    },
+    {
+     "position": 252,
+     "source_sequence_id": 328,
+     "domain": "reasoning",
+     "transfers": 3590
+    },
+    {
+     "position": 253,
+     "source_sequence_id": 250,
+     "domain": "math",
+     "transfers": 1462
+    },
+    {
+     "position": 254,
+     "source_sequence_id": 130,
+     "domain": "coding",
+     "transfers": 2078
+    },
+    {
+     "position": 255,
+     "source_sequence_id": 262,
+     "domain": "math",
+     "transfers": 3091
+    },
+    {
+     "position": 256,
+     "source_sequence_id": 374,
+     "domain": "reasoning",
+     "transfers": 3307
+    },
+    {
+     "position": 257,
+     "source_sequence_id": 195,
+     "domain": "coding",
+     "transfers": 1579
+    },
+    {
+     "position": 258,
+     "source_sequence_id": 269,
+     "domain": "math",
+     "transfers": 2245
+    },
+    {
+     "position": 259,
+     "source_sequence_id": 391,
+     "domain": "reasoning",
+     "transfers": 2782
+    },
+    {
+     "position": 260,
+     "source_sequence_id": 78,
+     "domain": "general",
+     "transfers": 524
+    },
+    {
+     "position": 261,
+     "source_sequence_id": 175,
+     "domain": "coding",
+     "transfers": 1411
+    },
+    {
+     "position": 262,
+     "source_sequence_id": 179,
+     "domain": "coding",
+     "transfers": 2335
+    },
+    {
+     "position": 263,
+     "source_sequence_id": 339,
+     "domain": "reasoning",
+     "transfers": 3350
+    },
+    {
+     "position": 264,
+     "source_sequence_id": 180,
+     "domain": "coding",
+     "transfers": 1657
+    },
+    {
+     "position": 265,
+     "source_sequence_id": 186,
+     "domain": "coding",
+     "transfers": 1912
+    },
+    {
+     "position": 266,
+     "source_sequence_id": 29,
+     "domain": "general",
+     "transfers": 3078
+    },
+    {
+     "position": 267,
+     "source_sequence_id": 146,
+     "domain": "coding",
+     "transfers": 1962
+    },
+    {
+     "position": 268,
+     "source_sequence_id": 341,
+     "domain": "reasoning",
+     "transfers": 2869
+    },
+    {
+     "position": 269,
+     "source_sequence_id": 397,
+     "domain": "reasoning",
+     "transfers": 3013
+    },
+    {
+     "position": 270,
+     "source_sequence_id": 286,
+     "domain": "math",
+     "transfers": 2546
+    },
+    {
+     "position": 271,
+     "source_sequence_id": 291,
+     "domain": "math",
+     "transfers": 2669
+    },
+    {
+     "position": 272,
+     "source_sequence_id": 275,
+     "domain": "math",
+     "transfers": 881
+    },
+    {
+     "position": 273,
+     "source_sequence_id": 231,
+     "domain": "math",
+     "transfers": 3663
+    },
+    {
+     "position": 274,
+     "source_sequence_id": 261,
+     "domain": "math",
+     "transfers": 2763
+    },
+    {
+     "position": 275,
+     "source_sequence_id": 381,
+     "domain": "reasoning",
+     "transfers": 3245
+    },
+    {
+     "position": 276,
+     "source_sequence_id": 59,
+     "domain": "general",
+     "transfers": 2373
+    },
+    {
+     "position": 277,
+     "source_sequence_id": 188,
+     "domain": "coding",
+     "transfers": 1526
+    },
+    {
+     "position": 278,
+     "source_sequence_id": 87,
+     "domain": "general",
+     "transfers": 2092
+    },
+    {
+     "position": 279,
+     "source_sequence_id": 285,
+     "domain": "math",
+     "transfers": 2166
+    },
+    {
+     "position": 280,
+     "source_sequence_id": 51,
+     "domain": "general",
+     "transfers": 3274
+    },
+    {
+     "position": 281,
+     "source_sequence_id": 342,
+     "domain": "reasoning",
+     "transfers": 3492
+    },
+    {
+     "position": 282,
+     "source_sequence_id": 126,
+     "domain": "coding",
+     "transfers": 1596
+    },
+    {
+     "position": 283,
+     "source_sequence_id": 123,
+     "domain": "coding",
+     "transfers": 1681
+    },
+    {
+     "position": 284,
+     "source_sequence_id": 133,
+     "domain": "coding",
+     "transfers": 1211
+    },
+    {
+     "position": 285,
+     "source_sequence_id": 121,
+     "domain": "coding",
+     "transfers": 1457
+    },
+    {
+     "position": 286,
+     "source_sequence_id": 335,
+     "domain": "reasoning",
+     "transfers": 2610
+    },
+    {
+     "position": 287,
+     "source_sequence_id": 52,
+     "domain": "general",
+     "transfers": 2999
+    },
+    {
+     "position": 288,
+     "source_sequence_id": 83,
+     "domain": "general",
+     "transfers": 3382
+    },
+    {
+     "position": 289,
+     "source_sequence_id": 386,
+     "domain": "reasoning",
+     "transfers": 2790
+    },
+    {
+     "position": 290,
+     "source_sequence_id": 263,
+     "domain": "math",
+     "transfers": 791
+    },
+    {
+     "position": 291,
+     "source_sequence_id": 45,
+     "domain": "general",
+     "transfers": 3777
+    },
+    {
+     "position": 292,
+     "source_sequence_id": 245,
+     "domain": "math",
+     "transfers": 2178
+    },
+    {
+     "position": 293,
+     "source_sequence_id": 371,
+     "domain": "reasoning",
+     "transfers": 2714
+    },
+    {
+     "position": 294,
+     "source_sequence_id": 44,
+     "domain": "general",
+     "transfers": 404
+    },
+    {
+     "position": 295,
+     "source_sequence_id": 70,
+     "domain": "general",
+     "transfers": 2969
+    },
+    {
+     "position": 296,
+     "source_sequence_id": 36,
+     "domain": "general",
+     "transfers": 2798
+    },
+    {
+     "position": 297,
+     "source_sequence_id": 368,
+     "domain": "reasoning",
+     "transfers": 3854
+    },
+    {
+     "position": 298,
+     "source_sequence_id": 390,
+     "domain": "reasoning",
+     "transfers": 1887
+    },
+    {
+     "position": 299,
+     "source_sequence_id": 56,
+     "domain": "general",
+     "transfers": 207
+    },
+    {
+     "position": 300,
+     "source_sequence_id": 176,
+     "domain": "coding",
+     "transfers": 1652
+    },
+    {
+     "position": 301,
+     "source_sequence_id": 334,
+     "domain": "reasoning",
+     "transfers": 3486
+    },
+    {
+     "position": 302,
+     "source_sequence_id": 129,
+     "domain": "coding",
+     "transfers": 1809
+    },
+    {
+     "position": 303,
+     "source_sequence_id": 136,
+     "domain": "coding",
+     "transfers": 1619
+    },
+    {
+     "position": 304,
+     "source_sequence_id": 30,
+     "domain": "general",
+     "transfers": 2392
+    },
+    {
+     "position": 305,
+     "source_sequence_id": 227,
+     "domain": "math",
+     "transfers": 3577
+    },
+    {
+     "position": 306,
+     "source_sequence_id": 95,
+     "domain": "general",
+     "transfers": 2616
+    },
+    {
+     "position": 307,
+     "source_sequence_id": 75,
+     "domain": "general",
+     "transfers": 2891
+    },
+    {
+     "position": 308,
+     "source_sequence_id": 337,
+     "domain": "reasoning",
+     "transfers": 3309
+    },
+    {
+     "position": 309,
+     "source_sequence_id": 234,
+     "domain": "math",
+     "transfers": 2948
+    },
+    {
+     "position": 310,
+     "source_sequence_id": 49,
+     "domain": "general",
+     "transfers": 3676
+    },
+    {
+     "position": 311,
+     "source_sequence_id": 61,
+     "domain": "general",
+     "transfers": 3739
+    },
+    {
+     "position": 312,
+     "source_sequence_id": 20,
+     "domain": "general",
+     "transfers": 4101
+    },
+    {
+     "position": 313,
+     "source_sequence_id": 347,
+     "domain": "reasoning",
+     "transfers": 4019
+    },
+    {
+     "position": 314,
+     "source_sequence_id": 159,
+     "domain": "coding",
+     "transfers": 2012
+    },
+    {
+     "position": 315,
+     "source_sequence_id": 160,
+     "domain": "coding",
+     "transfers": 1623
+    },
+    {
+     "position": 316,
+     "source_sequence_id": 73,
+     "domain": "general",
+     "transfers": 4183
+    },
+    {
+     "position": 317,
+     "source_sequence_id": 148,
+     "domain": "coding",
+     "transfers": 2143
+    },
+    {
+     "position": 318,
+     "source_sequence_id": 370,
+     "domain": "reasoning",
+     "transfers": 2371
+    },
+    {
+     "position": 319,
+     "source_sequence_id": 289,
+     "domain": "math",
+     "transfers": 2854
+    }
+   ]
+  }
+ },
+ "transfers": 3439360,
+ "wall_seconds": 501.8596091250074
+}

@@ -1,0 +1,54 @@
+{
+ "trace": "t3_qwen3",
+ "model": "qwen3",
+ "trace_hash": "52ddfd12bf42beab2d103322f8878daa4fad9b142e1c32334d59fbdd659820f7",
+ "fit": "frozen",
+ "capacities": {
+  "64": {
+   "hobbit_w": 0.2,
+   "paths": {
+    "lfu_decay": {
+     "fresh_interleaved": 270820
+    },
+    "lru": {
+     "fresh_interleaved": 271256
+    },
+    "hobbit": {
+     "fresh_interleaved": 264994
+    },
+    "moe_infinity": {
+     "fresh_interleaved": 259162
+    }
+   },
+   "totals": {
+    "lfu_decay": 270820,
+    "lru": 271256,
+    "hobbit": 264994,
+    "moe_infinity": 259162
+   }
+  },
+  "48": {
+   "hobbit_w": 0.3,
+   "paths": {
+    "lfu_decay": {
+     "fresh_interleaved": 485215
+    },
+    "lru": {
+     "fresh_interleaved": 493819
+    },
+    "hobbit": {
+     "fresh_interleaved": 468107
+    },
+    "moe_infinity": {
+     "fresh_interleaved": 485511
+    }
+   },
+   "totals": {
+    "lfu_decay": 485215,
+    "lru": 493819,
+    "hobbit": 468107,
+    "moe_infinity": 485511
+   }
+  }
+ }
+}

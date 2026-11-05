@@ -1,0 +1,44 @@
+{
+ "source": "T5 development costs (mixtral/4), T5 Mixtral B=4 copies and wall times",
+ "copy_ms": {
+  "1": 6.395393812840118,
+  "2": 12.790787625680236,
+  "4": 25.581575251360473,
+  "7": 44.76775668988083
+ },
+ "gains": {
+  "1": {
+   "splitphase vs lfu_decay": 0.03305500454235791,
+   "hobbit vs lfu_decay": -0.0027806751537781758,
+   "splitphase vs hobbit": 0.03599754592768025,
+   "global_token_gbt vs lfu_decay": -0.04672160977951211,
+   "splitphase vs global_token_gbt": 0.0762756888523185
+  },
+  "2": {
+   "splitphase vs lfu_decay": 0.04000830658742211,
+   "hobbit vs lfu_decay": 0.0021606041580043388,
+   "splitphase vs hobbit": 0.03808078941874063,
+   "global_token_gbt vs lfu_decay": -0.004989002051343535,
+   "splitphase vs global_token_gbt": 0.044793900951656765
+  },
+  "4": {
+   "splitphase vs lfu_decay": 0.043967221705238146,
+   "hobbit vs lfu_decay": 0.004973958912621034,
+   "splitphase vs hobbit": 0.03926994476891829,
+   "global_token_gbt vs lfu_decay": 0.018771773846233197,
+   "splitphase vs global_token_gbt": 0.025683594071317283
+  },
+  "7": {
+   "splitphase vs lfu_decay": 0.04577823917626263,
+   "hobbit vs lfu_decay": 0.006260936395384373,
+   "splitphase vs hobbit": 0.03981466612876813,
+   "global_token_gbt vs lfu_decay": 0.029641211304479876,
+   "splitphase vs global_token_gbt": 0.016632302025595177
+  }
+ },
+ "breakeven_copy_ms_K1_issue": {
+  "splitphase": 1.1186772233671034,
+  "global_token_gbt": 14.431591925205366,
+  "hobbit": 9.055956731528138
+ }
+}

@@ -1,0 +1,394 @@
+{
+ "models": {
+  "qwen3_30b_a3b": {
+   "64": {
+    "totals": {
+     "lfu_decay": {
+      "ms_per_token_wall": 124.10537721337892,
+      "ms_per_token_policy": 3.026190104394531,
+      "ms_per_token_copy": 11.468564356127171,
+      "ms_per_copy": 0.4336389447114033,
+      "transfers_per_token": 26.447265625,
+      "routing_match_fraction": 1.0,
+      "token_agreement_fraction": 1.0,
+      "tokens": 10240
+     },
+     "splitphase": {
+      "ms_per_token_wall": 123.16226655195312,
+      "ms_per_token_policy": 3.910763812792969,
+      "ms_per_token_copy": 9.078313565370626,
+      "ms_per_copy": 0.43663983555607583,
+      "transfers_per_token": 20.79130859375,
+      "routing_match_fraction": 1.0,
+      "token_agreement_fraction": 1.0,
+      "tokens": 10240
+     },
+     "global_token_gbt": {
+      "ms_per_token_wall": 171.90057200185547,
+      "ms_per_token_policy": 48.22922380371094,
+      "ms_per_token_copy": 9.356851752937654,
+      "ms_per_copy": 0.4443163823249503,
+      "transfers_per_token": 21.058984375,
+      "routing_match_fraction": 1.0,
+      "token_agreement_fraction": 1.0,
+      "tokens": 10240
+     }
+    },
+    "splitphase": {
+     "workers": 1,
+     "wait_ms_per_token": 0.39118115625,
+     "decide_ms_per_token": 2.8195329887695313,
+     "post_ms_per_token": 0.36810338466796877,
+     "worker_busy_ms_per_token": [
+      56.77715971611328
+     ]
+    },
+    "bandwidth_probe": {
+     "ms_per_expert": 0.3962067031860352,
+     "expert_bytes": 9437184,
+     "gb_per_s": 23.818839823032622
+    },
+    "split_vs_lfu": {
+     "capacity": 64,
+     "left_cost": 1270839,
+     "right_cost": 1261181,
+     "improvement": 0.007599273154814796,
+     "ci_low": -0.06217200605925247,
+     "ci_high": 0.07129241030621286,
+     "sequences_improved": 46,
+     "sequences_worsened": 34,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "split_vs_sync": {
+     "capacity": 64,
+     "left_cost": 1760261,
+     "right_cost": 1261181,
+     "improvement": 0.2835261388739083,
+     "ci_low": 0.24249213223987973,
+     "ci_high": 0.32566839357530636,
+     "sequences_improved": 73,
+     "sequences_worsened": 7,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "sync_vs_lfu": {
+     "capacity": 64,
+     "left_cost": 1270839,
+     "right_cost": 1760261,
+     "improvement": -0.3851178398684573,
+     "ci_low": -0.48148048465846144,
+     "ci_high": -0.2918715392762999,
+     "sequences_improved": 15,
+     "sequences_worsened": 65,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "transfers_split_vs_lfu": {
+     "capacity": 64,
+     "left_cost": 270820,
+     "right_cost": 212903,
+     "improvement": 0.21385791300494794,
+     "ci_low": 0.20224836926818412,
+     "ci_high": 0.2250536392755672,
+     "sequences_improved": 78,
+     "sequences_worsened": 2,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "transfers_equal_simulator": {
+     "lfu_decay": true,
+     "global_token_gbt": true,
+     "splitphase": true
+    },
+    "fidelity_met": true,
+    "critical_path": {
+     "split_policy_ms_per_token": 3.910763812792969,
+     "lfu_policy_ms_per_token": 3.026190104394531,
+     "sync_policy_ms_per_token": 48.22922380371094,
+     "wait_ms_per_token": 0.39118115625,
+     "wait_limit_ms_per_token": 0.6205268860668945,
+     "met": true
+    },
+    "criteria": {
+     "sync_slower_than_lfu": true,
+     "split_faster_than_sync": true,
+     "split_faster_than_lfu": false,
+     "fidelity": true,
+     "critical_path": true
+    },
+    "workers": 1
+   },
+   "48": {
+    "totals": {
+     "lfu_decay": {
+      "ms_per_token_wall": 128.34735912177734,
+      "ms_per_token_policy": 3.0454429797851565,
+      "ms_per_token_copy": 23.110435964545466,
+      "ms_per_copy": 0.4877237189224274,
+      "transfers_per_token": 47.38427734375,
+      "routing_match_fraction": 1.0,
+      "token_agreement_fraction": 1.0,
+      "tokens": 10240
+     },
+     "splitphase": {
+      "ms_per_token_wall": 127.50526066845703,
+      "ms_per_token_policy": 4.2345572943359375,
+      "ms_per_token_copy": 18.77821659978945,
+      "ms_per_copy": 0.49156127097971253,
+      "transfers_per_token": 38.201171875,
+      "routing_match_fraction": 1.0,
+      "token_agreement_fraction": 1.0,
+      "tokens": 10240
+     },
+     "global_token_gbt": {
+      "ms_per_token_wall": 176.49701046982423,
+      "ms_per_token_policy": 52.92130693007813,
+      "ms_per_token_copy": 18.986191956998663,
+      "ms_per_copy": 0.4970423331134685,
+      "transfers_per_token": 38.19833984375,
+      "routing_match_fraction": 1.0,
+      "token_agreement_fraction": 1.0,
+      "tokens": 10240
+     }
+    },
+    "splitphase": {
+     "workers": 1,
+     "wait_ms_per_token": 0.5783509244140624,
+     "decide_ms_per_token": 2.9686601577148437,
+     "post_ms_per_token": 0.3512681271484375,
+     "worker_busy_ms_per_token": [
+      47.59762522294922
+     ]
+    },
+    "bandwidth_probe": {
+     "ms_per_expert": 0.4777920150756836,
+     "expert_bytes": 9437184,
+     "gb_per_s": 19.751657001854927
+    },
+    "split_vs_lfu": {
+     "capacity": 48,
+     "left_cost": 1314276,
+     "right_cost": 1305653,
+     "improvement": 0.006561089056155228,
+     "ci_low": -0.05541199700723935,
+     "ci_high": 0.06152597717091031,
+     "sequences_improved": 52,
+     "sequences_worsened": 28,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "split_vs_sync": {
+     "capacity": 48,
+     "left_cost": 1807329,
+     "right_cost": 1305653,
+     "improvement": 0.27757835484552495,
+     "ci_low": 0.2354653812533462,
+     "ci_high": 0.3211278933426674,
+     "sequences_improved": 70,
+     "sequences_worsened": 10,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "sync_vs_lfu": {
+     "capacity": 48,
+     "left_cost": 1314276,
+     "right_cost": 1807329,
+     "improvement": -0.37515108746695736,
+     "ci_low": -0.45827248343420407,
+     "ci_high": -0.30065859446967497,
+     "sequences_improved": 15,
+     "sequences_worsened": 65,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "transfers_split_vs_lfu": {
+     "capacity": 48,
+     "left_cost": 485215,
+     "right_cost": 391180,
+     "improvement": 0.19380068629370487,
+     "ci_low": 0.1842940627185446,
+     "ci_high": 0.2028714649254664,
+     "sequences_improved": 79,
+     "sequences_worsened": 1,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "transfers_equal_simulator": {
+     "lfu_decay": true,
+     "global_token_gbt": true,
+     "splitphase": true
+    },
+    "fidelity_met": true,
+    "critical_path": {
+     "split_policy_ms_per_token": 4.2345572943359375,
+     "lfu_policy_ms_per_token": 3.0454429797851565,
+     "sync_policy_ms_per_token": 52.92130693007813,
+     "wait_ms_per_token": 0.5783509244140624,
+     "wait_limit_ms_per_token": 0.6417367956088867,
+     "met": true
+    },
+    "criteria": {
+     "sync_slower_than_lfu": true,
+     "split_faster_than_sync": true,
+     "split_faster_than_lfu": false,
+     "fidelity": true,
+     "critical_path": true
+    },
+    "workers": 1
+   },
+   "simulator": {
+    "64": {
+     "lfu": 270820,
+     "sync": 215644,
+     "splitphase": 212903,
+     "retention": 1.049677395969262,
+     "met": true
+    },
+    "48": {
+     "lfu": 485215,
+     "sync": 391151,
+     "splitphase": 391180,
+     "retention": 0.9996916992685831,
+     "met": true
+    }
+   }
+  },
+  "mixtral_8x7b": {
+   "4": {
+    "totals": {
+     "lfu_decay": {
+      "ms_per_token_wall": 1181.9438234465551,
+      "ms_per_token_policy": 2.7932164227362204,
+      "ms_per_token_copy": 1105.6504964918602,
+      "ms_per_copy": 46.25695515037101,
+      "transfers_per_token": 23.902362204724408,
+      "routing_match_fraction": 1.0,
+      "token_agreement_fraction": 1.0,
+      "tokens": 10160
+     },
+     "splitphase": {
+      "ms_per_token_wall": 1118.3970725283466,
+      "ms_per_token_policy": 3.8871924768700787,
+      "ms_per_token_copy": 1040.1386668509385,
+      "ms_per_copy": 46.24173582576569,
+      "transfers_per_token": 22.493503937007873,
+      "routing_match_fraction": 1.0,
+      "token_agreement_fraction": 1.0,
+      "tokens": 10160
+     },
+     "global_token_gbt": {
+      "ms_per_token_wall": 1144.1086453994094,
+      "ms_per_token_policy": 24.467212307480313,
+      "ms_per_token_copy": 1044.4312452184872,
+      "ms_per_copy": 46.249020233610516,
+      "transfers_per_token": 22.58277559055118,
+      "routing_match_fraction": 1.0,
+      "token_agreement_fraction": 1.0,
+      "tokens": 10160
+     }
+    },
+    "splitphase": {
+     "workers": 1,
+     "wait_ms_per_token": 0.7321974753937007,
+     "decide_ms_per_token": 2.564879028444882,
+     "post_ms_per_token": 0.3162391097440945,
+     "worker_busy_ms_per_token": [
+      11.192762758464568
+     ]
+    },
+    "bandwidth_probe": {
+     "ms_per_expert": 45.7840380859375,
+     "expert_bytes": 352321536,
+     "gb_per_s": 7.695291868722585
+    },
+    "split_vs_lfu": {
+     "capacity": 4,
+     "left_cost": 12008549,
+     "right_cost": 11362914,
+     "improvement": 0.053764611868697985,
+     "ci_low": 0.049369473518166666,
+     "ci_high": 0.0580761477610749,
+     "sequences_improved": 77,
+     "sequences_worsened": 3,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "split_vs_sync": {
+     "capacity": 4,
+     "left_cost": 11624143,
+     "right_cost": 11362914,
+     "improvement": 0.022473016854170528,
+     "ci_low": 0.020226534303168626,
+     "ci_high": 0.02464955397628662,
+     "sequences_improved": 77,
+     "sequences_worsened": 3,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "sync_vs_lfu": {
+     "capacity": 4,
+     "left_cost": 12008549,
+     "right_cost": 11624143,
+     "improvement": 0.03201097826867794,
+     "ci_low": 0.02713277059107858,
+     "ci_high": 0.03703367125267737,
+     "sequences_improved": 70,
+     "sequences_worsened": 10,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "transfers_split_vs_lfu": {
+     "capacity": 4,
+     "left_cost": 242848,
+     "right_cost": 228534,
+     "improvement": 0.05894221900118593,
+     "ci_low": 0.05458872427057706,
+     "ci_high": 0.0630710573205427,
+     "sequences_improved": 78,
+     "sequences_worsened": 2,
+     "paired_units": 80,
+     "bootstrap_replicates": 1000
+    },
+    "transfers_equal_simulator": {
+     "lfu_decay": true,
+     "global_token_gbt": true,
+     "splitphase": true
+    },
+    "fidelity_met": true,
+    "critical_path": {
+     "split_policy_ms_per_token": 3.8871924768700787,
+     "lfu_policy_ms_per_token": 2.7932164227362204,
+     "sync_policy_ms_per_token": 24.467212307480313,
+     "wait_ms_per_token": 0.7321974753937007,
+     "wait_limit_ms_per_token": 5.909719117232775,
+     "met": true
+    },
+    "criteria": {
+     "sync_slower_than_lfu": false,
+     "split_faster_than_sync": true,
+     "split_faster_than_lfu": true,
+     "fidelity": true,
+     "critical_path": true
+    },
+    "workers": 1
+   },
+   "simulator": {
+    "4": {
+     "lfu": 242848,
+     "sync": 229441,
+     "splitphase": 228534,
+     "retention": 1.0676512269709852,
+     "met": true
+    },
+    "3": {
+     "lfu": 321515,
+     "sync": 310815,
+     "splitphase": 310094,
+     "retention": 1.0673831775700935,
+     "met": true
+    }
+   }
+  }
+ }
+}

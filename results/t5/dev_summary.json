@@ -1,0 +1,1518 @@
+{
+ "mixtral_B3": {
+  "label": "e15dev/mixtral/B3",
+  "capacity": 3,
+  "copy_repeat": 1,
+  "host": {
+   "hostname": "h100-node",
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "torch": "2.9.0",
+   "transformers": "5.16.1"
+  },
+  "bandwidth_probes": [
+   {
+    "ms_per_expert": 6.399818725585938,
+    "expert_bytes": 352321536,
+    "gb_per_s": 55.05179929416564
+   },
+   {
+    "ms_per_expert": 6.372755126953125,
+    "expert_bytes": 352321536,
+    "gb_per_s": 55.28559139356862
+   }
+  ],
+  "costs": {
+   "t_copy": 6.39771180930796,
+   "t_issue": 0.07773088620455354,
+   "t_pf_issue": 0.0,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 233.06891283770076,
+     "demand": 31.725274725274726,
+     "prefetch": 0.0,
+     "policy": 2.192946256128487,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 227.1499040912933,
+     "demand": 30.364327979712595,
+     "prefetch": 0.0,
+     "policy": 3.607528012679628,
+     "residual": 1.4791421595732333
+    },
+    "global_token_gbt": {
+     "wall": 246.64580690870667,
+     "demand": 30.718512256973796,
+     "prefetch": 0.0,
+     "policy": 19.55517540490279,
+     "residual": 2.7338975937070167
+    },
+    "hobbit": {
+     "wall": 234.53824876923076,
+     "demand": 31.650887573964496,
+     "prefetch": 0.0,
+     "policy": 2.9933184987320374,
+     "residual": 1.150653424518259
+    },
+    "moe_infinity": {
+     "wall": 239.13316523668638,
+     "demand": 32.29332206255283,
+     "prefetch": 0.0,
+     "policy": 3.8191868926458157,
+     "residual": 0.7596537815854436
+    }
+   },
+   "label": "e15dev/mixtral/B3",
+   "capacity": 3
+  },
+  "routing": {
+   "lfu_decay": {
+    "routing_match": 0.9750633981403212,
+    "tokens": 0.989769820971867,
+    "sync_ms_per_token": 183.00649844632292
+   },
+   "splitphase": {
+    "routing_match": 0.9750633981403212,
+    "tokens": 0.989769820971867,
+    "sync_ms_per_token": 172.25274788250212
+   },
+   "global_token_gbt": {
+    "routing_match": 0.9750633981403212,
+    "tokens": 0.989769820971867,
+    "sync_ms_per_token": 171.1229160760778
+   },
+   "hobbit": {
+    "routing_match": 0.9750633981403212,
+    "tokens": 0.989769820971867,
+    "sync_ms_per_token": 179.83239950042264
+   },
+   "moe_infinity": {
+    "routing_match": 0.9750633981403212,
+    "tokens": 0.989769820971867,
+    "sync_ms_per_token": 184.09250292054102
+   }
+  },
+  "pairs": {
+   "splitphase vs lfu_decay": {
+    "gain": 0.02539595982296096,
+    "ci": [
+     0.015668391392643227,
+     0.03849509593522745
+    ],
+    "paired_sd_ms_per_token": 4.757348863723815,
+    "faster": 9,
+    "units": 10
+   },
+   "hobbit vs lfu_decay": {
+    "gain": -0.006304298216524452,
+    "ci": [
+     -0.012783368267668663,
+     -0.0004453446552822915
+    ],
+    "paired_sd_ms_per_token": 3.1337465784075307,
+    "faster": 4,
+    "units": 10
+   },
+   "splitphase vs hobbit": {
+    "gain": 0.03150166216686926,
+    "ci": [
+     0.023413107946052447,
+     0.041637290936047
+    ],
+    "paired_sd_ms_per_token": 4.170463901117057,
+    "faster": 10,
+    "units": 10
+   },
+   "global_token_gbt vs lfu_decay": {
+    "gain": -0.058252702626455787,
+    "ci": [
+     -0.071581903475192,
+     -0.04595460116491205
+    ],
+    "paired_sd_ms_per_token": 5.008282977175991,
+    "faster": 0,
+    "units": 10
+   },
+   "splitphase vs global_token_gbt": {
+    "gain": 0.07904412834648174,
+    "ci": [
+     0.06588140833398749,
+     0.09339396723519987
+    ],
+    "paired_sd_ms_per_token": 5.730404718209032,
+    "faster": 10,
+    "units": 10
+   },
+   "moe_infinity vs lfu_decay": {
+    "gain": -0.026019138825298938,
+    "ci": [
+     -0.030133000363369234,
+     -0.020931746894640398
+    ],
+    "paired_sd_ms_per_token": 3.0390481796771107,
+    "faster": 0,
+    "units": 10
+   }
+  }
+ },
+ "mixtral_B4": {
+  "label": "e15dev/mixtral/B4",
+  "capacity": 4,
+  "copy_repeat": 1,
+  "host": {
+   "hostname": "h100-node",
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "torch": "2.9.0",
+   "transformers": "5.16.1"
+  },
+  "bandwidth_probes": [
+   {
+    "ms_per_expert": 6.365618896484375,
+    "expert_bytes": 352321536,
+    "gb_per_s": 55.34756976962308
+   },
+   {
+    "ms_per_expert": 6.394147338867188,
+    "expert_bytes": 352321536,
+    "gb_per_s": 55.10062832903357
+   }
+  ],
+  "costs": {
+   "t_copy": 6.395393812840118,
+   "t_issue": 0.06394817133992603,
+   "t_pf_issue": 0.0,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 179.45637433643282,
+     "demand": 23.62552831783601,
+     "prefetch": 0.0,
+     "policy": 1.7059751251056634,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 171.5923566720203,
+     "demand": 22.201183431952664,
+     "prefetch": 0.0,
+     "policy": 2.5079348182586645,
+     "residual": 0.5343533637729045
+    },
+    "global_token_gbt": {
+     "wall": 187.60893137869823,
+     "demand": 22.534234995773456,
+     "prefetch": 0.0,
+     "policy": 14.614852435333896,
+     "residual": 2.292716504291156
+    },
+    "hobbit": {
+     "wall": 180.24200251479292,
+     "demand": 23.480980557903635,
+     "prefetch": 0.0,
+     "policy": 2.2607049721048185,
+     "residual": 1.1645817458113177
+    },
+    "moe_infinity": {
+     "wall": 186.50256146238377,
+     "demand": 24.49535080304311,
+     "prefetch": 0.0,
+     "policy": 2.872670595942519,
+     "residual": 0.2610107576320573
+    }
+   },
+   "label": "e15dev/mixtral/B4",
+   "capacity": 4
+  },
+  "routing": {
+   "lfu_decay": {
+    "routing_match": 0.9750633981403212,
+    "tokens": 0.989769820971867,
+    "sync_ms_per_token": 139.8894458123415
+   },
+   "splitphase": {
+    "routing_match": 0.9750633981403212,
+    "tokens": 0.989769820971867,
+    "sync_ms_per_token": 131.25386673710906
+   },
+   "global_token_gbt": {
+    "routing_match": 0.9750633981403212,
+    "tokens": 0.989769820971867,
+    "sync_ms_per_token": 131.05837956720202
+   },
+   "hobbit": {
+    "routing_match": 0.9750633981403212,
+    "tokens": 0.989769820971867,
+    "sync_ms_per_token": 138.04239187912088
+   },
+   "moe_infinity": {
+    "routing_match": 0.9750633981403212,
+    "tokens": 0.989769820971867,
+    "sync_ms_per_token": 144.48796532967035
+   }
+  },
+  "pairs": {
+   "splitphase vs lfu_decay": {
+    "gain": 0.04382133370013124,
+    "ci": [
+     0.033018758734499755,
+     0.055735210299312624
+    ],
+    "paired_sd_ms_per_token": 5.082731832108998,
+    "faster": 10,
+    "units": 10
+   },
+   "hobbit vs lfu_decay": {
+    "gain": -0.004377822639430484,
+    "ci": [
+     -0.015174461066060263,
+     0.00578804365242277
+    ],
+    "paired_sd_ms_per_token": 3.1698154115234223,
+    "faster": 5,
+    "units": 10
+   },
+   "splitphase vs hobbit": {
+    "gain": 0.0479890687081261,
+    "ci": [
+     0.03717866470579427,
+     0.06018099573009412
+    ],
+    "paired_sd_ms_per_token": 4.600875476256026,
+    "faster": 10,
+    "units": 10
+   },
+   "global_token_gbt vs lfu_decay": {
+    "gain": -0.04542918618751076,
+    "ci": [
+     -0.07167508865249342,
+     -0.020686724698563533
+    ],
+    "paired_sd_ms_per_token": 9.20301980805138,
+    "faster": 1,
+    "units": 10
+   },
+   "splitphase vs global_token_gbt": {
+    "gain": 0.08537213334661369,
+    "ci": [
+     0.07027185576630103,
+     0.10003868759733164
+    ],
+    "paired_sd_ms_per_token": 5.798905524951704,
+    "faster": 10,
+    "units": 10
+   },
+   "moe_infinity vs lfu_decay": {
+    "gain": -0.03926406711383386,
+    "ci": [
+     -0.05385325187457132,
+     -0.025258557275566335
+    ],
+    "paired_sd_ms_per_token": 5.1201924786414645,
+    "faster": 1,
+    "units": 10
+   }
+  }
+ },
+ "olmoe_B24": {
+  "label": "e15dev/olmoe/B24",
+  "capacity": 24,
+  "copy_repeat": 1,
+  "host": {
+   "hostname": "h100-node",
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "torch": "2.9.0",
+   "transformers": "5.16.1"
+  },
+  "bandwidth_probes": [
+   {
+    "ms_per_expert": 0.23296192169189453,
+    "expert_bytes": 12582912,
+    "gb_per_s": 54.01274126095861
+   },
+   {
+    "ms_per_expert": 0.23279327392578125,
+    "expert_bytes": 12582912,
+    "gb_per_s": 54.05187094886453
+   }
+  ],
+  "costs": {
+   "t_copy": 0.24303914150847994,
+   "t_issue": 0.037381618790141215,
+   "t_pf_issue": 0.03565821064958654,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 20.828661697070313,
+     "demand": 31.9466796875,
+     "prefetch": 0.0,
+     "policy": 0.85115989453125,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 20.935500698046873,
+     "demand": 27.6296875,
+     "prefetch": 0.0,
+     "policy": 1.3172505316406249,
+     "residual": 0.8513225952891434
+    },
+    "global_token_gbt": {
+     "wall": 33.495092904296875,
+     "demand": 25.501171875,
+     "prefetch": 0.0,
+     "policy": 12.637374815820312,
+     "residual": 2.687670487229454
+    },
+    "hobbit": {
+     "wall": 21.033627740820315,
+     "demand": 30.8966796875,
+     "prefetch": 0.0,
+     "policy": 1.08956361953125,
+     "residual": 0.2610041170635541
+    },
+    "moe_infinity": {
+     "wall": 21.66746302089844,
+     "demand": 33.1931640625,
+     "prefetch": 0.0,
+     "policy": 1.4422706984375,
+     "residual": -0.10184957621597679
+    },
+    "lfu_decay+pf": {
+     "wall": 22.881493670117187,
+     "demand": 16.8009765625,
+     "prefetch": 21.021875,
+     "policy": 1.9433891546875,
+     "residual": 4.45816985146105
+    },
+    "splitphase+pf": {
+     "wall": 23.37001603125,
+     "demand": 14.22109375,
+     "prefetch": 19.4861328125,
+     "policy": 2.4379207267578122,
+     "residual": 5.230375158711477
+    },
+    "hobbit+pf": {
+     "wall": 23.202356937890624,
+     "demand": 16.1693359375,
+     "prefetch": 20.783984375,
+     "policy": 2.1979218648437504,
+     "residual": 4.710108307394044
+    }
+   },
+   "label": "e15dev/olmoe/B24",
+   "capacity": 24
+  },
+  "routing": {
+   "lfu_decay": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 2.0382951939453124
+   },
+   "splitphase": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.6625987902343748
+   },
+   "global_token_gbt": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.4156750134765625
+   },
+   "hobbit": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.9041668330078125
+   },
+   "moe_infinity": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 2.0388979638671874
+   },
+   "lfu_decay+pf": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.1062733048828126
+   },
+   "splitphase+pf": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.0471847552734375
+   },
+   "hobbit+pf": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.0813538781249998
+   }
+  },
+  "pairs": {
+   "splitphase vs lfu_decay": {
+    "gain": -0.005129422261036982,
+    "ci": [
+     -0.007882837018486646,
+     -0.0026224656231569176
+    ],
+    "paired_sd_ms_per_token": 0.21735704536846012,
+    "faster": 14,
+    "units": 40
+   },
+   "hobbit vs lfu_decay": {
+    "gain": -0.00984057673656629,
+    "ci": [
+     -0.013424142796284093,
+     -0.006676930162051037
+    ],
+    "paired_sd_ms_per_token": 0.2223472495131064,
+    "faster": 7,
+    "units": 40
+   },
+   "splitphase vs hobbit": {
+    "gain": 0.00466524576656845,
+    "ci": [
+     0.0019233556394543843,
+     0.007557346925007129
+    ],
+    "paired_sd_ms_per_token": 0.2305674599072864,
+    "faster": 26,
+    "units": 40
+   },
+   "global_token_gbt vs lfu_decay": {
+    "gain": -0.6081250630235246,
+    "ci": [
+     -0.6204405210281525,
+     -0.5918030461146037
+    ],
+    "paired_sd_ms_per_token": 1.5147220870689362,
+    "faster": 0,
+    "units": 40
+   },
+   "splitphase vs global_token_gbt": {
+    "gain": 0.374968125693385,
+    "ci": [
+     0.36768292084395543,
+     0.379955996985523
+    ],
+    "paired_sd_ms_per_token": 1.6352733165460422,
+    "faster": 40,
+    "units": 40
+   },
+   "moe_infinity vs lfu_decay": {
+    "gain": -0.0402714939647853,
+    "ci": [
+     -0.04528365413960332,
+     -0.03593680055485396
+    ],
+    "paired_sd_ms_per_token": 0.33075837648427797,
+    "faster": 0,
+    "units": 40
+   },
+   "lfu_decay+pf vs lfu_decay": {
+    "gain": -0.09855803521623376,
+    "ci": [
+     -0.10468680776730002,
+     -0.09376858885232649
+    ],
+    "paired_sd_ms_per_token": 0.4865437006596369,
+    "faster": 0,
+    "units": 40
+   },
+   "splitphase+pf vs lfu_decay+pf": {
+    "gain": -0.021350108003255607,
+    "ci": [
+     -0.024486967076791363,
+     -0.017949504923592072
+    ],
+    "paired_sd_ms_per_token": 0.26532087860247117,
+    "faster": 1,
+    "units": 40
+   },
+   "splitphase+pf vs hobbit+pf": {
+    "gain": -0.007225950958696786,
+    "ci": [
+     -0.010584975579623674,
+     -0.0042116999826217446
+    ],
+    "paired_sd_ms_per_token": 0.23619489027941712,
+    "faster": 8,
+    "units": 40
+   },
+   "hobbit+pf vs lfu_decay+pf": {
+    "gain": -0.014022828771553374,
+    "ci": [
+     -0.016196402341143168,
+     -0.011855832782893557
+    ],
+    "paired_sd_ms_per_token": 0.178142876732539,
+    "faster": 1,
+    "units": 40
+   }
+  }
+ },
+ "olmoe_B32": {
+  "label": "e15dev/olmoe/B32",
+  "capacity": 32,
+  "copy_repeat": 1,
+  "host": {
+   "hostname": "h100-node",
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "torch": "2.9.0",
+   "transformers": "5.16.1"
+  },
+  "bandwidth_probes": [
+   {
+    "ms_per_expert": 0.2326265525817871,
+    "expert_bytes": 12582912,
+    "gb_per_s": 54.09060943537856
+   },
+   {
+    "ms_per_expert": 0.2322960090637207,
+    "expert_bytes": 12582912,
+    "gb_per_s": 54.16757718187231
+   }
+  ],
+  "costs": {
+   "t_copy": 0.24501174401665132,
+   "t_issue": 0.0433800170580168,
+   "t_pf_issue": 0.0388304949280069,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 19.4787298703125,
+     "demand": 20.546484375,
+     "prefetch": 0.0,
+     "policy": 0.8141704234375,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 19.69602594003906,
+     "demand": 17.0044921875,
+     "prefetch": 0.0,
+     "policy": 1.19168849921875,
+     "residual": 0.8612593586111528
+    },
+    "global_token_gbt": {
+     "wall": 32.04227997929688,
+     "demand": 15.6748046875,
+     "prefetch": 0.0,
+     "policy": 12.323643986914062,
+     "residual": 2.4590288299776315
+    },
+    "hobbit": {
+     "wall": 19.697508962500002,
+     "demand": 19.360546875,
+     "prefetch": 0.0,
+     "policy": 1.0204046056640625,
+     "residual": 0.3545595141104296
+    },
+    "moe_infinity": {
+     "wall": 20.3697537140625,
+     "demand": 21.6576171875,
+     "prefetch": 0.0,
+     "policy": 1.3832490302734375,
+     "residual": 0.0015036883293396697
+    },
+    "lfu_decay+pf": {
+     "wall": 21.906045430273437,
+     "demand": 9.9517578125,
+     "prefetch": 15.6615234375,
+     "policy": 1.8016491626953124,
+     "residual": 3.8871239657623597
+    },
+    "splitphase+pf": {
+     "wall": 22.2562632671875,
+     "demand": 8.2822265625,
+     "prefetch": 14.0033203125,
+     "policy": 2.1870089755859374,
+     "residual": 4.397849895177407
+    },
+    "hobbit+pf": {
+     "wall": 22.14983111191406,
+     "demand": 9.4291015625,
+     "prefetch": 15.1392578125,
+     "policy": 2.0134163978515627,
+     "residual": 4.090152001323551
+    }
+   },
+   "label": "e15dev/olmoe/B32",
+   "capacity": 32
+  },
+  "routing": {
+   "lfu_decay": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.3838678177734374
+   },
+   "splitphase": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.1908010716796875
+   },
+   "global_token_gbt": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.1291554537109376
+   },
+   "hobbit": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.3064846189453125
+   },
+   "moe_infinity": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.372270282421875
+   },
+   "lfu_decay+pf": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 1.000095649609375
+   },
+   "splitphase+pf": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 0.9775833025390626
+   },
+   "hobbit+pf": {
+    "routing_match": 0.92545166015625,
+    "tokens": 0.9942913385826772,
+    "sync_ms_per_token": 0.9914532734374999
+   }
+  },
+  "pairs": {
+   "splitphase vs lfu_decay": {
+    "gain": -0.011155556402973613,
+    "ci": [
+     -0.013913686826412064,
+     -0.00820353124516277
+    ],
+    "paired_sd_ms_per_token": 0.18897966432586508,
+    "faster": 4,
+    "units": 40
+   },
+   "hobbit vs lfu_decay": {
+    "gain": -0.011231691883613962,
+    "ci": [
+     -0.013510942501296327,
+     -0.008996045144375053
+    ],
+    "paired_sd_ms_per_token": 0.1567609228828335,
+    "faster": 4,
+    "units": 40
+   },
+   "splitphase vs hobbit": {
+    "gain": 7.528984826269829e-05,
+    "ci": [
+     -0.0015568386247473268,
+     0.001616126702024243
+    ],
+    "paired_sd_ms_per_token": 0.09997757592068461,
+    "faster": 20,
+    "units": 40
+   },
+   "global_token_gbt vs lfu_decay": {
+    "gain": -0.644988158500645,
+    "ci": [
+     -0.6643339126093564,
+     -0.6215042150280782
+    ],
+    "paired_sd_ms_per_token": 2.0429337438279274,
+    "faster": 0,
+    "units": 40
+   },
+   "splitphase vs global_token_gbt": {
+    "gain": 0.3853113463597147,
+    "ci": [
+     0.37669114147962723,
+     0.39208847651537687
+    ],
+    "paired_sd_ms_per_token": 2.0629838040856376,
+    "faster": 40,
+    "units": 40
+   },
+   "moe_infinity vs lfu_decay": {
+    "gain": -0.04574342627483129,
+    "ci": [
+     -0.050069838608239,
+     -0.04185998707340112
+    ],
+    "paired_sd_ms_per_token": 0.29230279387355307,
+    "faster": 0,
+    "units": 40
+   },
+   "lfu_decay+pf vs lfu_decay": {
+    "gain": -0.12461364658382569,
+    "ci": [
+     -0.1281063378942218,
+     -0.121220707524198
+    ],
+    "paired_sd_ms_per_token": 0.2064014786567435,
+    "faster": 0,
+    "units": 40
+   },
+   "splitphase+pf vs lfu_decay+pf": {
+    "gain": -0.015987268812566097,
+    "ci": [
+     -0.018190466727278448,
+     -0.0138231532833721
+    ],
+    "paired_sd_ms_per_token": 0.16920503559823782,
+    "faster": 2,
+    "units": 40
+   },
+   "splitphase+pf vs hobbit+pf": {
+    "gain": -0.004805100081155479,
+    "ci": [
+     -0.007155203080313907,
+     -0.002247162792593519
+    ],
+    "paired_sd_ms_per_token": 0.1957129278459941,
+    "faster": 7,
+    "units": 40
+   },
+   "hobbit+pf vs lfu_decay+pf": {
+    "gain": -0.01112869424180616,
+    "ci": [
+     -0.01395513961844455,
+     -0.00852349684257445
+    ],
+    "paired_sd_ms_per_token": 0.18804178990491713,
+    "faster": 2,
+    "units": 40
+   }
+  }
+ },
+ "olmoe_B32_K16": {
+  "label": "e15dev/olmoe/B32/K16",
+  "capacity": 32,
+  "copy_repeat": 16,
+  "host": {
+   "hostname": "h100-node",
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "torch": "2.9.0",
+   "transformers": "5.16.1"
+  },
+  "bandwidth_probes": [
+   {
+    "ms_per_expert": 0.2330668830871582,
+    "expert_bytes": 12582912,
+    "gb_per_s": 53.98841668678629
+   },
+   {
+    "ms_per_expert": 0.2325724792480469,
+    "expert_bytes": 12582912,
+    "gb_per_s": 54.10318555610302
+   }
+  ],
+  "costs": {
+   "t_copy": 3.7345528128668684,
+   "t_issue": 0.19926556824667382,
+   "t_pf_issue": 0.0,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 90.30531629257813,
+     "demand": 20.9296875,
+     "prefetch": 0.0,
+     "policy": 0.8558343613281251,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 77.29907833085937,
+     "demand": 17.18671875,
+     "prefetch": 0.0,
+     "policy": 1.257883033203125,
+     "residual": 1.3158726350898213
+    },
+    "global_token_gbt": {
+     "wall": 84.69908955195312,
+     "demand": 15.872265625,
+     "prefetch": 0.0,
+     "policy": 12.781859186718751,
+     "residual": 2.362727566905079
+    },
+    "hobbit": {
+     "wall": 86.40549470625,
+     "demand": 19.79296875,
+     "prefetch": 0.0,
+     "policy": 1.074247566796875,
+     "residual": 0.3534103211095294
+    }
+   },
+   "label": "e15dev/olmoe/B32/K16",
+   "capacity": 32
+  },
+  "routing": {
+   "lfu_decay": {
+    "routing_match": 0.9173828125,
+    "tokens": 0.9956692913385827,
+    "sync_ms_per_token": 64.2989193015625
+   },
+   "splitphase": {
+    "routing_match": 0.9173828125,
+    "tokens": 0.9956692913385827,
+    "sync_ms_per_token": 52.25791197304687
+   },
+   "global_token_gbt": {
+    "routing_match": 0.9173828125,
+    "tokens": 0.9956692913385827,
+    "sync_ms_per_token": 47.556938000781244
+   },
+   "hobbit": {
+    "routing_match": 0.9173828125,
+    "tokens": 0.9956692913385827,
+    "sync_ms_per_token": 60.6837542703125
+   }
+  },
+  "pairs": {
+   "splitphase vs lfu_decay": {
+    "gain": 0.14402516369667667,
+    "ci": [
+     0.12503904191521864,
+     0.16365642934164557
+    ],
+    "paired_sd_ms_per_token": 6.652863214854003,
+    "faster": 19,
+    "units": 20
+   },
+   "hobbit vs lfu_decay": {
+    "gain": 0.04318485053186876,
+    "ci": [
+     0.02423580028478567,
+     0.058772667016435624
+    ],
+    "paired_sd_ms_per_token": 5.010160940986182,
+    "faster": 18,
+    "units": 20
+   },
+   "splitphase vs hobbit": {
+    "gain": 0.10539163517724656,
+    "ci": [
+     0.08883956265882051,
+     0.12225351420936464
+    ],
+    "paired_sd_ms_per_token": 4.595783118889589,
+    "faster": 20,
+    "units": 20
+   },
+   "global_token_gbt vs lfu_decay": {
+    "gain": 0.06208080510411501,
+    "ci": [
+     0.041023173789448385,
+     0.08016170856173296
+    ],
+    "paired_sd_ms_per_token": 6.129577974890145,
+    "faster": 17,
+    "units": 20
+   },
+   "splitphase vs global_token_gbt": {
+    "gain": 0.08736824988602351,
+    "ci": [
+     0.07649907979605382,
+     0.0998514208340568
+    ],
+    "paired_sd_ms_per_token": 1.9422407638455266,
+    "faster": 20,
+    "units": 20
+   }
+  }
+ },
+ "olmoe_B32_K4": {
+  "label": "e15dev/olmoe/B32/K4",
+  "capacity": 32,
+  "copy_repeat": 4,
+  "host": {
+   "hostname": "h100-node",
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "torch": "2.9.0",
+   "transformers": "5.16.1"
+  },
+  "bandwidth_probes": [
+   {
+    "ms_per_expert": 0.23280736923217774,
+    "expert_bytes": 12582912,
+    "gb_per_s": 54.04859838200018
+   },
+   {
+    "ms_per_expert": 0.23244768142700195,
+    "expert_bytes": 12582912,
+    "gb_per_s": 54.1322327792353
+   }
+  ],
+  "costs": {
+   "t_copy": 0.9432788044462758,
+   "t_issue": 0.07324018624954336,
+   "t_pf_issue": 0.0,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 32.00803827109375,
+     "demand": 20.9296875,
+     "prefetch": 0.0,
+     "policy": 0.85374741640625,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 29.410084206640626,
+     "demand": 17.18671875,
+     "prefetch": 0.0,
+     "policy": 1.23045115703125,
+     "residual": 0.8301410108778642
+    },
+    "global_token_gbt": {
+     "wall": 40.55690087226562,
+     "demand": 15.872265625,
+     "prefetch": 0.0,
+     "policy": 12.74059359453125,
+     "residual": 1.802981802944827
+    },
+    "hobbit": {
+     "wall": 31.272106105078127,
+     "demand": 19.79296875,
+     "prefetch": 0.0,
+     "policy": 1.05789768359375,
+     "residual": 0.2154137632518871
+    }
+   },
+   "label": "e15dev/olmoe/B32/K4",
+   "capacity": 32
+  },
+  "routing": {
+   "lfu_decay": {
+    "routing_match": 0.9173828125,
+    "tokens": 0.9956692913385827,
+    "sync_ms_per_token": 11.87160488671875
+   },
+   "splitphase": {
+    "routing_match": 0.9173828125,
+    "tokens": 0.9956692913385827,
+    "sync_ms_per_token": 9.225945383203126
+   },
+   "global_token_gbt": {
+    "routing_match": 0.9173828125,
+    "tokens": 0.9956692913385827,
+    "sync_ms_per_token": 7.671769089453124
+   },
+   "hobbit": {
+    "routing_match": 0.9173828125,
+    "tokens": 0.9956692913385827,
+    "sync_ms_per_token": 11.0036626
+   }
+  },
+  "pairs": {
+   "splitphase vs lfu_decay": {
+    "gain": 0.08116567602330431,
+    "ci": [
+     0.06804068809621058,
+     0.09353330049556371
+    ],
+    "paired_sd_ms_per_token": 1.4698480671461511,
+    "faster": 19,
+    "units": 20
+   },
+   "hobbit vs lfu_decay": {
+    "gain": 0.02299210466391589,
+    "ci": [
+     0.010785509888161704,
+     0.0329933517924846
+    ],
+    "paired_sd_ms_per_token": 1.10490539084496,
+    "faster": 15,
+    "units": 20
+   },
+   "splitphase vs hobbit": {
+    "gain": 0.05954258060460924,
+    "ci": [
+     0.04973448190913581,
+     0.06868927819906767
+    ],
+    "paired_sd_ms_per_token": 0.9817215470408773,
+    "faster": 20,
+    "units": 20
+   },
+   "global_token_gbt vs lfu_decay": {
+    "gain": -0.267084865644275,
+    "ci": [
+     -0.28205577921972563,
+     -0.2534753137979061
+    ],
+    "paired_sd_ms_per_token": 1.4202200798843212,
+    "faster": 0,
+    "units": 20
+   },
+   "splitphase vs global_token_gbt": {
+    "gain": 0.2748438964982068,
+    "ci": [
+     0.26864009937148714,
+     0.2808414663131171
+    ],
+    "paired_sd_ms_per_token": 1.8471241986948974,
+    "faster": 20,
+    "units": 20
+   }
+  }
+ },
+ "qwen3_B48": {
+  "label": "e15dev/qwen3/B48",
+  "capacity": 48,
+  "copy_repeat": 1,
+  "host": {
+   "hostname": "h100-node",
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "torch": "2.9.0",
+   "transformers": "5.16.1"
+  },
+  "bandwidth_probes": [
+   {
+    "ms_per_expert": 0.17585439682006837,
+    "expert_bytes": 9437184,
+    "gb_per_s": 53.664759998329686
+   },
+   {
+    "ms_per_expert": 0.1758095932006836,
+    "expert_bytes": 9437184,
+    "gb_per_s": 53.67843601815072
+   }
+  ],
+  "costs": {
+   "t_copy": 0.18895280596187988,
+   "t_issue": 0.04797180963766757,
+   "t_pf_issue": 0.04337042367831256,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 59.413505175,
+     "demand": 47.4609375,
+     "prefetch": 0.0,
+     "policy": 2.49180200859375,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 60.304620171093745,
+     "demand": 37.329296875,
+     "prefetch": 0.0,
+     "policy": 3.4536932308593746,
+     "residual": 2.3296588342990074
+    },
+    "global_token_gbt": {
+     "wall": 103.09773032734374,
+     "demand": 37.700390625,
+     "prefetch": 0.0,
+     "policy": 41.81215292890625,
+     "residual": 6.676388048431981
+    },
+    "hobbit": {
+     "wall": 60.43002370468751,
+     "demand": 46.40703125,
+     "prefetch": 0.0,
+     "policy": 3.097787055859375,
+     "residual": 0.6602298155810942
+    },
+    "moe_infinity": {
+     "wall": 62.11308829492187,
+     "demand": 49.2859375,
+     "prefetch": 0.0,
+     "policy": 4.22660034453125,
+     "residual": 0.5323973605152008
+    },
+    "lfu_decay+pf": {
+     "wall": 67.99096299921875,
+     "demand": 19.824609375,
+     "prefetch": 37.2953125,
+     "policy": 5.577519048828124,
+     "residual": 10.4219536972429
+    },
+    "splitphase+pf": {
+     "wall": 68.84266463476563,
+     "demand": 15.7171875,
+     "prefetch": 30.369921875,
+     "policy": 6.481433225,
+     "residual": 11.64324763100151
+    },
+    "hobbit+pf": {
+     "wall": 68.80730178007812,
+     "demand": 19.10546875,
+     "prefetch": 36.560546875,
+     "policy": 6.1784985078125,
+     "residual": 10.839562231718547
+    }
+   },
+   "label": "e15dev/qwen3/B48",
+   "capacity": 48
+  },
+  "routing": {
+   "lfu_decay": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 3.18878797265625
+   },
+   "splitphase": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 3.1049152800781252
+   },
+   "global_token_gbt": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 3.17180701640625
+   },
+   "hobbit": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 3.1848908546874997
+   },
+   "moe_infinity": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 3.19367660625
+   },
+   "lfu_decay+pf": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 2.9812033265625
+   },
+   "splitphase+pf": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 2.98154540078125
+   },
+   "hobbit+pf": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 2.989199062890625
+   }
+  },
+  "pairs": {
+   "splitphase vs lfu_decay": {
+    "gain": -0.014998525898598548,
+    "ci": [
+     -0.01784559339952143,
+     -0.011979275456130024
+    ],
+    "paired_sd_ms_per_token": 0.4182948491338086,
+    "faster": 1,
+    "units": 20
+   },
+   "hobbit vs lfu_decay": {
+    "gain": -0.017109216611499035,
+    "ci": [
+     -0.019403895414164533,
+     -0.014806753974580937
+    ],
+    "paired_sd_ms_per_token": 0.4050082559279504,
+    "faster": 0,
+    "units": 20
+   },
+   "splitphase vs hobbit": {
+    "gain": 0.002075185907696574,
+    "ci": [
+     -0.0005414546495060248,
+     0.004776148894775698
+    ],
+    "paired_sd_ms_per_token": 0.42638074363896344,
+    "faster": 12,
+    "units": 20
+   },
+   "global_token_gbt vs lfu_decay": {
+    "gain": -0.7352574978310685,
+    "ci": [
+     -0.7478384422741158,
+     -0.7228024401015972
+    ],
+    "paired_sd_ms_per_token": 5.512081599742584,
+    "faster": 0,
+    "units": 20
+   },
+   "splitphase vs global_token_gbt": {
+    "gain": 0.4150732515679866,
+    "ci": [
+     0.41141988235810534,
+     0.41883286486866017
+    ],
+    "paired_sd_ms_per_token": 5.42075902660624,
+    "faster": 20,
+    "units": 20
+   },
+   "moe_infinity vs lfu_decay": {
+    "gain": -0.04543719667725971,
+    "ci": [
+     -0.04793815706203825,
+     -0.04297396642606018
+    ],
+    "paired_sd_ms_per_token": 0.4267576502920487,
+    "faster": 0,
+    "units": 20
+   },
+   "lfu_decay+pf vs lfu_decay": {
+    "gain": -0.14436882319860142,
+    "ci": [
+     -0.14727723973390539,
+     -0.14132909739248195
+    ],
+    "paired_sd_ms_per_token": 0.5800100054257604,
+    "faster": 0,
+    "units": 20
+   },
+   "splitphase+pf vs lfu_decay+pf": {
+    "gain": -0.01252668881240346,
+    "ci": [
+     -0.014742069931013093,
+     -0.010478154942675694
+    ],
+    "paired_sd_ms_per_token": 0.34428256564667375,
+    "faster": 0,
+    "units": 20
+   },
+   "splitphase+pf vs hobbit+pf": {
+    "gain": -0.0005139404361550128,
+    "ci": [
+     -0.002413606549944572,
+     0.0011845920783873738
+    ],
+    "paired_sd_ms_per_token": 0.3193436991315651,
+    "faster": 9,
+    "units": 20
+   },
+   "hobbit+pf vs lfu_decay+pf": {
+    "gain": -0.012006577710463203,
+    "ci": [
+     -0.01408971863312968,
+     -0.009918539149446124
+    ],
+    "paired_sd_ms_per_token": 0.3798689522402245,
+    "faster": 0,
+    "units": 20
+   }
+  }
+ },
+ "qwen3_B64": {
+  "label": "e15dev/qwen3/B64",
+  "capacity": 64,
+  "copy_repeat": 1,
+  "host": {
+   "hostname": "h100-node",
+   "gpu": "NVIDIA H100 80GB HBM3",
+   "torch": "2.9.0",
+   "transformers": "5.16.1"
+  },
+  "bandwidth_probes": [
+   {
+    "ms_per_expert": 0.17580192565917968,
+    "expert_bytes": 9437184,
+    "gb_per_s": 53.680777184975206
+   },
+   {
+    "ms_per_expert": 0.1756399917602539,
+    "expert_bytes": 9437184,
+    "gb_per_s": 53.7302689747425
+   }
+  ],
+  "costs": {
+   "t_copy": 0.19124233206938518,
+   "t_issue": 0.057133865865151796,
+   "t_pf_issue": 0.04952885100351657,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 58.740163815624996,
+     "demand": 26.451953125,
+     "prefetch": 0.0,
+     "policy": 2.4294100960937497,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 59.24651641796875,
+     "demand": 20.36796875,
+     "prefetch": 0.0,
+     "policy": 3.127918196875,
+     "residual": 1.318961408918133
+    },
+    "global_token_gbt": {
+     "wall": 96.37762685,
+     "demand": 20.869921875,
+     "prefetch": 0.0,
+     "policy": 36.00571817578125,
+     "residual": 5.447598653314273
+    },
+    "hobbit": {
+     "wall": 59.600680792578125,
+     "demand": 26.4921875,
+     "prefetch": 0.0,
+     "policy": 2.96041753125,
+     "residual": 0.3195162807081058
+    },
+    "moe_infinity": {
+     "wall": 61.17641634882813,
+     "demand": 26.001171875,
+     "prefetch": 0.0,
+     "policy": 4.08668084609375,
+     "residual": 0.8909451161783084
+    },
+    "lfu_decay+pf": {
+     "wall": 66.90081434609375,
+     "demand": 10.7390625,
+     "prefetch": 22.307421875,
+     "policy": 5.23558717734375,
+     "residual": 8.152320506898025
+    },
+    "splitphase+pf": {
+     "wall": 67.16578501171875,
+     "demand": 8.48125,
+     "prefetch": 17.262890625,
+     "policy": 5.841096098828125,
+     "residual": 8.622418972101556
+    },
+    "hobbit+pf": {
+     "wall": 67.49247406445312,
+     "demand": 10.637890625,
+     "prefetch": 22.301953125,
+     "policy": 5.74848392421875,
+     "residual": 8.256483024936726
+    }
+   },
+   "label": "e15dev/qwen3/B64",
+   "capacity": 64
+  },
+  "routing": {
+   "lfu_decay": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 3.0612431953125
+   },
+   "splitphase": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 3.027730978515625
+   },
+   "global_token_gbt": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 3.132185954296875
+   },
+   "hobbit": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 3.07044921171875
+   },
+   "moe_infinity": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 3.070512209375
+   },
+   "lfu_decay+pf": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 2.96121089765625
+   },
+   "splitphase+pf": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 2.954371976953125
+   },
+   "hobbit+pf": {
+    "routing_match": 0.8542805989583333,
+    "tokens": 0.9858267716535433,
+    "sync_ms_per_token": 2.96316800390625
+   }
+  },
+  "pairs": {
+   "splitphase vs lfu_decay": {
+    "gain": -0.0086202109332398,
+    "ci": [
+     -0.010230014031436403,
+     -0.006805968092605451
+    ],
+    "paired_sd_ms_per_token": 0.3052422360253936,
+    "faster": 1,
+    "units": 20
+   },
+   "hobbit vs lfu_decay": {
+    "gain": -0.014649550172418865,
+    "ci": [
+     -0.017078007918054604,
+     -0.011945862553676105
+    ],
+    "paired_sd_ms_per_token": 0.3596064546986899,
+    "faster": 0,
+    "units": 20
+   },
+   "splitphase vs hobbit": {
+    "gain": 0.005942287401748222,
+    "ci": [
+     0.00413125435816634,
+     0.007867485926927325
+    ],
+    "paired_sd_ms_per_token": 0.28351321919242634,
+    "faster": 18,
+    "units": 20
+   },
+   "global_token_gbt vs lfu_decay": {
+    "gain": -0.6407449450177282,
+    "ci": [
+     -0.6535381698025621,
+     -0.6277450017526803
+    ],
+    "paired_sd_ms_per_token": 6.368636072452079,
+    "faster": 0,
+    "units": 20
+   },
+   "splitphase vs global_token_gbt": {
+    "gain": 0.38526690940233754,
+    "ci": [
+     0.3804648768438173,
+     0.3900955642373494
+    ],
+    "paired_sd_ms_per_token": 6.297299036169436,
+    "faster": 20,
+    "units": 20
+   },
+   "moe_infinity vs lfu_decay": {
+    "gain": -0.0414750721644237,
+    "ci": [
+     -0.044375874192223906,
+     -0.038370240729405446
+    ],
+    "paired_sd_ms_per_token": 0.46904641847883505,
+    "faster": 0,
+    "units": 20
+   },
+   "lfu_decay+pf vs lfu_decay": {
+    "gain": -0.13892794981102824,
+    "ci": [
+     -0.14257322228558958,
+     -0.13530768664200812
+    ],
+    "paired_sd_ms_per_token": 0.5605792316766267,
+    "faster": 0,
+    "units": 20
+   },
+   "splitphase+pf vs lfu_decay+pf": {
+    "gain": -0.0039606493316248536,
+    "ci": [
+     -0.006199944579428678,
+     -0.0015697327346078692
+    ],
+    "paired_sd_ms_per_token": 0.3652704409016912,
+    "faster": 5,
+    "units": 20
+   },
+   "splitphase+pf vs hobbit+pf": {
+    "gain": 0.004840377497828871,
+    "ci": [
+     0.002183802057276794,
+     0.0077273851737137515
+    ],
+    "paired_sd_ms_per_token": 0.4814742075055894,
+    "faster": 14,
+    "units": 20
+   },
+   "hobbit+pf vs lfu_decay+pf": {
+    "gain": -0.008843834326120403,
+    "ci": [
+     -0.011714159737937652,
+     -0.005875321011134438
+    ],
+    "paired_sd_ms_per_token": 0.48767956889144376,
+    "faster": 3,
+    "units": 20
+   }
+  }
+ }
+}

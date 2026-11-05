@@ -1,0 +1,460 @@
+{
+  "schema_version": "race_stage2_preregistered_v1",
+  "stage": "RACE Stage 2: Adaptive Multi-Horizon Future-Reuse Ranking",
+  "objective": "Test whether an online causal algorithm that combines multiple imperfect future-reuse advisers and adapts their weights under delayed feedback recovers substantially more of the frozen Stage 0 offline-oracle advantage than the frozen Stage 1 winner, using the unchanged Stage 1 eviction mechanism.",
+  "frozen_at_utc": "2026-08-20T05:20:00Z",
+  "repository_head_at_freeze": "f9236cb35541f07c96a8e03b6a36eacc1f21a92c",
+  "stage0_reference": {
+    "verdict": "RACE_STAGE0_STRONG_GO",
+    "source_base_commit": "48fe6e2dd9b42af8b7d30cff536a06cd49181eb9",
+    "actual_runtime_commit": "0f70c61131b877dd9c297663886d563d9e27f55b",
+    "trace_logical_hash": "ccec01b2ae5059655e23d7f791427fac75b5fac21e967b9e157bb6087c639dea",
+    "routing_trace_npz_sha256": "c8ca8bff37b0bd54a94f03eed4d5f3690ed6c4c058fcb1c59e939fd081e66823",
+    "routing_trace_metadata_sha256": "ab48f3decfa5eba887d084d05d9d9bea27a23247721e4523301fd2dccce973d7",
+    "frozen_evaluation_config_file_sha256": "fde50196598c99c5df4185d684d7260fe1ffb6630c149577b470d6f4ed811aa9",
+    "stage0_frozen_evaluation_config_hash": "7ce228983b6547d61341757234e77ca7f59a4d0ba53b1e04b64243e9b2ea0971",
+    "results_jsonl_sha256": "121a8a820bb3b19b994829138a520e7774aeb98fba74537cff105236fa841a02",
+    "per_sequence_results_jsonl_sha256": "2abe74512adc1379c92f2ef877da922f2ee4ff229af028a6505362e3ad464265",
+    "final_archive_manifest_sha256": "9af9a053502709bff9a33017c4f5b80bc0faa2306bc41d980e7bd2d7274346d2",
+    "trace_path": "stage3_residency/traces/full/routing_trace.npz",
+    "frozen_evaluation_config_path": "stage3_residency/results/full/frozen/frozen_evaluation_config.json",
+    "result_path": "stage3_residency/results/full/evaluation/results.jsonl",
+    "per_sequence_result_path": "stage3_residency/results/full/evaluation/per_sequence_results.jsonl",
+    "final_archive_manifest_path": "stage3_residency/reports/final_archive_manifest.json",
+    "selected_lfu_decay_alpha": 0.95
+  },
+  "stage1_reference": {
+    "verdict": "RACE_STAGE1_STRONG_GO",
+    "repository_head": "f9236cb35541f07c96a8e03b6a36eacc1f21a92c",
+    "preregistration_hash": "cea89fba235aef8338774d85da0687ac06b61d269f16fd6238c89a3b60ef9524",
+    "preregistration_path": "stage3_residency/stage1_prediction/configs/stage1_preregistered.json",
+    "frozen_config_file_sha256": "c595b061a415a9874d83f167e1e0fb7873ec8850ace8acc1a5db17f814351b83",
+    "frozen_config_path": "stage3_residency/stage1_prediction/results/calibration/stage1_frozen_config.json",
+    "final_archive_manifest_sha256": "4539cab504052010c32f0b87571adc90884283ac060784ddef822c01768e5d1b",
+    "final_archive_manifest_path": "stage3_residency/stage1_prediction/reports/final_archive_manifest.json",
+    "results_jsonl_sha256": "77ee9a4e1b34d3c6deb7bec30d2292d53ca19cfb30985600d5b2e6aead2beb00",
+    "results_path": "stage3_residency/stage1_prediction/results/full/results.jsonl",
+    "per_sequence_results_jsonl_sha256": "5b4fdc8089be00d8c54c2eb70fc4604be281659ad02316afc349f47c6a5360c2",
+    "per_sequence_results_path": "stage3_residency/stage1_prediction/results/full/per_sequence_results.jsonl",
+    "transition_model_sha256": "b8804d3ce5f87a6a129bdc9aa895a941c2343e5246659d506fcb01805d6b68a7",
+    "transition_model_path": "stage3_residency/stage1_prediction/results/calibration/transition_models.npz",
+    "winner_method_id": "markov_plus_ewma_h2_beta0.5_alpha0.95",
+    "winner_spec": {
+      "method": "markov_plus_ewma",
+      "horizon": 2,
+      "beta": 0.5,
+      "history_alpha": 0.95
+    },
+    "frozen_gate_ewma_alpha": 0.95,
+    "frozen_hybrid_history_alpha": 0.95,
+    "diagnostic_finding": "Perfect next-use scoring with the same trivial eviction mechanism exactly reproduces the offline oracle, so future-reuse ranking rather than combinatorial eviction is the remaining bottleneck."
+  },
+  "inherited_cache_semantics": {
+    "cache_namespaces": "one independent cache per MoE layer",
+    "num_layers": 16,
+    "experts_per_layer": 64,
+    "expert_identity": "(layer_id, expert_id); expert_id values are local to a layer",
+    "atomic_request_size": 8,
+    "request_semantics": "all eight experts in a layer event inspect the same pre-event resident set",
+    "admission": "all current-request misses are mandatory admissions",
+    "post_event_state": "complete current atomic request union selected experts retained from the pre-event resident set",
+    "prefetch": false,
+    "primary_cost": "unit expert miss/transfer count",
+    "primary_lambda": 0.0,
+    "initial_state": "empty at the start of each frozen workload path",
+    "unchanged_from_stage1": true
+  },
+  "cache_capacities": [
+    8,
+    12,
+    16,
+    24,
+    32
+  ],
+  "decision_capacities": [
+    12,
+    16,
+    24,
+    32
+  ],
+  "spare_residency_by_capacity": {
+    "8": 0,
+    "12": 4,
+    "16": 8,
+    "24": 16,
+    "32": 24
+  },
+  "capacity_8_role": "degenerate sanity check only; never enters any Stage 2 verdict count",
+  "adviser_pool": {
+    "order": [
+      "MARKOV_H1",
+      "MARKOV_H2",
+      "MARKOV_H4",
+      "MARKOV_H8",
+      "MARKOV_H16",
+      "MARKOV_H32",
+      "GATE_EWMA",
+      "LFU_DECAY",
+      "PERSISTENCE"
+    ],
+    "count": 9,
+    "MARKOV_Hh": {
+      "implementation": "frozen Stage 1 MarkovPredictor: mean row of a calibration-fitted binary transition matrix over the current atomic request",
+      "horizons": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "smoothing": "independent_beta_1_1_binary_event_smoothing",
+      "fit_data": "the frozen Stage 0 calibration workload path only",
+      "stage1_reuse_requirement": "horizons 1, 2, 4, 8 and 16 must be bitwise identical to the frozen Stage 1 transition model; horizon 32 is newly fitted on the identical calibration path with the identical frozen fitting function"
+    },
+    "GATE_EWMA": {
+      "implementation": "frozen Stage 1 GateEWMAPredictor",
+      "alpha": 0.95,
+      "source_of_alpha": "frozen Stage 1 calibration selection"
+    },
+    "LFU_DECAY": {
+      "implementation": "frozen Stage 0 DecayedLFUPolicy frequency state",
+      "alpha": 0.95,
+      "source_of_alpha": "frozen Stage 0 calibration selection (selected_lfu_decay_alpha)"
+    },
+    "PERSISTENCE": {
+      "implementation": "frozen Stage 1 PersistencePredictor: unit score for the previous same-layer request"
+    },
+    "no_independent_retuning": true,
+    "no_additional_features": true,
+    "primary_pool_drives_the_verdict": true,
+    "extended_pool_ablation": {
+      "name": "extended",
+      "order": [
+        "MARKOV_H1",
+        "MARKOV_H2",
+        "MARKOV_H4",
+        "MARKOV_H8",
+        "MARKOV_H16",
+        "MARKOV_H32",
+        "GATE_EWMA",
+        "LFU_DECAY",
+        "PERSISTENCE",
+        "STAGE1_HYBRID"
+      ],
+      "added_adviser": "STAGE1_HYBRID",
+      "added_adviser_definition": "the frozen Stage 1 winner itself: 0.5 * Markov-H2 probability + 0.5 * request-indicator EWMA with alpha 0.95",
+      "added_adviser_identifier": "markov_plus_ewma_h2_beta0.5_alpha0.95",
+      "role": "clearly labeled adviser-diversity ablation only; never enters the Stage 2 verdict",
+      "motivation": "The frozen Stage 1 winner is a raw-scale blend of two pool members. Percentile-normalized combination of those two members cannot reproduce it, so the primary pool cannot express the comparison baseline. The extended pool answers the preregistered diagnostic question 'is adviser diversity too low?' without changing the primary result."
+    }
+  },
+  "adviser_score_timing": {
+    "markov": "score the current atomic request against the immutable calibration-fitted matrix before the retention decision",
+    "gate_ewma": "g <- alpha*g then g[e] += (1-alpha)*w_e for the current request, before the retention decision",
+    "lfu_decay": "f <- alpha*f then f[e] += 1 for the current request, before the retention decision",
+    "persistence": "score with the previous same-layer request, then store the current request",
+    "orientation": "every adviser is oriented so that a larger raw score means retain more strongly"
+  },
+  "rank_normalization": {
+    "scope": "the eligible eviction-candidate set at the current decision event, i.e. pre-event residents that are not in the current atomic request",
+    "method": "midrank (average-rank) percentile normalization per adviser",
+    "formula": "z = midrank(score among candidates, ascending, ties averaged) / max(n-1, 1)",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "orientation": "1.0 = adviser most strongly recommends retaining; 0.0 = adviser most strongly recommends evicting",
+    "tie_handling": "exact adviser-score ties receive identical midranks, which is a deterministic function of the candidate score multiset",
+    "degenerate_case": "n <= 1 yields z = 0 for the single candidate; the retention decision is then unaffected"
+  },
+  "combined_score_and_eviction": {
+    "score": "S_e = sum_j w_j * z_{j,e} with w on the probability simplex",
+    "eviction_rule": "retain the capacity-minus-request-size highest-S eligible candidates; evict the remainder",
+    "deterministic_tie_breaking": "S descending, then LRU recency descending, then expert ID ascending (the exact frozen Stage 1 ranking after the score)",
+    "no_additional_eviction_logic": true,
+    "mechanism_unchanged_from_stage1": true
+  },
+  "bounded_future_reuse_target": {
+    "H_max": 32,
+    "unit": "same-cache (same-layer) events",
+    "definition": "d_tilde(q, e) = min(number of same-layer events after q until e is next requested, H_max + 1)",
+    "encoding": "1 = requested at the next same-layer event; 33 = not requested within the next 32 same-layer events",
+    "causal_property": "fully known once 32 further same-layer events have been observed"
+  },
+  "delayed_feedback_protocol": {
+    "mandatory": true,
+    "learning_example_rule": "one pending example per (capacity, layer) at every same-layer event whose retention decision actually required at least one eviction while at least one retention slot remained, i.e. 0 < capacity - request_size < candidate_count; these are exactly the events at which the RACE ranking can change the outcome",
+    "resolution_offset_same_layer_events": 32,
+    "resolution_point": "at same-layer event index q + 32, immediately after that event's atomic request has been observed and before that event's own retention decision",
+    "update_point": "identical to the resolution point; weight_update_index == label_resolution_index == q + 32",
+    "audit_requirement": "weight_update_index >= label_resolution_index >= q + H_max for every applied update",
+    "partial_early_resolution": false,
+    "multiple_simultaneous_examples": "at most one example per (capacity, layer) resolves at any same-layer event, so chronological order is exact and unambiguous",
+    "end_of_stream_rule": "decisions inside the final 32 same-layer events of a stream produce no weight update; their costs still count and their unresolved count and fraction are recorded",
+    "no_fabricated_labels": true,
+    "capacity_8_produces_no_learning_examples": true
+  },
+  "losses": {
+    "comparable_pairs": "ordered candidate pairs (a, b) with d_tilde(a) < d_tilde(b)",
+    "adviser_inversion_indicator": "I_j(a,b) = 0 when adviser j ranks a strictly above b, 1 when it ranks b strictly above a, 0.5 on an exact adviser-score tie",
+    "rank_loss": "L_rank(q, j) = sum over comparable pairs of I_j(a,b) divided by the number of comparable ordered pairs",
+    "cost_loss": "L_cost(q, j) = sum over comparable pairs of omega(a,b) * I_j(a,b) divided by sum over comparable pairs of omega(a,b), with omega(a,b) = |1/d_tilde(a) - 1/d_tilde(b)| and phi(d) = 1/d fixed",
+    "range": [
+      0.0,
+      1.0
+    ],
+    "empty_comparable_set": "skip the learning example entirely; no weight update is applied and the skip is counted",
+    "zero_denominator_guard": "cost-sensitive denominators are checked for positivity before division; a non-positive denominator skips the example",
+    "no_tunable_decay_function": true
+  },
+  "variants": {
+    "RACE_UNIFORM": {
+      "role": "ablation",
+      "weights": "w_j = 1/9, never updated"
+    },
+    "RACE_STATIC": {
+      "role": "ablation",
+      "weights": "one shared global calibration-learned weight vector, never updated during evaluation"
+    },
+    "RACE_ONLINE": {
+      "role": "primary candidate",
+      "weights": "delayed Hedge multiplicative weights on the unweighted pairwise rank loss"
+    },
+    "RACE_COST": {
+      "role": "primary candidate",
+      "weights": "delayed Hedge multiplicative weights on the cost-sensitive pairwise loss"
+    }
+  },
+  "static_weight_learning": {
+    "data": "resolved learning examples produced by RACE_UNIFORM on the frozen Stage 0 calibration workload path at the four decision capacities",
+    "subsample_stride": 64,
+    "subsample_rule": "keep every 64th resolved calibration example per (capacity, layer) stream in chronological order",
+    "objective": "mean over kept examples of the pair-count-normalized logistic pairwise ranking loss of the combined score, log(1 + exp(-(S_a - S_b)/tau)) over comparable pairs",
+    "tau": 0.1,
+    "tau_status": "fixed structural constant; not selected on any outcome",
+    "optimizer": "projected gradient descent onto the probability simplex; each iteration starts from twice the last accepted step and halves it until the Armijo sufficient-decrease condition holds, and the run stops when no admissible projected-gradient step remains, which for this convex objective is the first-order optimality condition",
+    "iterations": 300,
+    "initial_weights": "uniform",
+    "initial_step": 1.0,
+    "armijo_c": 0.0001,
+    "max_backtracks": 40,
+    "selection": "the iterate with the lowest objective value; ties resolved by the earliest iterate",
+    "scope": "one shared global weight vector is the primary static baseline; a per-layer static weight vector is a clearly labeled ablation",
+    "evaluation_data_forbidden": true,
+    "reported": [
+      "learned weights",
+      "objective at the learned weights and at uniform weights",
+      "zero-one pairwise ranking loss at the learned weights and at uniform weights",
+      "iterations run, backtracks used and stopping reason"
+    ]
+  },
+  "online_learning": {
+    "update": "w_j <- w_j * exp(-eta * loss_j), then renormalized to the simplex",
+    "implementation": "maintained in natural logarithm space with per-step maximum subtraction; exactly equivalent to the stated multiplicative update",
+    "eta_grid": [
+      0.1,
+      0.3,
+      1.0
+    ],
+    "eta_scope": "one single global Stage 2 learning rate; never per capacity, per domain, per workload type or per evaluation stream",
+    "initialization_grid": [
+      "uniform",
+      "static"
+    ],
+    "initialization_scope": "one single global initialization rule",
+    "weight_scope_primary": "one weight vector per (cache capacity, MoE layer) policy instance",
+    "weight_scope_ablation": "one weight vector per cache capacity shared across all layers",
+    "capacity_state_isolation": "policy instances for different cache capacities never share live online state",
+    "reset_rule": "adviser weights, adviser state, pending-example queues and rolling label windows are all reset exactly where the frozen evaluation protocol resets the cache, i.e. at the start of each frozen workload path; they persist and adapt causally within a workload path",
+    "regret_accounting_weights": "the empirical mixture loss uses the weight vector that was actually deployed at the decision event, which is carried with the pending example, not the weight vector at resolution time"
+  },
+  "calibration_plan": {
+    "data": "the frozen Stage 0 calibration workload path only (80 sequences, disjoint from every evaluation workload)",
+    "selection_cost": "unit misses summed across capacities 12, 16, 24 and 32 on that calibration path",
+    "steps": [
+      "fit Stage 2 transition models including horizon 32 and verify horizons 1-16 against the frozen Stage 1 model",
+      "run RACE_UNIFORM on calibration and collect subsampled learning examples",
+      "learn the global RACE_STATIC weight vector from those examples",
+      "run RACE_STATIC on calibration",
+      "run the 6 RACE_ONLINE configurations over eta in {0.1, 0.3, 1.0} crossed with initialization in {uniform, static} and select one (eta, initialization) pair",
+      "run RACE_COST with the selected (eta, initialization) pair",
+      "select the primary RACE variant between RACE_ONLINE and RACE_COST"
+    ],
+    "eta_and_initialization_selection": "the (eta, initialization) pair minimizing RACE_ONLINE calibration selection cost",
+    "eta_tie_break": "smaller eta, then uniform initialization",
+    "primary_variant_selection": "the lower calibration selection cost between RACE_ONLINE and RACE_COST",
+    "primary_variant_tie_break": "RACE_ONLINE, because the unweighted rank loss is the simpler mechanism",
+    "evaluation_reselection": false,
+    "post_evaluation_tuning": false,
+    "extended_pool_steps": "the extended pool repeats the RACE_UNIFORM collection and static-weight learning on calibration and then reuses the single global (eta, initialization) selected on the primary pool; no separate learning rate is selected for it",
+    "static_example_source_policy": "RACE_UNIFORM of the same adviser pool"
+  },
+  "pilot": {
+    "purpose": "correctness, causal audit, delayed-label validation, runtime, weight stability and numerical stability only",
+    "data": "the first 8 sequences of the frozen Stage 0 calibration workload path; no evaluation sequence is touched",
+    "may_change_thresholds": false,
+    "may_change_hyperparameter_grid": false
+  },
+  "evaluation_protocol": {
+    "workloads": "exactly the ten frozen Stage 0 evaluation workload records and orderings used by Stage 1",
+    "capacities": [
+      8,
+      12,
+      16,
+      24,
+      32
+    ],
+    "cost_model": "unit_miss",
+    "lambda": 0.0,
+    "runs": "one single frozen evaluation after the Stage 2 configuration is sealed",
+    "variants_evaluated": [
+      "RACE_UNIFORM",
+      "RACE_STATIC",
+      "RACE_ONLINE",
+      "RACE_COST"
+    ],
+    "labeled_ablations_evaluated": [
+      "RACE_STATIC_PERLAYER",
+      "RACE_ONLINE_GLOBAL",
+      "RACE_UNIFORM_EXTENDED",
+      "RACE_STATIC_EXTENDED",
+      "RACE_ONLINE_EXTENDED",
+      "RACE_COST_EXTENDED"
+    ],
+    "reference_costs": "the frozen Stage 1 winner rows, the frozen Stage 0 strongest-simple rows and the frozen Stage 0 oracle rows are read from the sealed archives and are never recomputed"
+  },
+  "metrics": {
+    "race_improvement_over_stage1": "(C_Stage1 - C_RACE) / C_Stage1",
+    "original_oracle_gap_closed": "(C_Stage0Simple - C_RACE) / (C_Stage0Simple - C_Oracle)",
+    "stage1_residual_recovered": "(C_Stage1 - C_RACE) / (C_Stage1 - C_Oracle)",
+    "denominator_rule": "the oracle-gap denominator always uses the original Stage 0 strongest-simple cost and is never redefined relative to Stage 1",
+    "zero_denominator_handling": "null / N/A when the denominator is zero; capacity 8 never enters a verdict"
+  },
+  "success_criteria": {
+    "strong_success": {
+      "condition_a": {
+        "metric": "race_improvement_over_stage1",
+        "threshold": 0.1,
+        "required_capacities": 3,
+        "of": 4,
+        "paired_uncertainty_requirement": "the paired bootstrap 95% interval for the improvement must exclude zero from below at each counted capacity"
+      },
+      "condition_b": {
+        "metric": "original_oracle_gap_closed",
+        "threshold": 0.3,
+        "required_capacities": 3,
+        "of": 4
+      },
+      "both_conditions_required": true,
+      "verdict": "RACE_STAGE2_STRONG_SUCCESS"
+    },
+    "very_strong_success": {
+      "condition_a": {
+        "metric": "race_improvement_over_stage1",
+        "threshold": 0.15,
+        "required_capacities": 3,
+        "of": 4
+      },
+      "condition_b": {
+        "metric": "original_oracle_gap_closed",
+        "threshold": 0.5,
+        "required_capacities": 3,
+        "of": 4
+      },
+      "both_conditions_required": true,
+      "verdict": "RACE_STAGE2_VERY_STRONG_SUCCESS",
+      "note": "this label never modifies the STRONG_SUCCESS rule"
+    },
+    "weak": {
+      "rule": "a consistent improvement over Stage 1 of at least 0.05 at 3 or more of the four non-degenerate capacities that nonetheless misses the STRONG_SUCCESS rule",
+      "verdict": "RACE_STAGE2_WEAK"
+    },
+    "no_go": {
+      "rule": "improvement over Stage 1 below 0.05 at 2 or more of the four non-degenerate capacities, or any non-degenerate capacity with C_RACE > 1.03 * C_Stage1, or the primary online variant failing to beat both RACE_STATIC and RACE_UNIFORM on the frozen suite aggregate at 3 or more non-degenerate capacities",
+      "verdict": "RACE_STAGE2_NO_GO"
+    },
+    "precedence": "NO_GO if the NO_GO rule holds; otherwise VERY_STRONG_SUCCESS if its rule holds; otherwise STRONG_SUCCESS if its rule holds; otherwise WEAK if its rule holds; otherwise NO_GO",
+    "primary_basis": "frozen ten-workload-suite aggregate unit-miss cost at each non-degenerate capacity for the frozen primary RACE variant"
+  },
+  "regression_criterion": {
+    "flag_when": "C_RACE > 1.03 * C_Stage1",
+    "granularity": [
+      "workload",
+      "capacity",
+      "regime",
+      "suite"
+    ],
+    "reporting": "every flagged regression is reported even when the aggregate result is positive; capacities are never cherry-picked"
+  },
+  "ablation_questions": {
+    "A_multi_horizon": "Stage 1 winner vs RACE_UNIFORM",
+    "B_static_weights": "RACE_UNIFORM vs RACE_STATIC",
+    "C_online_adaptation": "RACE_STATIC vs RACE_ONLINE",
+    "D_cost_sensitivity": "RACE_ONLINE vs RACE_COST"
+  },
+  "diagnostics": {
+    "ranking_quality": [
+      "pairwise ordering accuracy P(S_a > S_b | d_tilde_a < d_tilde_b) with 0.5 credit for exact score ties, on the actual eviction candidate sets",
+      "the same quantity under the true uncapped next-use distance",
+      "pairwise concordance (C - D) / (C + D)",
+      "oracle-consistent eviction rate: at least one evicted expert attains the maximum true next-use distance among the candidates",
+      "oracle-optimal eviction rate: the evicted multiset of true next-use distances equals the largest such multiset available"
+    ],
+    "delayed_feedback": [
+      "learning examples generated",
+      "examples resolved",
+      "examples unresolved at stream end and their fraction",
+      "examples skipped for having no comparable pair",
+      "average and maximum feedback delay in same-layer events",
+      "updates per layer",
+      "minimum observed update-minus-decision offset"
+    ],
+    "adviser_weights": [
+      "starting weights",
+      "ending weights",
+      "time-average weights",
+      "weight variance",
+      "dominant adviser",
+      "effective number of advisers exp(H(w))",
+      "Shannon entropy H(w) in nats"
+    ],
+    "horizon_analysis": "mean weight assigned to MARKOV_H1, H2, H4, H8, H16 and H32 at each capacity, tested against spare residency slots B - 8",
+    "regret_accounting": "cumulative resolved mixture loss of RACE minus the minimum cumulative loss of any single fixed adviser; explicitly empirical, never presented as a theoretical guarantee",
+    "weight_trajectory_stride": 512,
+    "figure3_layer_selection_rule": "the layer with the median and the layer with the largest per-layer miss reduction of the frozen primary RACE variant relative to RACE_UNIFORM on the mixed_interleaved workload at capacity 32; ties are broken by the smaller layer index and no layer is ever chosen by inspecting a figure",
+    "observer_design": "an offline one-way sink holding the complete frozen-path future; the simulator pushes copies of decisions it has already made and the observer returns nothing that can re-enter policy state",
+    "diagnostic_subsampling": "none; every eviction decision is measured",
+    "per_layer_miss_counts_recorded": true
+  },
+  "required_audits": {
+    "causality_test": "record decision_event_index, label_resolution_event_index and weight_update_event_index for sampled updates and require update >= resolution >= decision + 32 in same-layer coordinates; any violation is a Stage 2 failure",
+    "perfect_score_check": "the Stage 2 eviction mechanism driven by exact next-use scores must reproduce the frozen Stage 0 oracle cost, and the frozen Stage 1 perfect_score_simple_policy rows must still equal the Stage 0 oracle rows on all previously validated conditions",
+    "observer_non_interference": "enabling the offline diagnostic observer must leave every simulated cost bit-identical",
+    "future_mutation_test": "mutating future trace content must not change any causal Stage 2 action",
+    "stage0_stage1_regression": "the complete Stage 0 and Stage 1 test suites must continue to pass unchanged",
+    "stage1_single_predictor_equivalence": "a Stage 2 variant that places all adviser weight on one pool member must reproduce the corresponding frozen Stage 1 single-predictor cost exactly, because midrank normalization is a tie-preserving monotone transform and the tie-break is unchanged"
+  },
+  "statistics": {
+    "bootstrap_replicates": 1000,
+    "bootstrap_seed": 20260821,
+    "paired_unit": "source decode sequence, stratified by domain",
+    "primary_suite_aggregation": "At each capacity, sum raw unit-miss costs across all ten frozen workload paths; no per-capacity, per-regime or per-workload variant reselection.",
+    "regime_results": "also report stationary, abrupt, repeated and mixed aggregates separately",
+    "conditionality": "Intervals reweight saved per-sequence contributions conditional on each frozen stateful workload path; stateful cache and online-learning trajectories are not regenerated under reordered bootstrap workloads."
+  },
+  "claims_scope": {
+    "simulation_only": true,
+    "end_to_end_latency_claim": false,
+    "hardware_speedup_claim": false,
+    "reinforcement_learning": false,
+    "neural_network_training": false,
+    "transformer_rnn_lstm_mlp_predictors": false,
+    "speculative_prefetching": false,
+    "kv_cache_optimization": false,
+    "quantization_or_mixed_precision": false,
+    "olmoe_routing_redesign": false,
+    "future_information_at_decision_time": false,
+    "formal_regret_theorem_claimed": false
+  }
+}

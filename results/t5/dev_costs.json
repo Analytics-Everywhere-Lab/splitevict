@@ -1,0 +1,445 @@
+{
+ "source": "H100 development runs (jobs/t5_dev.sbatch)",
+ "sweep": {
+  "olmoe": {
+   "32": {
+    "16": {
+     "t_copy": 3.7345528128668684,
+     "t_issue": 0.19926556824667382,
+     "t_pf_issue": 0.0,
+     "passes": 1,
+     "arms": {
+      "lfu_decay": {
+       "wall": 90.30531629257813,
+       "demand": 20.9296875,
+       "prefetch": 0.0,
+       "policy": 0.8558343613281251,
+       "residual": 0.0
+      },
+      "splitphase": {
+       "wall": 77.29907833085937,
+       "demand": 17.18671875,
+       "prefetch": 0.0,
+       "policy": 1.257883033203125,
+       "residual": 1.3158726350898213
+      },
+      "global_token_gbt": {
+       "wall": 84.69908955195312,
+       "demand": 15.872265625,
+       "prefetch": 0.0,
+       "policy": 12.781859186718751,
+       "residual": 2.362727566905079
+      },
+      "hobbit": {
+       "wall": 86.40549470625,
+       "demand": 19.79296875,
+       "prefetch": 0.0,
+       "policy": 1.074247566796875,
+       "residual": 0.3534103211095294
+      }
+     },
+     "label": "e15dev/olmoe/B32/K16",
+     "capacity": 32
+    },
+    "4": {
+     "t_copy": 0.9432788044462758,
+     "t_issue": 0.07324018624954336,
+     "t_pf_issue": 0.0,
+     "passes": 1,
+     "arms": {
+      "lfu_decay": {
+       "wall": 32.00803827109375,
+       "demand": 20.9296875,
+       "prefetch": 0.0,
+       "policy": 0.85374741640625,
+       "residual": 0.0
+      },
+      "splitphase": {
+       "wall": 29.410084206640626,
+       "demand": 17.18671875,
+       "prefetch": 0.0,
+       "policy": 1.23045115703125,
+       "residual": 0.8301410108778642
+      },
+      "global_token_gbt": {
+       "wall": 40.55690087226562,
+       "demand": 15.872265625,
+       "prefetch": 0.0,
+       "policy": 12.74059359453125,
+       "residual": 1.802981802944827
+      },
+      "hobbit": {
+       "wall": 31.272106105078127,
+       "demand": 19.79296875,
+       "prefetch": 0.0,
+       "policy": 1.05789768359375,
+       "residual": 0.2154137632518871
+      }
+     },
+     "label": "e15dev/olmoe/B32/K4",
+     "capacity": 32
+    }
+   }
+  }
+ },
+ "mixtral": {
+  "3": {
+   "t_copy": 6.39771180930796,
+   "t_issue": 0.07773088620455354,
+   "t_pf_issue": 0.0,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 233.06891283770076,
+     "demand": 31.725274725274726,
+     "prefetch": 0.0,
+     "policy": 2.192946256128487,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 227.1499040912933,
+     "demand": 30.364327979712595,
+     "prefetch": 0.0,
+     "policy": 3.607528012679628,
+     "residual": 1.4791421595732333
+    },
+    "global_token_gbt": {
+     "wall": 246.64580690870667,
+     "demand": 30.718512256973796,
+     "prefetch": 0.0,
+     "policy": 19.55517540490279,
+     "residual": 2.7338975937070167
+    },
+    "hobbit": {
+     "wall": 234.53824876923076,
+     "demand": 31.650887573964496,
+     "prefetch": 0.0,
+     "policy": 2.9933184987320374,
+     "residual": 1.150653424518259
+    },
+    "moe_infinity": {
+     "wall": 239.13316523668638,
+     "demand": 32.29332206255283,
+     "prefetch": 0.0,
+     "policy": 3.8191868926458157,
+     "residual": 0.7596537815854436
+    }
+   },
+   "label": "e15dev/mixtral/B3",
+   "capacity": 3
+  },
+  "4": {
+   "t_copy": 6.395393812840118,
+   "t_issue": 0.06394817133992603,
+   "t_pf_issue": 0.0,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 179.45637433643282,
+     "demand": 23.62552831783601,
+     "prefetch": 0.0,
+     "policy": 1.7059751251056634,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 171.5923566720203,
+     "demand": 22.201183431952664,
+     "prefetch": 0.0,
+     "policy": 2.5079348182586645,
+     "residual": 0.5343533637729045
+    },
+    "global_token_gbt": {
+     "wall": 187.60893137869823,
+     "demand": 22.534234995773456,
+     "prefetch": 0.0,
+     "policy": 14.614852435333896,
+     "residual": 2.292716504291156
+    },
+    "hobbit": {
+     "wall": 180.24200251479292,
+     "demand": 23.480980557903635,
+     "prefetch": 0.0,
+     "policy": 2.2607049721048185,
+     "residual": 1.1645817458113177
+    },
+    "moe_infinity": {
+     "wall": 186.50256146238377,
+     "demand": 24.49535080304311,
+     "prefetch": 0.0,
+     "policy": 2.872670595942519,
+     "residual": 0.2610107576320573
+    }
+   },
+   "label": "e15dev/mixtral/B4",
+   "capacity": 4
+  }
+ },
+ "olmoe": {
+  "24": {
+   "t_copy": 0.24303914150847994,
+   "t_issue": 0.037381618790141215,
+   "t_pf_issue": 0.03565821064958654,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 20.828661697070313,
+     "demand": 31.9466796875,
+     "prefetch": 0.0,
+     "policy": 0.85115989453125,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 20.935500698046873,
+     "demand": 27.6296875,
+     "prefetch": 0.0,
+     "policy": 1.3172505316406249,
+     "residual": 0.8513225952891434
+    },
+    "global_token_gbt": {
+     "wall": 33.495092904296875,
+     "demand": 25.501171875,
+     "prefetch": 0.0,
+     "policy": 12.637374815820312,
+     "residual": 2.687670487229454
+    },
+    "hobbit": {
+     "wall": 21.033627740820315,
+     "demand": 30.8966796875,
+     "prefetch": 0.0,
+     "policy": 1.08956361953125,
+     "residual": 0.2610041170635541
+    },
+    "moe_infinity": {
+     "wall": 21.66746302089844,
+     "demand": 33.1931640625,
+     "prefetch": 0.0,
+     "policy": 1.4422706984375,
+     "residual": -0.10184957621597679
+    },
+    "lfu_decay+pf": {
+     "wall": 22.881493670117187,
+     "demand": 16.8009765625,
+     "prefetch": 21.021875,
+     "policy": 1.9433891546875,
+     "residual": 4.45816985146105
+    },
+    "splitphase+pf": {
+     "wall": 23.37001603125,
+     "demand": 14.22109375,
+     "prefetch": 19.4861328125,
+     "policy": 2.4379207267578122,
+     "residual": 5.230375158711477
+    },
+    "hobbit+pf": {
+     "wall": 23.202356937890624,
+     "demand": 16.1693359375,
+     "prefetch": 20.783984375,
+     "policy": 2.1979218648437504,
+     "residual": 4.710108307394044
+    }
+   },
+   "label": "e15dev/olmoe/B24",
+   "capacity": 24
+  },
+  "32": {
+   "t_copy": 0.24501174401665132,
+   "t_issue": 0.0433800170580168,
+   "t_pf_issue": 0.0388304949280069,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 19.4787298703125,
+     "demand": 20.546484375,
+     "prefetch": 0.0,
+     "policy": 0.8141704234375,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 19.69602594003906,
+     "demand": 17.0044921875,
+     "prefetch": 0.0,
+     "policy": 1.19168849921875,
+     "residual": 0.8612593586111528
+    },
+    "global_token_gbt": {
+     "wall": 32.04227997929688,
+     "demand": 15.6748046875,
+     "prefetch": 0.0,
+     "policy": 12.323643986914062,
+     "residual": 2.4590288299776315
+    },
+    "hobbit": {
+     "wall": 19.697508962500002,
+     "demand": 19.360546875,
+     "prefetch": 0.0,
+     "policy": 1.0204046056640625,
+     "residual": 0.3545595141104296
+    },
+    "moe_infinity": {
+     "wall": 20.3697537140625,
+     "demand": 21.6576171875,
+     "prefetch": 0.0,
+     "policy": 1.3832490302734375,
+     "residual": 0.0015036883293396697
+    },
+    "lfu_decay+pf": {
+     "wall": 21.906045430273437,
+     "demand": 9.9517578125,
+     "prefetch": 15.6615234375,
+     "policy": 1.8016491626953124,
+     "residual": 3.8871239657623597
+    },
+    "splitphase+pf": {
+     "wall": 22.2562632671875,
+     "demand": 8.2822265625,
+     "prefetch": 14.0033203125,
+     "policy": 2.1870089755859374,
+     "residual": 4.397849895177407
+    },
+    "hobbit+pf": {
+     "wall": 22.14983111191406,
+     "demand": 9.4291015625,
+     "prefetch": 15.1392578125,
+     "policy": 2.0134163978515627,
+     "residual": 4.090152001323551
+    }
+   },
+   "label": "e15dev/olmoe/B32",
+   "capacity": 32
+  }
+ },
+ "qwen3": {
+  "48": {
+   "t_copy": 0.18895280596187988,
+   "t_issue": 0.04797180963766757,
+   "t_pf_issue": 0.04337042367831256,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 59.413505175,
+     "demand": 47.4609375,
+     "prefetch": 0.0,
+     "policy": 2.49180200859375,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 60.304620171093745,
+     "demand": 37.329296875,
+     "prefetch": 0.0,
+     "policy": 3.4536932308593746,
+     "residual": 2.3296588342990074
+    },
+    "global_token_gbt": {
+     "wall": 103.09773032734374,
+     "demand": 37.700390625,
+     "prefetch": 0.0,
+     "policy": 41.81215292890625,
+     "residual": 6.676388048431981
+    },
+    "hobbit": {
+     "wall": 60.43002370468751,
+     "demand": 46.40703125,
+     "prefetch": 0.0,
+     "policy": 3.097787055859375,
+     "residual": 0.6602298155810942
+    },
+    "moe_infinity": {
+     "wall": 62.11308829492187,
+     "demand": 49.2859375,
+     "prefetch": 0.0,
+     "policy": 4.22660034453125,
+     "residual": 0.5323973605152008
+    },
+    "lfu_decay+pf": {
+     "wall": 67.99096299921875,
+     "demand": 19.824609375,
+     "prefetch": 37.2953125,
+     "policy": 5.577519048828124,
+     "residual": 10.4219536972429
+    },
+    "splitphase+pf": {
+     "wall": 68.84266463476563,
+     "demand": 15.7171875,
+     "prefetch": 30.369921875,
+     "policy": 6.481433225,
+     "residual": 11.64324763100151
+    },
+    "hobbit+pf": {
+     "wall": 68.80730178007812,
+     "demand": 19.10546875,
+     "prefetch": 36.560546875,
+     "policy": 6.1784985078125,
+     "residual": 10.839562231718547
+    }
+   },
+   "label": "e15dev/qwen3/B48",
+   "capacity": 48
+  },
+  "64": {
+   "t_copy": 0.19124233206938518,
+   "t_issue": 0.057133865865151796,
+   "t_pf_issue": 0.04952885100351657,
+   "passes": 1,
+   "arms": {
+    "lfu_decay": {
+     "wall": 58.740163815624996,
+     "demand": 26.451953125,
+     "prefetch": 0.0,
+     "policy": 2.4294100960937497,
+     "residual": 0.0
+    },
+    "splitphase": {
+     "wall": 59.24651641796875,
+     "demand": 20.36796875,
+     "prefetch": 0.0,
+     "policy": 3.127918196875,
+     "residual": 1.318961408918133
+    },
+    "global_token_gbt": {
+     "wall": 96.37762685,
+     "demand": 20.869921875,
+     "prefetch": 0.0,
+     "policy": 36.00571817578125,
+     "residual": 5.447598653314273
+    },
+    "hobbit": {
+     "wall": 59.600680792578125,
+     "demand": 26.4921875,
+     "prefetch": 0.0,
+     "policy": 2.96041753125,
+     "residual": 0.3195162807081058
+    },
+    "moe_infinity": {
+     "wall": 61.17641634882813,
+     "demand": 26.001171875,
+     "prefetch": 0.0,
+     "policy": 4.08668084609375,
+     "residual": 0.8909451161783084
+    },
+    "lfu_decay+pf": {
+     "wall": 66.90081434609375,
+     "demand": 10.7390625,
+     "prefetch": 22.307421875,
+     "policy": 5.23558717734375,
+     "residual": 8.152320506898025
+    },
+    "splitphase+pf": {
+     "wall": 67.16578501171875,
+     "demand": 8.48125,
+     "prefetch": 17.262890625,
+     "policy": 5.841096098828125,
+     "residual": 8.622418972101556
+    },
+    "hobbit+pf": {
+     "wall": 67.49247406445312,
+     "demand": 10.637890625,
+     "prefetch": 22.301953125,
+     "policy": 5.74848392421875,
+     "residual": 8.256483024936726
+    }
+   },
+   "label": "e15dev/qwen3/B64",
+   "capacity": 64
+  }
+ }
+}
